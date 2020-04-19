@@ -26,7 +26,7 @@ const Home = () => {
     
     <div style={{height: '100vh'}}>
     
-    <h1> Welcome! </h1>
+    <h2>  </h2>
     </div>
     
     </Fade>

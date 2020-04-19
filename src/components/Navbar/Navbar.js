@@ -23,6 +23,8 @@ const Example = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  if(Navbar)
+
   return (
     <div className="navbar-css sticky" >
       <Navbar light expand="md">
