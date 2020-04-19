@@ -2,7 +2,7 @@ h1 {
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px black;
     position: absolute; 
-    z-index: 99;
+    z-index: 98;
     color: white; 
     top: 90%;
     left: 7%; 

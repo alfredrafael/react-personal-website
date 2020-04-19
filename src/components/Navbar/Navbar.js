@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import {
   Collapse,
   Container,
@@ -14,39 +14,64 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import $ from 'jquery';
 import { Link } from 'react-router-dom';
 import { NavBarLogo } from './StyledNavbar';
-import CssNavbar from './CssNavbar.css';
+import './CssNavbar.css';
+
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
+
+useEffect(() => {
+
+  window.onscroll = () => {
+    var scrollStatus = $(window).scrollTop();
+    if (scrollStatus > 115) {
+      $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
+      $(".navbar-fading-effect").css("transition" , "1s");
+    }
+    else {
+      $(".navbar-fading-effect").css("background" , "rgba(186, 177, 177, 0.25)"); // not back to "tranparent" Mydefault...
+    }
+  }
+})
+
+
   if(Navbar)
 
   return (
     <div className="navbar-css sticky" >
-      <Navbar light expand="md">
+      <Navbar light expand="md" className="navbar-fading-effect">
       <Container>
         <NavbarBrand href="/">
-          <NavBarLogo src={'https://alfredorafael.com/wp-content/uploads/2019/02/myLogo.png'}/></NavbarBrand>
+          <NavBarLogo src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'}/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="ml-auto" navbar>
+          
+          <Link to="/">
+           <NavItem className="nav-link" >
+              Home
+            </NavItem> 
+          </Link>
           
           <Link to="/exploratory">
-           <NavItem className="nav-link">
-              Component
+           <NavItem className="nav-link" >
+              Resume
             </NavItem> 
           </Link>
 
-           {/* 
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>   
+          <Link to="/contact">
+           <NavItem className="nav-link" >
+              Contact
             </NavItem> 
-          */}
+          </Link>
           
+ 
            <UncontrolledDropdown nav inNavbar> 
               <DropdownToggle nav caret>
                 Options
@@ -66,8 +91,9 @@ const Example = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+         {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
         </Container>
 
@@ -76,4 +102,5 @@ const Example = (props) => {
   );
 }
 
+  
 export default Example;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Navbar } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ReactLogo from "../elements/ReactLogo";
 
@@ -12,11 +12,7 @@ const Exploratory = () => {
             <ReactLogo />
           </Col>
           <Col style={{ flex: 10 }}>
-            <h1>
-              <strong>Welcome</strong>, Alfredo! <br />
-              This is your boilerplate ^_^
-              <br />
-            </h1>
+            
             <hr />
             If the react-logo "bounces" in, the <strong>
               react-reveal

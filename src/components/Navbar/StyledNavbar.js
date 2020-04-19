@@ -7,5 +7,5 @@ export const StyledNavbar  = styled.div`
 `;
 
 export const NavBarLogo = styled.img`
-    max-width: 70%;
+    max-width: 43%;
 `;	
