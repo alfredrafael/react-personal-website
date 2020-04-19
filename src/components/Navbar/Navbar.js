@@ -71,7 +71,7 @@ useEffect(() => {
             </NavItem> 
           </Link>
           
- 
+{/* 
            <UncontrolledDropdown nav inNavbar> 
               <DropdownToggle nav caret>
                 Options
@@ -91,7 +91,7 @@ useEffect(() => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-
+*/}
           </Nav>
          {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
