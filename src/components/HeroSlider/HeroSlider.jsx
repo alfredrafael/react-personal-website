@@ -67,8 +67,8 @@ const HeroSlider = (props) => {
             </video>
          </div>
 
-        :<div className="parallax" >
-            <img src={item.src} alt={item.altText} style={{width: '100%'}}/>
+        :<div className="parallax slider-picture">
+            <img src={item.src} alt={item.altText} style={{width: '100%', backgroundSize: 'auto'}}/>
             <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </div>
       

@@ -30,7 +30,7 @@ const Example = (props) => {
         
     window.onscroll = () => {
       var scrollStatus = $(window).scrollTop();
-      if (scrollStatus > 115) {
+      if (scrollStatus > 100) {
         $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
         $(".navbar-fading-effect").css("transition" , "1s");
       }
@@ -48,7 +48,8 @@ const Example = (props) => {
       <Navbar light expand="md" className="navbar-fading-effect">
       <Container>
         <NavbarBrand href="/">
-          <NavBarLogo src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'}/></NavbarBrand>
+          <NavBarLogo class="navbar-logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'}/>
+          </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

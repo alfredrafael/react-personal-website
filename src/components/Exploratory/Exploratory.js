@@ -12,7 +12,7 @@ const Exploratory = () => {
 
   useEffect(() => {    
 
-  $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, 1)");
+  $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .9)");
 
     window.onscroll = () => {
 
@@ -22,7 +22,7 @@ const Exploratory = () => {
         $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
         $(".navbar-fading-effect").css("transition" , "1s");
       } else {
-        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, 1)");
+        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .9)");
       }
     }
   })

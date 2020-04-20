@@ -14,7 +14,7 @@ const Home = () => {
     <Container>
 
     <Fade>
-
+{/* 
       <h1 className="main-title">
        
        
@@ -22,7 +22,13 @@ const Home = () => {
       
       
       </h1>
+*/}
 
+<div className="carousel-overlay-text">
+		<div className="bg-transparent container">
+			<h1 className="display-4">Software Developer</h1>
+		</div>
+</div>
     
     <div style={{height: '100vh'}}>
     
