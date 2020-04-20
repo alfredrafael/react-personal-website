@@ -26,19 +26,19 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
 
-useEffect(() => {
-
-  window.onscroll = () => {
-    var scrollStatus = $(window).scrollTop();
-    if (scrollStatus > 115) {
-      $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
-      $(".navbar-fading-effect").css("transition" , "1s");
+  useEffect(() => {  
+        
+    window.onscroll = () => {
+      var scrollStatus = $(window).scrollTop();
+      if (scrollStatus > 115) {
+        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
+        $(".navbar-fading-effect").css("transition" , "1s");
+      }
+      else {
+        $(".navbar-fading-effect").css("background" , "rgba(186, 177, 177, 0.25)"); // scrolls back not back to default-color, but this...
+      }
     }
-    else {
-      $(".navbar-fading-effect").css("background" , "rgba(186, 177, 177, 0.25)"); // not back to "tranparent" Mydefault...
-    }
-  }
-})
+  })
 
 
   if(Navbar)
@@ -53,11 +53,11 @@ useEffect(() => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
           
-          <Link to="/">
-           <NavItem className="nav-link" >
+           <NavItem className="nav-link">
+           <a href='/'>
               Home
-            </NavItem> 
-          </Link>
+            </a>
+           </NavItem> 
           
           <Link to="/exploratory">
            <NavItem className="nav-link" >

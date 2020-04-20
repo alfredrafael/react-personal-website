@@ -15,7 +15,7 @@ const Home = () => {
 
     <Fade>
 
-      <h1>
+      <h1 className="main-title">
        
        
         React<span style={{fontSize: '70%'}}>.js</span> Developer

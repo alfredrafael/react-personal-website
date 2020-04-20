@@ -1,10 +1,10 @@
-h1 {
+.main-title {
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px black;
     position: absolute; 
     z-index: 98;
     color: white; 
-    top: 90%;
+    top: 70%;
     left: 7%; 
     font-size: 610% !important;
     font-family: 'Roboto', sans-serif;;

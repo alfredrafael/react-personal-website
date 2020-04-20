@@ -3,16 +3,11 @@
     width: 130%	 
   }
 
-#post-1206 p { /*resume*/
+p { /*resume*/
   font-size: 130%;
   line-height: 26pt;
   color: #443f3f;
   
-  }
-
-#post-1206 .entry-title {
-    /*resume*/
-      display: none; 
   }
 
 /*sideBySide*/
