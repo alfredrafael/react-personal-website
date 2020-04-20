@@ -80,6 +80,8 @@ const HeroSlider = (props) => {
   });
 
   return (
+<React.Fragment>
+    
     <Carousel
       activeIndex={activeIndex}
       next={next}
@@ -93,6 +95,7 @@ const HeroSlider = (props) => {
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     */}
     </Carousel>
+    </React.Fragment>
   );
 }
 
