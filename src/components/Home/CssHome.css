@@ -1,56 +1,10 @@
-.main-title {
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 3px black;
-    position: absolute; 
-    z-index: 98;
-    color: white; 
-    top: 70%;
-    left: 7%; 
-    font-size: 610% !important;
-    font-family: 'Roboto', sans-serif;;
-}
-
-.carousel-overlay-text {
-    z-index: 98 !important;
-    position: absolute; 
-    top: 75%;
-    bottom: 20%;
-    text-align: center;
-}
-
-.carousel-overlay-text h1 {
-    font-size: 510% !important;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    text-shadow: 4px 4px 0 rgba(0, 0, 0, .7);
-    opacity: .9;
-}
-
-.parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-	.carousel-overlay-text h1 {
-        font-size: 180% !important;
-        font-family: "Montserrat", sans-serif;
-        text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
-        opacity: 1;
-    }
-
-    .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: -1%;
-        text-align: center;
-    }
+	
 }
 
 /*Galaxy 5s*/

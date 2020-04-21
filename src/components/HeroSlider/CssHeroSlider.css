@@ -5,9 +5,13 @@
   background-size: cover;
 }
 
-
 .video-container-overlay {
-  opacity: .7
+  opacity: .7;
+}
+
+.slider-video {
+  max-height: 100vh;
+  background: black;
 }
 
 .slider-picture {
@@ -15,14 +19,20 @@
 }
 
 
+
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-	.slider-picture {
-    margin-top: 18%;
+	
+  .carousel-overlay-text {
+    margin-top: -15%;
+    margin-left: -7%;
+}
+
+.slider-video video {
+    margin-top: 17.5%;
   }
-  
 }
 
 /*Galaxy 5s*/

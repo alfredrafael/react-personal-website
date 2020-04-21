@@ -36,7 +36,7 @@
     box-shadow: none;
     z-index: 99;
     background: #040182;
-    opacity: .9;
+    opacity: .8;
 } 
 
 .navbar-brand {
@@ -46,17 +46,19 @@
 
 button.navbar-toggler {  
   color: white;
-  background-color: white;
+  background-color: azure;
   border-radius: 5px;
-  opacity: .7;
+  opacity: .6;
 }
 
 .nav-link {
   color: white !important;
+  font-weight: bold !important;
 }
 
 .nav-link a {
   color: white !important;
+  font-weight: bold !important;
 }
 
 .header {
@@ -72,47 +74,383 @@ button.navbar-toggler {
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
 
+  .navbar-css {
+    box-shadow: none;
+    z-index: 99;
+    background: #040182;
+    opacity: .70;
+} 
+
+.navbar-brand {
+  max-width: 70%;
+  margin-top: -1%;
+}
+
+button.navbar-toggler {  
+  color: white;
+  background-color: azure;
+  border-radius: 5px;
+  opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+    transition: background-color .2s;
+  }
+
+.header.scrolled {
+    background-color: rgba(0, 0, 0, .1) !important;
+  }
+
 }
 
 /*iPhone XR*/
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+
+}
+
+.nav-link {
+color: white !important;
+font-weight: bold !important;
+}
+
+.nav-link a {
+color: white !important;
+font-weight: bold !important;
+
+}
+
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*iPhone 6+/7+/8+ */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .70;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*iPhone X*/
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*iPhone XS*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+  .navbar-css {
+    box-shadow: none;
+    z-index: 99;
+    background: #040182;
+    opacity: .70;
+} 
+
+.navbar-brand {
+  max-width: 70%;
+  margin-top: -15%;
+}
+
+button.navbar-toggler {  
+  color: white;
+  background-color: azure;
+  border-radius: 5px;
+  opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+    transition: background-color .2s;
+  }
+
+.header.scrolled {
+    background-color: rgba(0, 0, 0, .1) !important;
+  }
 
 }
 
 /* iphone XS Max */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*/////////Other androids///////////*/
@@ -121,6 +459,43 @@ button.navbar-toggler {
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
 	
+.navbar-css {
+  box-shadow: none;
+  z-index: 99;
+  background: #040182;
+  opacity: .70;
+} 
+
+.navbar-brand {
+max-width: 70%;
+margin-top: -1%;
+}
+
+button.navbar-toggler {  
+color: white;
+background-color: azure;
+border-radius: 5px;
+opacity: .6;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.nav-link a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
 }
 
 /*---LAPTOPS AND ABOVE---*/

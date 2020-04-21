@@ -7,6 +7,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import './CssHeroSlider.css';
+import IntroText from '../IntroText';
 
 const items = [
   {
@@ -60,15 +61,15 @@ const HeroSlider = (props) => {
       {
         item.video 
         
-        ?<div style={{backgroundColor: 'black'}}>
+        ?<div className='slider-video'>
             <video autoPlay={true} loop style={{maxWidth: '100%', backgroundColor: 'black'}} className="video-container video-container-overlay">   
               <source src={item.video} type="video/mp4"/>
               <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </video>
          </div>
 
-        :<div className="parallax slider-picture">
-            <img src={item.src} alt={item.altText} style={{width: '100%', backgroundSize: 'auto'}}/>
+        :<div className="parallax slider-picture" style={{backgroundColor: 'black'}}>
+            <img src={item.src} alt={item.altText} style={{width: '100%', backgroundSize: 'auto', backgroundColor: 'black'}}/>
             <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </div>
       
@@ -95,6 +96,11 @@ const HeroSlider = (props) => {
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     */}
     </Carousel>
+
+    <div style={{overflow: 'hidden'}}>
+      <IntroText />
+    </div>
+
     </React.Fragment>
   );
 }

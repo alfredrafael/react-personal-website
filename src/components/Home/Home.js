@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import HeroSlider from '../HeroSlider';
-import {HeroText} from './StyledHome';
+import IntroText from '../IntroText';
 import {Container} from 'reactstrap';
 import './CssHome.css';
 
@@ -14,25 +14,12 @@ const Home = () => {
     <Container>
 
     <Fade>
-{/* 
-      <h1 className="main-title">
-       
-       
-        React<span style={{fontSize: '70%'}}>.js</span> Developer
-      
-      
-      </h1>
-*/}
-
-<div className="carousel-overlay-text">
-		<div className="bg-transparent container">
-			<h1 className="display-4">Software Developer</h1>
-		</div>
-</div>
+    
+   <IntroText />
     
     <div style={{height: '100vh'}}>
     
-    <h2>  </h2>
+    <h2> Home Content goes here </h2>
     </div>
     
     </Fade>
