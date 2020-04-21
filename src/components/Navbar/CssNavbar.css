@@ -9,12 +9,25 @@
     width: 100%;
 }
 
-.nav-link {
-  color: white !important;
+.nav-link { /*"home"*/
+  margin-right: 3% !important;
 }
 
 .nav-link a {
   color: white !important;
+  font-weight: bold !important;
+  font-family: 'Manrope', sans-serif;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+  font-size: 115%;
+  padding: 10% 15% 15% 15%;
+  color: azure !important;
+}
+
+.nav-link a:hover {
+  background: rgba(186, 177, 177, 0.25);
+  text-decoration: none !important;
+  border-radius: 5px;
+  border: 1px solid #040182;
 }
 
 .header {
@@ -24,7 +37,6 @@
 .header.scrolled {
     background-color: rgba(0, 0, 0, .1) !important;
   }
-
 
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/

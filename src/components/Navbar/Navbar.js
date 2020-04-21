@@ -59,18 +59,25 @@ const Example = (props) => {
               Home
             </a>
            </NavItem> 
-          
-          <Link to="/exploratory">
-           <NavItem className="nav-link" >
-              Resume
-            </NavItem> 
-          </Link>
 
-          <Link to="/contact">
+           <NavItem className="nav-link">
+           <a href='/exploratory'>
+              Resume
+            </a>
+           </NavItem> 
+
+           <NavItem className="nav-link">
+           <a href='/exploratory'>
+              Contact
+            </a>
+           </NavItem> 
+
+
+          {/* <Link to="/contact">
            <NavItem className="nav-link" >
               Contact
             </NavItem> 
-          </Link>
+          </Link> */}
           
 {/* 
            <UncontrolledDropdown nav inNavbar> 

@@ -14,9 +14,7 @@ const Home = () => {
     <Container>
 
     <Fade>
-    
-   <IntroText />
-    
+        
     <div style={{height: '100vh'}}>
     
     <h2> Home Content goes here </h2>
