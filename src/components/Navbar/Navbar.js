@@ -27,18 +27,19 @@ const Example = (props) => {
 
 
   useEffect(() => {  
-        
+
+    $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)"); // changes to...
+
     window.onscroll = () => {
       var scrollStatus = $(window).scrollTop();
-      if (scrollStatus > 100) {
-        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
+      if (scrollStatus > 115) {
+        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .8)"); // changes to...
         $(".navbar-fading-effect").css("transition" , "1s");
+      } else {
+        $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .15)"); // scrolls back not back to default-color, but this...
+        }
       }
-      else {
-        $(".navbar-fading-effect").css("background" , "rgba(186, 177, 177, 0.25)"); // scrolls back not back to default-color, but this...
-      }
-    }
-  })
+   });
 
 
   if(Navbar)

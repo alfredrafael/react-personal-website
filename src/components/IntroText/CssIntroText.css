@@ -20,21 +20,112 @@
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
-/*iPhone 5*/
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+/*---LAPTOPS AND ABOVE---*/
+
+/*-- specific for this project's <h1>--*/
+
+@media screen and (max-width: 1072px) and (-webkit-min-device-pixel-ratio: 1) {
+  
+    .carousel-overlay-text {
+        top: 60%;
+        bottom: 10% important;
+        text-align: left;
+    }
+
+    .carousel-overlay-text h1 {
+        font-size: 450% !important;
+    }
+}
+
+
+@media screen and (max-width: 1122px) and (-webkit-min-device-pixel-ratio: 1) {
+   
+    .carousel-overlay-text h1 {
+        font-size: 450% !important;
+        right: -3%;
+    }
+    .carousel-overlay-text {
+        top: 50%;
+    }
+   
+}
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
+   
+    .carousel-overlay-text h1 {
+        font-size: 400% !important;
+        right: -3%;
+    }
+
+    .carousel-overlay-text {
+        top: 50%;
+    }
+   
+}
+
+@media screen and (max-width: 870px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .carousel-overlay-text h1 {
+        font-size: 350% !important;
+    }
+    .carousel-overlay-text {
+        top: 40%;
+    }
+}
+
+
+@media screen and (max-width: 770px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .carousel-overlay-text h1 {
+        font-size: 200% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
         font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 657px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .carousel-overlay-text h1 {
+        font-size: 150% !important;
+        font-weight: 500;
+        left: -7%;
+    }
+    .carousel-overlay-text {
+        top: 17%;
+    }
+}
+
+
+/*iPhone 5*/
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .carousel-overlay-text h1 {
+        font-size: 140% !important;
+        font-family: "Montserrat", sans-serif;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .carousel-overlay-text {
+ 
+        top: 30% !important;
+        bottom: 10% !important;
+        left: 12% !important;
+        margin-bottom: 10%;
+        height: 5vh;
+    }
+
+    .slider-video video {
+        /**/
     }
 }
 
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+    .carousel-overlay-text h1 {
+        font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -42,22 +133,24 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+ 
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 12% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
-/*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
+/*Samsung Galaxy Note 3 Media Queries (In terms of Mobile only)*/
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
     .carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -65,21 +158,49 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+ 
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 12% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
+
+/* Galaxy Note 9 */
+
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+    .carousel-overlay-text h1 {
+        font-size: 140% !important;
+        font-family: "Montserrat", sans-serif;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .carousel-overlay-text {
+ 
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 12% !important;
+        margin-bottom: 10%;
+        height: 5vh;
+    }
+
+    .slider-video video {
+        /**/;
+    }
+
+ }
 
 /*iPhone XR*/
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
 	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -87,21 +208,22 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 17% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
 	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -109,21 +231,22 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 14% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
 /*iPhone 6+/7+/8+ */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
 	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -131,14 +254,15 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 14% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
@@ -160,14 +284,14 @@
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
-/*iPhone XS*/
+/*iPhone X & XS*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 180% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -175,26 +299,22 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 14% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
     }
 }
 
 /* iphone XS Max */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-	
-}
-
-/*Galaxy 5s*/
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 180% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -202,14 +322,38 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 20% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
+        /**/;
+    }
+}
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.carousel-overlay-text h1 {
+        font-size: 180% !important;
+        font-family: "Montserrat", sans-serif;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .carousel-overlay-text {
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 14% !important;
+        margin-bottom: 10%;
+        height: 5vh;
+    }
+
+    .slider-video video {
+        /**/;
     }
 }
 
@@ -219,7 +363,7 @@
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
 	.carousel-overlay-text h1 {
-        font-size: 150% !important;
+        font-size: 180% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
         opacity: 1;
@@ -227,93 +371,20 @@
     }
 
     .carousel-overlay-text {
-        top: 30%;
-        bottom: 20%;
-        left: 8%;
-        text-align: center;
+        top: 20% !important;
+        bottom: 10% !important;
+        left: 14.5% !important;
+        margin-bottom: 10%;
+        height: 5vh;
     }
 
     .slider-video video {
-        margin-top: 17.5%;
-    }
-}
-
-/*---LAPTOPS AND ABOVE---*/
-
-/*-- specific for this project's <h1>--*/
-
-@media screen and (max-width: 1072px) and (-webkit-min-device-pixel-ratio: 1) {
-  
-    .carousel-overlay-text {
-        top: 60%;
-        bottom: 10% important;
-        text-align: left;
-    }
-
-    .carousel-overlay-text h1 {
-        font-size: 450% !important;
-
+        /**/;
     }
 }
 
 
-@media screen and (max-width: 1122px) and (-webkit-min-device-pixel-ratio: 1) {
-   
-    .carousel-overlay-text h1 {
-        font-size: 400% !important;
-        right: -15%;
-    }
-    .carousel-overlay-text {
-        top: 50%;
-    }
-   
-}
-@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
-   
-    .carousel-overlay-text h1 {
-        font-size: 400% !important;
-        right: -3%;
-    }
-    .carousel-overlay-text {
-        top: 50%;
-    }
-   
-}
-
-@media screen and (max-width: 870px) and (-webkit-min-device-pixel-ratio: 1) {
-    
-    .carousel-overlay-text h1 {
-        font-size: 350% !important;
-    }
-    .carousel-overlay-text {
-        top: 40%;
-    }
-}
-
-
-@media screen and (max-width: 770px) and (-webkit-min-device-pixel-ratio: 1) {
-    
-    .carousel-overlay-text h1 {
-        font-size: 300% !important;
-        font-weight: 400;
-    }
-    .carousel-overlay-text {
-        top: 40%;
-    }
-}
-
-@media screen and (max-width: 657px) and (-webkit-min-device-pixel-ratio: 1) {
-    
-    .carousel-overlay-text h1 {
-        font-size: 160% !important;
-        font-weight: 400;
-        left: 3%;
-    }
-    .carousel-overlay-text {
-        top: 30%;
-    }
-}
-
+/* My media queries for larger displays */
 
 @media screen and (min-width: 1122px) and (max-width:1550px) and (-webkit-min-device-pixel-ratio: 1) {
     .carousel-overlay-text h1 {

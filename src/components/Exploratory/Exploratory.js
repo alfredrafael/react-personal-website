@@ -12,17 +12,17 @@ const Exploratory = () => {
 
   useEffect(() => {    
 
-  $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .9)");
+  $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .8)");
 
     window.onscroll = () => {
 
       var scrollStatus = $(window).scrollTop();
 
       if (scrollStatus > 115) {
-        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .7)"); // changes to...
-        $(".navbar-fading-effect").css("transition" , "1s");
+        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .6)"); // changes to...
+        $(".navbar-fading-effect").css("transition" , ".5s");
       } else {
-        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .9)");
+        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .8)");
       }
     }
   })
