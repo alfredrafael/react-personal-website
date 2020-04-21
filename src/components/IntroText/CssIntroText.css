@@ -9,12 +9,11 @@
 .carousel-overlay-text h1 {
     z-index: 99 !important;
     font-size: 570% !important;
-    /*font-family: "Montserrat", sans-serif;*/
-    font-family: 'Manrope', sans-serif;
-    color: white;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
     opacity: .9;
     position: relative;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
     font-weight: thin;
 }
 

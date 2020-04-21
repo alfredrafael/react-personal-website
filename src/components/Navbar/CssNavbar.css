@@ -9,22 +9,35 @@
     width: 100%;
 }
 
-.nav-link {
-  color: white !important;
+.header {
+  transition: background-color .2s;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.nav-link { /*"home"*/
+  margin-right: 4% !important;
 }
 
 .nav-link a {
   color: white !important;
+  font-weight: bold !important;
+  font-family: 'Manrope', sans-serif;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+  font-size: 115%;
+  padding: 10% 13% 15% 13%;
+  color: azure !important;
+  text-decoration: none !important;
+  margin-right: 4% !important;
 }
 
-.header {
-    transition: background-color .2s;
-  }
-
-.header.scrolled {
-    background-color: rgba(0, 0, 0, .1) !important;
-  }
-
+.nav-link a:hover {
+  background: rgba(186, 177, 177, 0.25);
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
 
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
