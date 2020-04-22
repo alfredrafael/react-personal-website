@@ -1,13 +1,9 @@
 import React, {useState} from 'react';
-import { Tooltip } from 'reactstrap';
+import { UncontrolledTooltip } from 'reactstrap';
 import './CssWebDevIcons.css';
 
 
 const WebDevIcons = (props) => {
-
-const [tooltipOpen, setTooltipOpen] = useState(false);
-
-const toggle = () => setTooltipOpen(!tooltipOpen);
 
 return(
     <React.Fragment> 
@@ -17,15 +13,27 @@ return(
 
 
    <div className= "js-div" id="js">
-      <div>
-         <i className="devicon-javascript-plain dev-icons"></i>
+   <div>
+   <i className="devicon-javascript-plain dev-icons"></i>
+
+      <UncontrolledTooltip placement="top" target="js" className='test'>
+         Hello
+      </UncontrolledTooltip>
+   
       </div>
-      
    </div>
+
+
+
+
    <div className="react-div" id="react">
-      <div  >
-         <i className="devicon-react-original-wordmark dev-icons">
-         </i>
+      <div>
+         <i className="devicon-react-original-wordmark dev-icons"></i>
+
+      <UncontrolledTooltip placement="top" target="react" className='js-tooltip'>
+         world!
+      </UncontrolledTooltip>
+   
       </div>
    </div>
    <div className= "css-div">
