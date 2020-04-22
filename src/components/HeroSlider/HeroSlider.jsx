@@ -61,7 +61,8 @@ const HeroSlider = (props) => {
       {
         item.video 
         
-        ?<div className='slider-video'>
+        ?<div className='slider-video'         style={{boxShadow: '0 1em 1em -1em rgba(0, 0, 0, .25)'}}
+>
             <video autoPlay={true} loop style={{maxWidth: '100%', backgroundColor: 'black'}} className="video-container video-container-overlay">   
               <source src={item.video} type="video/mp4"/>
               <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
