@@ -1,0 +1,33 @@
+#how-can-I-help {
+    background: #5250ad;
+    opacity: 1;
+    color: white;
+    align-items: center;
+    padding: 1em 0;
+}
+
+#how-can-I-help .centralize-content {
+    text-align: center;
+}
+
+
+.hoverEffect {
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s; /* Animation */
+      cursor: pointer;
+  }
+  
+  .hoverEffect:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      z-index: 1;
+  }
+  
+   
+.serviceDiv img {
+    border-radius: 25px;
+    max-width: 70%;
+    border: 2px solid white;
+}	

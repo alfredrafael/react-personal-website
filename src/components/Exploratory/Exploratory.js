@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./CssResume.css";
-import ReactLogo from "../elements/ReactLogo";
 import $ from 'jquery';
 import Navbar from '../Navbar';
 

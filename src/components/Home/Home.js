@@ -1,9 +1,10 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import {Container} from 'reactstrap';
 import HeroSlider from '../HeroSlider';
 import WebDevIcons from '../WebDevIcons';
 import About from '../About';
-import {Container} from 'reactstrap';
+import HowCanIHelp from '../HowCanIHelp';
 import './CssHome.css';
 
 const Home = () => {
@@ -15,14 +16,12 @@ const Home = () => {
     <WebDevIcons/>
 
     <Container>
-     <Fade>
-        
-
         <About />
-
-    
-     </Fade>
     </Container>
+    
+    
+      
+    <HowCanIHelp/>
 
 </React.Fragment>
   )
