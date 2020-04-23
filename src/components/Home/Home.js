@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import HeroSlider from '../HeroSlider';
 import WebDevIcons from '../WebDevIcons';
+import About from '../About';
 import {Container} from 'reactstrap';
 import './CssHome.css';
 
@@ -14,15 +15,13 @@ const Home = () => {
     <WebDevIcons/>
 
     <Container>
-
-    <Fade>
+     <Fade>
         
-       <div style={{height: '100vh'}}>
 
+        <About />
 
-       </div>
     
-    </Fade>
+     </Fade>
     </Container>
 
 </React.Fragment>

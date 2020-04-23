@@ -19,6 +19,15 @@
     font-size: 350%;
 }
 
+.tooltip-inner {
+    /* background-color: red ;
+    color:red; */
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* top underneath is opposite to the directions on the file...*/
+.bs-tooltip-auto[x-placement^="top"] span.arrow::before, .bs-tooltip-top .arrow::before { border-top-color: #040182; }
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 /*---LAPTOPS AND ABOVE---*/
