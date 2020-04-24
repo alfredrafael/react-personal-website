@@ -5,6 +5,15 @@ import { Row, Col, Container, Button, Modal, ModalHeader, ModalBody, ModalFooter
 
 const HowCanIHelp = (props) => {
 
+  const {
+    buttonLabel,
+    className
+  } = props;
+
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
+
 
 
   return (
