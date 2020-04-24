@@ -12,16 +12,13 @@ const Home = () => {
 
   return(
     <React.Fragment>
+    
     <HeroSlider />
     <WebDevIcons/>
-
-    <Container>
-        <About />
-    </Container>
-    
-    
-      
+    <About />
     <HowCanIHelp/>
+
+    
 
 </React.Fragment>
   )

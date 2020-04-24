@@ -1,33 +1,44 @@
 #how-can-I-help {
-    background: #5250ad;
-    opacity: 1;
+    background: #7573bf;
     color: white;
     align-items: center;
-    padding: 1em 0;
+    padding: 3em 0 5em 0;
 }
-
 #how-can-I-help .centralize-content {
     text-align: center;
 }
+#how-can-I-help h2 {
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 1.5em;
 
+}
 
-.hoverEffect {
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s; /* Animation */
-      cursor: pointer;
+  /*-----------------*/
+
+  .service-div {
+    position: relative;
+    height: 200px;
+    width: 257px;
   }
   
-  .hoverEffect:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-      z-index: 1;
+  .overlay-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(4, 1, 130, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, 
+    visibility .3s;
   }
   
-   
-.serviceDiv img {
-    border-radius: 25px;
-    max-width: 70%;
-    border: 2px solid white;
-}	
+  .service-div:hover .overlay-div {
+    visibility: visible;
+    opacity: 1;
+    vertical-align: center;
+  }

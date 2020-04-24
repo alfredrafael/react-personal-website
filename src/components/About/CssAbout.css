@@ -1,5 +1,5 @@
 .about-info-area { 
-    margin: 2rem 0;
+    padding: 2rem 0 2rem 0;
   }
 
 .about-info-area .curve { 
@@ -19,7 +19,7 @@
   }
 
   .about-info-area h2 {
-    margin-bottom: 1.5%;
+      margin: 0 0 1em 0;
   }
 
   .about-info-area span {
