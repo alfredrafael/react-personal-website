@@ -1,5 +1,5 @@
 #how-can-I-help {
-    background: #7573bf;
+    background: linear-gradient(#7573bf, #040182);
     color: white;
     align-items: center;
     padding: 3em 0 5em 0;
@@ -12,17 +12,15 @@
     color: white;
     text-shadow: 1px 1px black;
     margin-bottom: 1.5em;
-
 }
 
-  /*-----------------*/
 
+  /*-----------------*/
   .service-div {
     position: relative;
     height: 200px;
     width: 257px;
   }
-  
   .overlay-div {
     position: absolute;
     top: 0;
@@ -35,10 +33,37 @@
     opacity: 0;
     transition: opacity .3s, 
     visibility .3s;
+    height: 115% !important;
   }
-  
   .service-div:hover .overlay-div {
     visibility: visible;
     opacity: 1;
     vertical-align: center;
+    height: 115% !important;
   }
+  /*----------------------------*/
+
+
+
+  .modali-header {
+    padding: 1rem 2rem 1.2rem 1.5rem !important;
+    background:linear-gradient(to right, #040182, rgba(4, 1, 130, 0.7));
+    opacity: .85;
+    color: white;
+    font-size: 150% !important;
+  }
+
+
+  .modali-body {
+    /* border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important; */
+  }
+
+  .modali-close-button {
+      color: white !important;
+      background-color: transparent !important;
+      padding: 0% !important;
+      font-size: 200% !important;
+  }
+
+

@@ -1,19 +1,24 @@
 import React, { useState } from "react";
 import "./CssHowCanIHelp.css";
-import { Row, Col, Container, Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import { Row, Col, Container, Card, Button, CardHeader, CardFooter, CardBody, CardTitle, CardText } from "reactstrap";
+import Modali, { useModali } from 'modali';
 
 
-const HowCanIHelp = (props) => {
 
-  const {
-    buttonLabel,
-    className
-  } = props;
+const HowCanIHelp = () => {
 
-  const [modal, setModal] = useState(false);
-
-  const toggle = () => setModal(!modal);
-
+  const [webDevModal, toggleWebDevModal] = useModali({
+    animated: true,
+    large: true,
+  });
+  const [designModal, toggleDesignModal] = useModali({
+    animated: true,
+    large: true,
+  });
+  const [instructionalModal, toggleInstructionalModal] = useModali({
+    animated: true,
+    large: true,
+  });
 
 
   return (
@@ -46,10 +51,27 @@ const HowCanIHelp = (props) => {
                       left: '7.5%',
                       height: '31.25vh'
                     }}
-                    onClick={() => alert('hello')}
-
+                    onClick={toggleWebDevModal}
                   ><h1 className="overlay-text" style={{ marginTop: '25%', fontWeight: 'thin', color: 'white', fontSize: '200%' }}>Web Development</h1></div>
                 </div>
+
+                <Modali.Modal {...webDevModal} id="webDevModal">
+                  <Row>
+                    <div className="modali-header" style={{ margin: '-7% 0 0 0', background: 'transparent', fontWeight: 'bold' }}>
+                      Web Development
+                  </div>
+                  </Row>
+
+                  <CardBody>
+                    <CardText>  Hi, I'm the first Modali!
+                    With supporting text below as a natural lead-in to additional content.</CardText>
+                    <Button>Go somewhere</Button>
+                  </CardBody>
+                  <CardFooter>Footer</CardFooter>
+
+
+                </Modali.Modal>
+
               </Col>
 
 
@@ -73,10 +95,28 @@ const HowCanIHelp = (props) => {
                       top: '.5%',
                       height: '31.25vh'
                     }}
-                    onClick={() => alert('hello')}
+                    onClick={toggleInstructionalModal}
 
                   ><h1 style={{ marginTop: '25%', fontWeight: 'thin', color: 'white', fontSize: '200%' }}>Instructional Design</h1></div>
                 </div>
+
+
+                <Modali.Modal {...instructionalModal}>
+                  <Row>
+                    <div className="modali-header" style={{ margin: '-7% 0 0 0', background: 'transparent', fontWeight: 'bold' }}>
+                      Instructional Design
+                  </div>
+                  </Row>
+
+                  <CardBody>
+                    <CardText>  Hi, I'm the first Modali!
+                    With supporting text below as a natural lead-in to additional content.</CardText>
+                    <Button>Go somewhere</Button>
+                  </CardBody>
+                  <CardFooter>Footer</CardFooter>
+
+                </Modali.Modal>
+
               </Col>
 
 
@@ -99,10 +139,27 @@ const HowCanIHelp = (props) => {
                       left: '7.5%',
                       height: '31.25vh',
                     }}
-                    onClick={() => alert('hello')}
+                    onClick={toggleDesignModal}
 
                   ><h1 style={{ marginTop: '34%', fontWeight: 'thin', color: 'white', fontSize: '200%' }}>Web Design</h1></div>
                 </div>
+
+                <Modali.Modal {...designModal}>
+                  <Row>
+                    <div className="modali-header" style={{ margin: '-7% 0 0 0', background: 'transparent', fontWeight: 'bold' }}>
+                      Web Design
+                  </div>
+                  </Row>
+
+                  <CardBody>
+                    <CardText>  Hi, I'm the first Modali!
+                    With supporting text below as a natural lead-in to additional content.</CardText>
+                    <Button>Go somewhere</Button>
+                  </CardBody>
+                  <CardFooter>Footer</CardFooter>
+
+                </Modali.Modal>
+
               </Col>
 
 
