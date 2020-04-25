@@ -14,7 +14,6 @@
     margin-bottom: 1.5em;
 }
 
-
   /*-----------------*/
   .service-div {
     position: relative;
@@ -52,13 +51,9 @@
     color: white;
     font-size: 150% !important;
   }
-
-
-  .modali-body {
-    /* border-top-right-radius: 5px !important;
-    border-top-left-radius: 5px !important; */
+  .modali-body .row {
+    margin-bottom: -3%;
   }
-
   .modali-close-button {
       color: white !important;
       background-color: transparent !important;

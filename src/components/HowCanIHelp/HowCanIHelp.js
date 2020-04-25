@@ -56,17 +56,18 @@ const HowCanIHelp = () => {
                 </div>
 
                 <Modali.Modal {...webDevModal} id="webDevModal">
-                  <Row>
+                <Row>
                     <div className="modali-header" style={{ margin: '-7% 0 0 0', background: 'transparent', fontWeight: 'bold' }}>
                       Web Development
                   </div>
                   </Row>
 
-
-=                   Hi, I'm the first Modali!
-                    With supporting text below as a natural lead-in to additional content
-
-
+                  <CardBody>
+                    <CardText>  Hi, I'm the first Modali!
+                    With supporting text below as a natural lead-in to additional content.</CardText>
+                    <Button>Go somewhere</Button>
+                  </CardBody>
+                  <CardFooter>Footer</CardFooter>
                 </Modali.Modal>
 
               </Col>
