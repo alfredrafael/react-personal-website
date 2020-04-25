@@ -62,12 +62,9 @@ const HowCanIHelp = () => {
                   </div>
                   </Row>
 
-                  <CardBody>
-                    <CardText>  Hi, I'm the first Modali!
-                    With supporting text below as a natural lead-in to additional content.</CardText>
-                    <Button>Go somewhere</Button>
-                  </CardBody>
-                  <CardFooter>Footer</CardFooter>
+
+=                   Hi, I'm the first Modali!
+                    With supporting text below as a natural lead-in to additional content
 
 
                 </Modali.Modal>

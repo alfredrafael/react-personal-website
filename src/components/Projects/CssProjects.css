@@ -1,0 +1,67 @@
+#projects-component {
+    margin-top: 2em;
+ }
+
+
+#projects-component h2 {
+    text-align: left !important;
+    font-weight: bolder;
+    color: #7573bf;
+    text-shadow: 1px 1px rgb(84, 84, 214);
+    font-size: 230%;
+ }
+  /*-----------------*/
+  .project-div {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    text-align: right;
+    margin: 0 auto;
+    max-width: 79% !important;
+  }
+  .project-overlay-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(4, 1, 130, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, 
+    visibility .3s;
+    height: 110% !important;
+    border-radius: 25px;
+    max-width: 80%;
+    max-height: 110%;
+    left: 20%;
+  }
+
+  .project-div:hover .project-overlay-div {
+    visibility: visible;
+    opacity: 1;
+    vertical-align: center;
+    height: 110% !important;
+  }
+
+  .project-div-img {
+      max-height: 70%;
+      width: 80%;
+      border-radius: 25px;
+      max-width: 85%;
+      max-height: 110%;
+      border: 1px solid #7573bf;
+  }
+
+  .overlay-content {
+      /* margin: 22% 25% 10% 25% !important; */
+  }
+
+  .row {
+      margin-bottom: 5%;
+
+  }
+
+
+  /*----------------------------*/

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { UncontrolledTooltip } from 'reactstrap';
 import './CssWebDevIcons.css';
-import {ToolTip} from './StyledWebDevIcons';
 
 const WebDevIcons = (props) => {
 

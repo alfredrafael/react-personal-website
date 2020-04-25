@@ -5,6 +5,7 @@ import HeroSlider from '../HeroSlider';
 import WebDevIcons from '../WebDevIcons';
 import About from '../About';
 import HowCanIHelp from '../HowCanIHelp';
+import Projects from '../Projects';
 import './CssHome.css';
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
     <WebDevIcons/>
     <About />
     <HowCanIHelp/>
-
+    <Projects/>
     
 
 </React.Fragment>
