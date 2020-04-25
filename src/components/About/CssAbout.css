@@ -24,6 +24,7 @@
 
   .about-info-area span {
       color: #040182;
+      text-shadow: .5px 1px black;
       opacity: .7;
   }
 
