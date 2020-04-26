@@ -77,6 +77,36 @@
       font-size: 200% !important;
   }
 
+  .pic-in-modal {
+    border-radius: 25px;
+    max-width: 115%;
+  }
+
+  .col-pic-in-modal {
+    flex: 1 !important;
+    margin: 1% 4% 1% 1% !important;
+    /* overflow: hidden; */
+  }
+
+  .col-text-in-modal {
+    flex: 2 !important;
+  }
+
+  .title-in-modal {
+    font-weight: bold;
+  }
+
+  .col-text-in-modal span {
+    margin-top: 1%;
+  }
+
+  .raise-text {
+    z-index: 9999;
+  }
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./CssHowCanIHelp.css";
-import { Row, Col, Container, Button, CardFooter, CardBody, CardText} from "reactstrap";
+import { Row, Col, Container, Button, CardFooter, CardBody, CardText } from "reactstrap";
 import Modali, { useModali } from "modali";
 
 const HowCanIHelp = () => {
@@ -42,6 +42,7 @@ const HowCanIHelp = () => {
                 </div>
 
                 <Modali.Modal {...webDevModal} id="webDevModal">
+
                   <Row>
                     <div
                       className="modali-header"
@@ -58,10 +59,26 @@ const HowCanIHelp = () => {
                   <CardBody>
                     <CardText>
                       {" "}
-                      Hi, I'm the first Modali! With supporting text below as a
-                      natural lead-in to additional content.
+                      <span className="title-in-modal">My Programming Languages</span>
+                      <Row>
+                        <Col className="col-pic-in-modal">
+
+                          <img className='pic-in-modal' alt="JS langauges" src="https://alfredorafael.com/wp-content/uploads/2020/04/JS_stack.png" />
+
+                        </Col>
+
+                        <Col className="col-text-in-modal">
+                          <p>
+                            Hi, I'm the first Modali! With supporting text below as a
+                            natural lead-in to additional content.
+                        </p>
+                        </Col>
+
+                      </Row>
+
+
                     </CardText>
-                    <Button>Go somewhere</Button>
+                    {/* <Button>Go somewhere</Button> */}
                   </CardBody>
                   <CardFooter>Footer</CardFooter>
                 </Modali.Modal>
@@ -83,7 +100,8 @@ const HowCanIHelp = () => {
                         fontSize: "200%",
                       }}
                     >
-                      Instructional Design
+
+                      UI <br /> Development
                     </h1>
                   </div>
                 </div>
@@ -98,19 +116,36 @@ const HowCanIHelp = () => {
                         fontWeight: "bold",
                       }}
                     >
-                      Instructional Design
+                      User Interface Design
                     </div>
                   </Row>
 
                   <CardBody>
                     <CardText>
                       {" "}
-                      Hi, I'm the first Modali! With supporting text below as a
-                      natural lead-in to additional content.
+                      <span>Styling Languages</span>
+                      <Row>
+                        <Col className="col-pic-in-modal">
+
+                          <img className='pic-in-modal' alt="JS langauges" src="https://alfredorafael.com/wp-content/uploads/2020/04/Styling.png" />
+                          &nbsp;
+
+                        </Col>
+
+                        <Col className="col-text-in-modal">
+                          <p>
+                            Hi, I'm the 2nd Modali! With supporting text below as a
+                            natural lead-in to additional content.
+                        </p>
+                        </Col>
+
+                      </Row>
+
+
                     </CardText>
-                    <Button>Go somewhere</Button>
+                    {/* <Button>Go somewhere</Button> */}
                   </CardBody>
-                  <CardFooter>Footer</CardFooter>
+                  <CardFooter> &nbsp; </CardFooter>
                 </Modali.Modal>
               </Col>
 
@@ -152,12 +187,32 @@ const HowCanIHelp = () => {
                   <CardBody>
                     <CardText>
                       {" "}
-                      Hi, I'm the first Modali! With supporting text below as a
-                      natural lead-in to additional content.
+                      <Row>
+                        <Col className="col-pic-in-modal">
+
+                          <img className='pic-in-modal' alt="UXD Process" style={{ marginTop: '-7%' }} src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png" />
+                          &nbsp;
+
+                        </Col>
+
+                        <Col className="col-text-in-modal">
+
+                          <span>
+                            <p>
+                              Hi, I'm the first Modali! With supporting text below as a
+                              natural lead-in to additional content.
+                        </p>
+                          </span>
+
+                        </Col>
+
+                      </Row>
+
+
                     </CardText>
-                    <Button>Go somewhere</Button>
+                    {/* <Button>Go somewhere</Button> */}
                   </CardBody>
-                  <CardFooter>Footer</CardFooter>
+                  <CardFooter>&nbsp;</CardFooter>
                 </Modali.Modal>
               </Col>
             </Row>
