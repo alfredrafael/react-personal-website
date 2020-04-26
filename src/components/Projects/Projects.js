@@ -21,15 +21,16 @@ const Projects = () => {
                                 <div style={{ display: 'block' }}>
 
                                     <Button
-                                        className="overlay-content btn btn-outline-primary"
+                                        className="overlay-content"  color="secondary"
                                         style={{
                                             fontWeight: "thin",
                                             color: "white",
-                                            fontSize: "100%",
+                                            fontSize: "150%",
                                             padding: "0",
+                                            marginTop: "25%",
                                         }}
                                     >
-                                        Open Website
+                                        View the Website
                                         </Button>
 
 
@@ -38,7 +39,7 @@ const Projects = () => {
 
 
                                     <Button
-                                        className="overlay-content btn-outline-primary"
+                                        className="overlay-content" color="secondary"
                                         style={{
                                             fontWeight: "thin",
                                             color: "white",

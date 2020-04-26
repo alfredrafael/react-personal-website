@@ -71,10 +71,13 @@ const HowCanIHelp = () => {
                           </Col>
 
                           <Col className="col-text-in-modal">
-                            <p>
-                              Hi, I'm the first Modali! With supporting text below as a
-                              natural lead-in to additional content.
-                        </p>
+
+                            Javascript is my programming language and, in terms of
+                            libraries, I love <strong>React</strong>'s reusability. I am highly
+                            experienced on <strong>jQuery</strong> (Javascript most beloved child)
+                            and when it comes to backend langauges to build my APIs, I use <strong>Node.js</strong>.
+                            I would be happy to add Angular.js to my belt, as well! Need a Javascript developer? How can I help you?
+
                           </Col>
 
                         </Row>
@@ -83,7 +86,7 @@ const HowCanIHelp = () => {
                       </CardText>
                       {/* <Button>Go somewhere</Button> */}
                     </CardBody>
-                    <CardFooter>Footer</CardFooter>
+                    <CardFooter>&nbsp;</CardFooter>
                   </Modali.Modal>
                 </Col>
 
@@ -119,14 +122,14 @@ const HowCanIHelp = () => {
                           fontWeight: "bold",
                         }}
                       >
-                        User Interface Design
+                        UI Develoment
                     </div>
                     </Row>
 
                     <CardBody>
                       <CardText>
                         {" "}
-                        <span>Styling Languages</span>
+                        <span className="title-in-modal" style={{ marginLeft: '9%' }}> My Styling Tools</span>
                         <Row>
                           <Col className="col-pic-in-modal">
 
@@ -136,10 +139,11 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            <p>
-                              Hi, I'm the 2nd Modali! With supporting text below as a
-                              natural lead-in to additional content.
-                        </p>
+                            Rendering data from an API is essential, but if your user interface is
+                            not <strong>user-friendly</strong>, clients wont be able to navigate your website with ease.
+                            I develop user-friendly interfaces with <strong>CSS</strong> libraries such
+                            as <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for dynamic properties),
+                            and <strong>Styled Components</strong> (for CSS contained properties). Do you need a UI developer? How can I help you?
                           </Col>
 
                         </Row>
@@ -193,21 +197,20 @@ const HowCanIHelp = () => {
                         <Row>
                           <Col className="col-pic-in-modal">
 
-                            <img className='pic-in-modal' alt="UXD Process" style={{ marginTop: '-7%' }} src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png" />
+                            <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png" />
                           &nbsp;
 
                         </Col>
 
                           <Col className="col-text-in-modal">
+                            Is your website an "idea" that needs to be fleshed out and prototyped <strong>before</strong> jumping
+                            into full-blown development? My experience working with clients who were not clear on how
+                            different parts of their website were supposed to interact with the others, introduced me to the incredibly
+                            clarifying world of wireframing: <strong>Figma</strong> and <strong>Sketch</strong>. Do you like the CSS, JS and
+                            Design icons on these modals? I make them. Do you have a custom-icon or logo you would like to bring to life?
+                            How can I help you?
 
-                            <span>
-                              <p>
-                                Hi, I'm the first Modali! With supporting text below as a
-                                natural lead-in to additional content.
-                        </p>
-                            </span>
-
-                          </Col>
+                        </Col>
 
                         </Row>
 
