@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { UncontrolledTooltip } from 'reactstrap';
 import './CssWebDevIcons.css';
 
@@ -6,7 +6,6 @@ const WebDevIcons = (props) => {
 
 return(
     <React.Fragment> 
-
 <div className="icons-row-container">
     
   <div className="icons-row">
