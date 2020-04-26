@@ -1,6 +1,5 @@
 import React from 'react';
 import './CssAbout.css';
-import StyledAbout from './StyledAbout';
 import {Container} from 'reactstrap';
 
 
