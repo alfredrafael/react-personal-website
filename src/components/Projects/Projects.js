@@ -47,12 +47,14 @@ const Projects = () => {
                 <h3>React.js Movie App</h3>
 
                 <p>
-                  Bacon ipsum dolor amet shoulder pork chop buffalo, ham t-bone
-                  spare ribs leberkas turducken pork belly. Pastrami chislic
-                  short loin burgdoggen ball tip cow. Picanha drumstick sausage
-                  flank pork chop tail fatback bacon. Turkey turducken salami
-                  ball tip, corned beef pork loin porchetta burgdoggen tri-tip
-                  prosciutto meatloaf strip steak sausage buffalo pork belly.
+                This application fetches data from <strong>The Movie Database API</strong> (TMDB), allowing users
+                to see TMDB's most-popular movies + search for specific movies within the TMDB database. Users can select
+                movies and read additional information about them: plot, actors, budget, etc. I built this 
+                application with create-react-app, styled-components for CSS styling, @reach/router for routing, 
+                prop-types for components' output checking, and <strong>font-awesome</strong> icons.
+                
+                  
+
                 </p>
               </div>
             </Col>
@@ -97,12 +99,9 @@ const Projects = () => {
                 <h3>React.js News App</h3>
 
                 <p>
-                  Bacon ipsum dolor amet shoulder pork chop buffalo, ham t-bone
-                  spare ribs leberkas turducken pork belly. Pastrami chislic
-                  short loin burgdoggen ball tip cow. Picanha drumstick sausage
-                  flank pork chop tail fatback bacon. Turkey turducken salami
-                  ball tip, corned beef pork loin porchetta burgdoggen tri-tip
-                  prosciutto meatloaf strip steak sausage buffalo pork belly.
+                This is a fully responsive web-application using React.js to dynamically render data 
+                from several news sources. Feel free to explore its code-source at the options below, 
+                available at my personal page at github.com 
                 </p>
               </div>
             </Col>
@@ -147,12 +146,11 @@ const Projects = () => {
                 <h3>Vets-In-Tech</h3>
 
                 <p>
-                  Bacon ipsum dolor amet shoulder pork chop buffalo, ham t-bone
-                  spare ribs leberkas turducken pork belly. Pastrami chislic
-                  short loin burgdoggen ball tip cow. Picanha drumstick sausage
-                  flank pork chop tail fatback bacon. Turkey turducken salami
-                  ball tip, corned beef pork loin porchetta burgdoggen tri-tip
-                  prosciutto meatloaf strip steak sausage buffalo pork belly.
+                This is a fully responsive web-application using React.js, incorporating 
+                modern web-design styles such as video-backgrounds, carousel galleries, 
+                responsive modals and reveal-on-scroll animations. I created this website not
+                only to showcase our cohort of US veterans, but also to show our appreciation 
+                to the organizations that made it possible: “Vets In Tech” and “Draft kings”.
                 </p>
               </div>
             </Col>
