@@ -72,11 +72,10 @@ const HowCanIHelp = () => {
 
                           <Col className="col-text-in-modal">
 
-                            My programming language is Javascript, and the library I specialized in
-                            is <strong>React.js</strong>. I am highly experienced on <strong>jQuery</strong>
-                            (Javascript most beloved child) and I chose <strong>Node.js</strong> to build my
-                            APIs. I would be happy to add Angular.js to my belt, as well! Need a Javascript developer?
-                            How can I help you?
+                            My programming language is Javascript, and the library I specialize in
+                            is <strong>React.js</strong>. I am highly experienced on <strong>jQuery</strong> (Javascript
+                            most beloved child) and I build my APIs using <strong>Node.js</strong> I would be happy to add
+                            Angular.js to my belt, as well! Need a Javascript developer? How can I help you?
 
                           </Col>
 
@@ -203,12 +202,12 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Is your website a raw idea that needs to be prototyped <strong>before</strong> its
-                            full-blown development? After working with clients who were not clear on how
-                            different parts of their website were supposed to interact with the others, I
-                            learned <strong>Figma</strong> and <strong>Sketch</strong> as my wireframing tools. Wireframes add incredible clarity
-                            to the web-development process. I also created the JS, CSS, and Design icons on these modals.
-                            Do you have a icon or logo you would like to bring to life? How can I help you?
+                            If your website idea needs to be fleshed-out <strong>before</strong> going
+                            into full-blown development, my experience developing <strong>wireframes</strong> adds clarity
+                            to how different parts of a website will interact with the others. My wireframing tools
+                            are <strong>Figma</strong> and <strong>Sketch</strong>. Do you like the JS, CSS,
+                            and Design icons on these modals? I created those using Sketch. Do you have an app, icon
+                            or logo you would like to bring to life? How can I help you?
                         </Col>
 
                         </Row>
