@@ -47,13 +47,13 @@ const Projects = () => {
                 <h3>React.js Movie App</h3>
 
                 <p>
-                This application fetches data from <strong>The Movie Database API</strong> (TMDB), allowing users
+                  This application fetches data from <strong>The Movie Database API</strong> (TMDB), allowing users
                 to see TMDB's most-popular movies + search for specific movies within the TMDB database. Users can select
-                movies and read additional information about them: plot, actors, budget, etc. I built this 
-                application with create-react-app, styled-components for CSS styling, @reach/router for routing, 
+                movies and read additional information about them: plot, actors, budget, etc. I built this
+                application with create-react-app, styled-components for CSS styling, @reach/router for routing,
                 prop-types for components' output checking, and <strong>font-awesome</strong> icons.
-                
-                  
+
+
 
                 </p>
               </div>
@@ -72,7 +72,7 @@ const Projects = () => {
                 <div className="project-overlay-div">
                   <div className="inner-overlay-div">
                     <a
-                      href="https://alfredo-movie-app-with-react.netlify.app/"
+                      href="https://alfredrafael.github.io/news-center/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -81,7 +81,7 @@ const Projects = () => {
                       </div>
                     </a>
                     <a
-                      href="https://alfredo-movie-app-with-react.netlify.app/"
+                      href="https://github.com/alfredrafael/news-center"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -99,9 +99,11 @@ const Projects = () => {
                 <h3>React.js News App</h3>
 
                 <p>
-                This is a fully responsive web-application using React.js to dynamically render data 
-                from several news sources. Feel free to explore its code-source at the options below, 
-                available at my personal page at github.com 
+                This application allow users to see  <strong>BBC</strong> and <strong>TechCrunch</strong> most-popular articles, 
+                all fetched and dynamically rendered from <strong>The News API</strong>. Users can see their selected news
+                article by clicking "Read Full Article" or title of the news-article itself. I built this application using 
+                create-react-app, material-UI for CSS styling, and React's class-based components. I am currently working on 
+                creating a "react hooks" version of this very same project, so... Stay tuned!
                 </p>
               </div>
             </Col>
@@ -146,11 +148,11 @@ const Projects = () => {
                 <h3>Vets-In-Tech</h3>
 
                 <p>
-                This is a fully responsive web-application using React.js, incorporating 
-                modern web-design styles such as video-backgrounds, carousel galleries, 
-                responsive modals and reveal-on-scroll animations. I created this website not
-                only to showcase our cohort of US veterans, but also to show our appreciation 
-                to the organizations that made it possible: “Vets In Tech” and “Draft kings”.
+                  This is a fully responsive web-application using React.js, incorporating
+                  modern web-design styles such as video-backgrounds, carousel galleries,
+                  responsive modals and reveal-on-scroll animations. I created this website not
+                  only to showcase our cohort of US veterans, but also to show our appreciation
+                  to the organizations that made it possible: “Vets In Tech” and “Draft kings”.
                 </p>
               </div>
             </Col>
