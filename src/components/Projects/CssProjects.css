@@ -19,7 +19,6 @@
 
  #projects-component h3 {
    font-weight: bolder;
-   background-color: azure;   
  }
 
   /*-----------------*/
@@ -41,6 +40,8 @@
     color: #fff;
     visibility: hidden;
     opacity: 0;
+    -webkit-transition: opacity .3s, 
+    visibility .3s;
     transition: opacity .3s, 
     visibility .3s;
     height: 110% !important;
@@ -65,7 +66,8 @@
       max-height: 110%;
       border: 2px solid #7573bf;
       margin-right: 0% !important;
-      flex: 1;
+      -webkit-box-flex: 1;
+              flex: 1;
       margin-right: -20% !important;
 
   }
@@ -85,6 +87,7 @@
     color: rgba(255, 255, 255, 1);
     text-align: center !important;
     font-weight: italic;
+    -webkit-transition: .5s;
     transition: .5s;
     margin: 30% auto -25% auto;
     border-radius: 10px;
@@ -105,7 +108,20 @@
     color:#040182;
   }
 
+  #projects-component i {
+
+  }
+
   /*----------------------------*/
+  
+  
+  @media screen and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
+  
+    .project-overlay-div {
+      max-height: 83% !important;
+    }
+    
+  }
 
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {

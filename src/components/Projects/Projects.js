@@ -47,14 +47,32 @@ const Projects = () => {
                 <h3>React.js Movie App</h3>
 
                 <p>
-                  This application fetches data from <strong>The Movie Database API</strong> (TMDB), allowing users
-                to see TMDB's most-popular movies + search for specific movies within the TMDB database. Users can select
-                movies and read additional information about them: plot, actors, budget, etc. I built this
-                application with create-react-app, styled-components for CSS styling, @reach/router for routing,
-                prop-types for components' output checking, and <strong>font-awesome</strong> icons.
+                  This application fetches data from{" "}
+                  <strong>The Movie Database API</strong> (TMDB), allowing users
+                  to see TMDB's most-popular movies + search for specific movies
+                  within the TMDB database. Users can select movies and read
+                  additional information about them: plot, actors, budget, etc.
+                  I built this application with create-react-app,
+                  styled-components for CSS styling, @reach/router for routing,
+                  prop-types for components' output checking, and{" "}
+                  <strong>font-awesome</strong> icons.
+                  <div style={{ display: "flex" }}>
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
 
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
 
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-css3-plain "></i>
+                    </div>
 
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-bootstrap-plain"></i>
+                    </div>
+                  </div>
                 </p>
               </div>
             </Col>
@@ -99,11 +117,29 @@ const Projects = () => {
                 <h3>React.js News App</h3>
 
                 <p>
-                This application allow users to see  <strong>BBC</strong> and <strong>TechCrunch</strong> most-popular articles, 
-                all fetched and dynamically rendered from <strong>The News API</strong>. Users can see their selected news
-                article by clicking "Read Full Article" or title of the news-article itself. I built this application using 
-                create-react-app, material-UI for CSS styling, and React's class-based components. I am currently working on 
-                creating a "react hooks" version of this very same project, so... Stay tuned!
+                  This application allow users to see <strong>BBC</strong> and{" "}
+                  <strong>TechCrunch</strong> most-popular articles, all fetched
+                  and dynamically rendered from <strong>The News API</strong>.
+                  Users can see their selected news article by clicking "Read
+                  Full Article" or title of the news-article itself. I built
+                  this application using create-react-app, material-UI for CSS
+                  styling, and React's class-based components. I am currently
+                  working on creating a "react hooks" version of this very same
+                  project, so... Stay tuned!
+                  <div style={{ display: "flex" }}>
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-css3-plain "></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
+
+                  </div>
                 </p>
               </div>
             </Col>
@@ -121,7 +157,7 @@ const Projects = () => {
                 <div className="project-overlay-div">
                   <div className="inner-overlay-div">
                     <a
-                      href="https://alfredo-movie-app-with-react.netlify.app/"
+                      href="https://alfredrafael.github.io/vets-in-tech/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -148,11 +184,28 @@ const Projects = () => {
                 <h3>Vets-In-Tech</h3>
 
                 <p>
-                  This is a fully responsive web-application using React.js, incorporating
-                  modern web-design styles such as video-backgrounds, carousel galleries,
-                  responsive modals and reveal-on-scroll animations. I created this website not
-                  only to showcase our cohort of US veterans, but also to show our appreciation
-                  to the organizations that made it possible: “Vets In Tech” and “Draft kings”.
+                  This web application showcases students and faculty members of{" "}
+                  <strong>Vets-in-Tech: First Class</strong>, (New England
+                  Chapter) by providing users with a view of each cohort member,
+                  with his/her bio, and a picture-gallery of the learning
+                  process. I took and edited the pictures and videos myself.
+                  <div style={{ display: "flex" }}>
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-css3-plain "></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-bootstrap-plain"></i>
+                    </div>
+                  </div>
                 </p>
               </div>
             </Col>
