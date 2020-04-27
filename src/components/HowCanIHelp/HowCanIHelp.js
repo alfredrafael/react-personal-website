@@ -72,11 +72,11 @@ const HowCanIHelp = () => {
 
                           <Col className="col-text-in-modal">
 
-                            Javascript is my programming language and, in terms of
-                            libraries, I love <strong>React</strong>'s reusability. I am highly
-                            experienced on <strong>jQuery</strong> (Javascript most beloved child)
-                            and when it comes to backend langauges to build my APIs, I use <strong>Node.js</strong>.
-                            I would be happy to add Angular.js to my belt, as well! Need a Javascript developer? How can I help you?
+                            My programming language is Javascript, and the library I specialized in
+                            is <strong>React.js</strong>. I am highly experienced on <strong>jQuery</strong>
+                            (Javascript most beloved child) and I chose <strong>Node.js</strong> to build my
+                            APIs. I would be happy to add Angular.js to my belt, as well! Need a Javascript developer?
+                            How can I help you?
 
                           </Col>
 
@@ -139,11 +139,11 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Rendering data from an API is essential, but if your user interface is
-                            not <strong>user-friendly</strong>, clients wont be able to navigate your website with ease.
-                            I develop user-friendly interfaces with <strong>CSS</strong> libraries such
-                            as <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for dynamic properties),
-                            and <strong>Styled Components</strong> (for CSS contained properties). Do you need a UI developer? How can I help you?
+                            Rendering data from an API is essential, but building an <strong>user-friendly</strong> interface
+                            where clients can navigate and intuitively find + make sense of our data is paramount!
+                            I use <strong>CSS</strong> libraries such as <strong>Bootstrap</strong>, <strong>Reactstrap</strong>
+                            , <strong>Material UI</strong> (for dynamic properties), and <strong>Styled Components</strong> to create
+                            engaging, user-friendly interfaces. Do you need a UI developer? How can I help you?
                           </Col>
 
                         </Row>
