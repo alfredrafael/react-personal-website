@@ -74,6 +74,37 @@
       margin-bottom: 5%;
   }
 
+  .overlay-content {
+    color: white;
+    text-align: center;
+    width: 70%;
+  }
+
+
+  .project-overlay-div .overlay-content {
+    color: rgba(255, 255, 255, 1);
+    text-align: center !important;
+    font-weight: italic;
+    transition: .5s;
+    margin: 30% auto -25% auto;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .project-overlay-div .overlay-content.visit-website {
+    font-size: 200%;
+  }
+  .project-overlay-div .overlay-content.view-code {
+    font-size: 200%;
+  }
+  .inner-overlay-div a:hover {
+    text-decoration: none;
+  }
+  
+  .overlay-content:hover {
+    background: rgba(255, 255, 255, 0.60);
+    color:#040182;
+  }
+
   /*----------------------------*/
 
 

@@ -203,13 +203,12 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Is your website an "idea" that needs to be fleshed out and prototyped <strong>before</strong> jumping
-                            into full-blown development? My experience working with clients who were not clear on how
-                            different parts of their website were supposed to interact with the others, introduced me to the incredibly
-                            clarifying world of wireframing: <strong>Figma</strong> and <strong>Sketch</strong>. Do you like the CSS, JS and
-                            Design icons on these modals? I make them. Do you have a custom-icon or logo you would like to bring to life?
-                            How can I help you?
-
+                            Is your website a raw idea that needs to be prototyped <strong>before</strong> its
+                            full-blown development? After working with clients who were not clear on how
+                            different parts of their website were supposed to interact with the others, I
+                            learned <strong>Figma</strong> and <strong>Sketch</strong> as my wireframing tools. Wireframes add incredible clarity
+                            to the web-development process. I also created the JS, CSS, and Design icons on these modals.
+                            Do you have a icon or logo you would like to bring to life? How can I help you?
                         </Col>
 
                         </Row>
