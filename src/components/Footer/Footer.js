@@ -23,20 +23,6 @@ const AppFooter = () => {
 
                     </Row>
 
-                    {/* <Row>
-
-                        <Col>
-                            Column 1
-    </Col>
-
-                        <Col>
-                            Column 2
-    </Col>
-
-                        <Col>
-                            Column 3
-    </Col>
-                    </Row> */}
                 </Container>
 
             </StyledFooter>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Collapse,
   Container,
@@ -26,61 +26,61 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
 
-  useEffect(() => {  
+  useEffect(() => {
 
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)"); // changes to...
 
     window.onscroll = () => {
       var scrollStatus = $(window).scrollTop();
       if (scrollStatus > 115) {
-        $(".navbar-fading-effect").css("background" , "rgba(4, 1, 130, .8)"); // changes to...
-        $(".navbar-fading-effect").css("transition" , "1s");
+        $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)"); // changes to...
+        $(".navbar-fading-effect").css("transition", "1s");
       } else {
         $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .15)"); // scrolls back not back to default-color, but this...
-        }
       }
-   });
+    }
+  });
 
 
-  if(Navbar)
+  if (Navbar)
 
-  return (
-    <div className="navbar-css sticky" >
-      <Navbar light expand="md" className="navbar-fading-effect">
-      <Container>
-        <NavbarBrand href="/">
-          <NavBarLogo class="navbar-logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'}/>
-          </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-          
-           <NavItem className="nav-link">
-           <a href='/'>
-              Home
+    return (
+      <div className="navbar-css sticky" >
+        <Navbar light expand="md" className="navbar-fading-effect">
+          <Container>
+            <NavbarBrand href="/">
+              <NavBarLogo class="navbar-logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'} />
+            </NavbarBrand>
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+
+                <NavItem className="nav-link">
+                  <a href='/'>
+                    Home
             </a>
-           </NavItem> 
+                </NavItem>
 
-           <NavItem className="nav-link">
-           <a href='/exploratory'>
-              Resume
+                <NavItem className="nav-link">
+                  <a href='/resume'>
+                    Resume
             </a>
-           </NavItem> 
+                </NavItem>
 
-           <NavItem className="nav-link">
+                {/* <NavItem className="nav-link">
            <a href='/exploratory'>
               Contact
             </a>
-           </NavItem> 
+           </NavItem>  */}
 
 
-          {/* <Link to="/contact">
+                {/* <Link to="/contact">
            <NavItem className="nav-link" >
               Contact
             </NavItem> 
           </Link> */}
-          
-{/* 
+
+                {/* 
            <UncontrolledDropdown nav inNavbar> 
               <DropdownToggle nav caret>
                 Options
@@ -101,15 +101,15 @@ const Example = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
 */}
-          </Nav>
-         {/* <NavbarText>Simple Text</NavbarText> */}
-        </Collapse>
-        </Container>
+              </Nav>
+              {/* <NavbarText>Simple Text</NavbarText> */}
+            </Collapse>
+          </Container>
 
-      </Navbar>
-    </div>
-  );
+        </Navbar>
+      </div>
+    );
 }
 
-  
+
 export default Example;
