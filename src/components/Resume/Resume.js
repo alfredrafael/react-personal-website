@@ -30,18 +30,73 @@ const Exploratory = () => {
             alt="James Moriarty"
           />
           <h1>Alfredo R. Pabón</h1>
-          <p>
-            Cell:
-            <a href="#">555-666-7777</a>
-          </p>
 
-          <p>
-            Web: <a href="#">moriarty.com</a>
-          </p>
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+          <Row style={{ marginBottom: '1.5%' }}>
+            <Col style={{}}>
+              <Row>
+                <i className="fas fa-envelope" style={{ fontSize: "145%", marginLeft: ".20%", marginRight: '1%' }} />{" "}
+                <span className="">alfredrafael@gmail.com</span>
+              </Row>
+            </Col>
 
-          <p>
-            Email: <a href="#">napoleon@crime.com</a>
-          </p>
+            <Col>
+              <Row>
+                <i className="devicon-github-plain" style={{ fontSize: "155%", marginRight: '1%' }} />{" "}
+                <span className="">Linkedin.com/in/alfredo-rafael/</span>
+              </Row>
+            </Col>
+          </Row>
+
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+
+
+
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+          <Row style={{ marginBottom: '1.8%' }}>
+            <Col style={{}}>
+              <Row>
+                <i className="fas fa-mobile-alt" style={{ fontSize: "155%", marginLeft: ".70%", marginRight: '1%' }} />{" "}
+                <span className="">(617) 580-1400</span>
+              </Row>
+            </Col>
+
+            <Col>
+              <Row>
+                <i className="fab fa-linkedin" style={{ fontSize: "155%", marginRight: '1%' }} />{" "}
+                <span className="">Linkedin.com/in/alfredo-rafael/</span>
+              </Row>
+            </Col>
+          </Row>
+
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+
+
+
+
+
+ {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+ <Row style={{ marginBottom: '1.5%' }}>
+            <Col style={{}}>
+              <Row>
+                <i className="fas fa-file-pdf" style={{ fontSize: "155%", marginLeft: ".70%", marginRight: '1%' }} />{" "}
+                <span className="">PDF Version</span>
+              </Row>
+            </Col>
+
+            <Col>
+              <Row>
+                <i className="fab fa-linkedin" style={{ fontSize: "155%", marginRight: '1%' }} />{" "}
+                <span className="">Linkedin.com/in/alfredo-rafael/</span>
+              </Row>
+            </Col>
+          </Row>
+
+{/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+
           <p id="objective">
             I am a reserved but ambitious young professional seeking a career
             that fits my professional skills, personality, and murderous
