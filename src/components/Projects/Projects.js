@@ -78,6 +78,9 @@ const Projects = () => {
             </Col>
           </Row>
         </Fade>
+
+        {/* <hr/> */}
+
         <Fade>
           <Row>
             <Col>

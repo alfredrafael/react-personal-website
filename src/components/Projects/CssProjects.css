@@ -47,7 +47,7 @@
     height: 110% !important;
     border-radius: 25px;
     max-width: 80%;
-    max-height: 110%;
+    max-height: 100% !important;
     right: 20%;
   }
 
@@ -55,7 +55,7 @@
     visibility: visible;
     opacity: 1;
     vertical-align: center;
-    height: 110% !important;
+    height: 99% !important;
   }
 
   .project-div-img {
@@ -114,7 +114,8 @@
   @media screen and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
   
     .project-overlay-div {
-      max-height: 83% !important;
+      max-height: 70% !important;
+      
     }
     
   }

@@ -1,27 +1,33 @@
-
-#resume html {
-  background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg)
+.skillColumn1 div,
+.skillColumn2 div {
+  margin-bottom: 5%;
 }
 
-body {
-  margin: 2.2rem
+.text-in-contact-info {
+  color: black;
+  font-weight: bold;
+}
+
+#resume {
+  background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg)
 }
 
 div#resume {
   min-width: 310px;
   font: 16px Helvetica, Avernir, sans-serif;
   line-height: 24px;
-  color: #000
 }
 
 div#resume h1 {
   margin: 0 0 16px 0;
   padding: 0 0 16px 0;
-  font-size: 42px;
+  font-size: 350%;
   font-weight: bold;
   letter-spacing: -2px;
   border-bottom: 1px solid #999;
-  line-height: 50px
+  line-height: 50px;
+  font-family: Ubuntu, sans-serif;
+  color: #464646;
 }
 
 div#resume h2 {
@@ -30,6 +36,7 @@ div#resume h2 {
   position: relative
 }
 
+/*  dates  */
 div#resume h2 span {
   position: absolute;
   bottom: 0;
@@ -37,8 +44,8 @@ div#resume h2 span {
   font-style: italic;
   font-family: Georgia, serif;
   font-size: 16px;
-  color: #999;
-  font-weight: normal
+  color: #999  !important;
+  font-weight: normal;
 }
 
 div#resume p {
@@ -62,14 +69,15 @@ div#resume p.objective {
   color: #666
 }
 
+/* section on left side*/
 div#resume dt {
   font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: bolder;
+  font-size: 125%;
   text-align: right;
   padding: 0 26px 0 0;
   width: 150px;
-  border-right: 1px solid #999
+  border-right: 1px solid #999; 
 }
 
 div#resume dl {
@@ -83,11 +91,11 @@ div#resume dl dd {
 }
 
 div#resume dl dd {
-  width: 500px;
+  width: 100%; /* warning */
   padding-left: 26px
 }
 
-div#resume img {
+div#resume img.professional-picture {
   float: right;
   padding: 10px;
   background: #fff;
