@@ -4,8 +4,7 @@
 }
 
 .text-in-contact-info {
-  color: black;
-  font-weight: bold;
+  color: black !important;
 }
 
 #resume {
@@ -71,13 +70,14 @@ div#resume p.objective {
 
 /* section on left side*/
 div#resume dt {
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: bolder;
   font-size: 125%;
   text-align: right;
   padding: 0 26px 0 0;
   width: 150px;
-  border-right: 1px solid #999; 
+  border-right: 1px solid #999;
+  font-family: Ubuntu, sans-serif !important;
 }
 
 div#resume dl {
@@ -105,6 +105,10 @@ div#resume img.professional-picture {
   width: 30%;
   max-width: 220px
 }
+
+
+
+/* -------------------- MEDIA QUERIES --------------- */
 
 @media screen and (max-width:1100px) {
   div#resume h2 span {
