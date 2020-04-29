@@ -100,6 +100,11 @@
     margin-top: 1%;
   }
 
+
+  .col-text-in-modal {
+    font-size: 135%;
+  }
+
   .raise-text {
     z-index: 9999;
   }

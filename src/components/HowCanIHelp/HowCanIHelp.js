@@ -62,7 +62,7 @@ const HowCanIHelp = () => {
                     <CardBody>
                       <CardText>
                         {" "}
-                        <span className="title-in-modal">My Programming Languages</span>
+                        <h5 className="title-in-modal">My Programming Languages</h5>
                         <Row>
                           <Col className="col-pic-in-modal">
 
@@ -72,10 +72,11 @@ const HowCanIHelp = () => {
 
                           <Col className="col-text-in-modal">
 
+
                             My programming language is Javascript, and the library I specialize in
-                            is <strong>React.js</strong>. I am highly experienced on <strong>jQuery</strong> (Javascript
-                            most beloved child) and I build my APIs using <strong>Node.js</strong> I would be happy to add
-                            Angular.js to my belt, as well! Need a Javascript developer? How can I help you?
+                            is <strong>React.js</strong> because of its rehusability features. I am highly experienced on <strong>jQuery</strong> (everybody's
+                            first JS library!) and I build my APIs routes using <strong>Node.js</strong> and <strong>Express</strong>.
+                            Need a Javascript developer? How can I help you?
 
                           </Col>
 
@@ -128,7 +129,7 @@ const HowCanIHelp = () => {
                     <CardBody>
                       <CardText>
                         {" "}
-                        <span className="title-in-modal" style={{ marginLeft: '9%' }}> My Styling Tools</span>
+                        <h5 className="title-in-modal" style={{ marginLeft: '9%' }}> My Styling Tools</h5>
                         <Row>
                           <Col className="col-pic-in-modal">
 
@@ -138,11 +139,11 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Rendering data from an API is essential, but building an <strong>user-friendly</strong> interface
-                            where clients can navigate and intuitively find + make sense of our data is paramount!
-                            I use <strong>CSS</strong> libraries such as <strong>Bootstrap</strong>, <strong>Reactstrap</strong>
-                            , <strong>Material UI</strong> (for dynamic properties), and <strong>Styled Components</strong> to create
-                            engaging, user-friendly interfaces. Do you need a UI developer? How can I help you?
+                            Rendering data from an API is essential, but we also want to build
+                            an <strong>user-friendly</strong> interface where clients can intutively find the data they need.
+                            My <strong>CSS</strong> libraries to achieve this goal
+                            are <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for
+                            dynamic properties), and <strong>Styled Components</strong>. Do you need a UI developer? How can I help you?
                           </Col>
 
                         </Row>
@@ -193,21 +194,22 @@ const HowCanIHelp = () => {
                     <CardBody>
                       <CardText>
                         {" "}
+                        <h5 className="title-in-modal" style={{ marginLeft: '9%', zIndex: '99', position: 'relative' }}> My Styling Tools</h5>
                         <Row>
                           <Col className="col-pic-in-modal">
-
-                            <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png" />
+                            <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png"
+                              style={{ marginTop: '-15%' }}
+                            />
                           &nbsp;
 
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            If your website idea needs to be fleshed-out <strong>before</strong> going
-                            into full-blown development, my experience developing <strong>wireframes</strong> adds clarity
-                            to how different parts of a website will interact with the others. My wireframing tools
-                            are <strong>Figma</strong> and <strong>Sketch</strong>. Do you like the JS, CSS,
-                            and Design icons on these modals? I created those using Sketch. Do you have an app, icon
-                            or logo you would like to bring to life? How can I help you?
+                            In the web-design process, when identifying how different parts of a new website will
+                            interact with the others, <strong>wireframes</strong> are an incredibly claritying tool. My wireframing
+                            tools are <strong>Figma</strong> and <strong>Sketch</strong>. I also use these to create unique, customized
+                            icons like the ones you see on these modals. Do you have an app, an icon or logo you would like to
+                            to bring to life? How can I help you?
                         </Col>
 
                         </Row>
