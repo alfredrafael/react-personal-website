@@ -206,7 +206,7 @@ const HowCanIHelp = () => {
 
                           <Col className="col-text-in-modal">
                             In the web-design process, when identifying how different parts of a new website will
-                            interact with the others, <strong>wireframes</strong> are an incredibly claritying tool. My wireframing
+                            interact with the others, <strong>wireframes</strong> are an incredibly clarifying tool. My wireframing
                             tools are <strong>Figma</strong> and <strong>Sketch</strong>. I also use these to create unique, customized
                             icons like the ones you see on these modals. Do you have an app, an icon or logo you would like to
                             to bring to life? How can I help you?

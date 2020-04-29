@@ -43,7 +43,7 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%" }}>
+              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>React.js Movie App</h3>
 
                 <p>
@@ -79,7 +79,9 @@ const Projects = () => {
           </Row>
         </Fade>
 
-        {/* <hr/> */}
+        <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
+        <br />        <br />
+
 
         <Fade>
           <Row>
@@ -116,7 +118,7 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%" }}>
+              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>React.js News App</h3>
 
                 <p>
@@ -148,6 +150,12 @@ const Projects = () => {
             </Col>
           </Row>
         </Fade>
+
+
+        <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
+        <br />        <br />
+
+
         <Fade>
           <Row>
             <Col>
@@ -183,7 +191,7 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%" }}>
+              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>Vets-In-Tech</h3>
 
                 <p>
