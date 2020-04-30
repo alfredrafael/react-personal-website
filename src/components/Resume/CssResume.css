@@ -7,8 +7,15 @@
   color: black !important;
 }
 
-li {
-  font-size: 115%;
+#resume li {
+  font-size: 125%;
+  line-height: 40px;
+  line-height: 150%;
+
+}
+
+#resume ul li ul li {
+  font-size: 100%;
 }
 
 /* --------Previous--------- */
@@ -74,6 +81,7 @@ div#resume p.objective {
 }
 
 /* section on left side*/
+
 div#resume dt {
   /* font-style: italic; */
   font-weight: bolder;

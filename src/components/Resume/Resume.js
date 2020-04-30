@@ -57,7 +57,6 @@ const Exploratory = () => {
             <Row style={{ marginBottom: '1.4%' }}>
               <Col style={{}}>
                 <Row>
-                  {/* <img src="https://alfredorafael.com/wp-content/uploads/2020/04/phone_icon-1.png" alt="phone icon" style={{ maxWidth: '7%', marginLeft: '-.5%', marginRight: '2%' }} />{" "} */}
                   <i class="fas fa-phone-square-alt" style={{ fontSize: "170%", marginLeft: ".10%", marginRight: '3%', color: '#464646' }}></i>
                   <span className="text-in-contact-info" style={{ fontSize: '115%' }}>(617) &nbsp;580 - 1400</span>
                 </Row>
@@ -91,7 +90,6 @@ const Exploratory = () => {
               </Col>
             </Row>
           </section>
-
           {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
 
@@ -117,7 +115,7 @@ const Exploratory = () => {
                   <p><i className="devicon-jquery-plain" style={{ fontSize: '250%', color: 'black' }} /> jQuery;</p>
                   <p><i className="devicon-github-plain" style={{ fontSize: '250%', color: 'black' }} /> Github;</p>
                   <p><i className="devicon-bootstrap-plain" style={{ fontSize: '250%', color: 'black' }} /> Bootstrap;</p>
-                  <p><i className="devicon-git-plain" style={{ fontSize: '250%', color: 'black' }} /> $Git</p>
+                  <p><i className="devicon-git-plain" style={{ fontSize: '250%', color: 'black' }} /> Git;</p>
                 </Col>
 
               </Row>
@@ -135,7 +133,7 @@ const Exploratory = () => {
               <br />
               <ul>
                 <li>
-                  I design and code our clients’ user interface, improve their legacy websites and write code to optimize for responsiveness, load times, user-experience and cross-browser compatibility                </li>
+                  I design and code our clients user interface, improve legacy websites and optimize for responsiveness, load times, user-experience and cross-browser compatibility                </li>
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
               {/* // Experience 2 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -155,10 +153,10 @@ const Exploratory = () => {
               <br />
               <ul>
                 <li>
-                  Published papers in binomials, asteroid dynamics and game theory
+                  Built and redisigned WordPress platforms meeting my clients' UXD specififications
                   <br /><br />
                 </li>
-                <li>Intimidated students</li>
+                <li>Created wireframes to clarify clients need and guide web-development processes</li>
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
               {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -167,13 +165,38 @@ const Exploratory = () => {
               <br />
               <ul>
                 <li>
-                  Published papers in binomials, asteroid dynamics and game
-                  theory<br /><br />
+                  Instructed Spanish as a foreign language to students ranging from high school to elementary school<br /><br />
                 </li>
-                <li>Intimidated students</li>
+                <li>Developed and implemented a humanities curriculum for bilingual students across several inner-city schools</li>
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
               {/* // END Experiences ///////////////////////////////////////////////////////////////////////////////////////////////// */}
+              <h2><strong>Chemical Operations NCOIC</strong><span>Cabo Rojo, PR 2004 – 2011</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>US Army National Guard</span><br />
+              <br />
+              <ul>
+                <li>
+                  Provided training on chemical-defense readiness as Sergeant E-5, NCOIC. Experienced in tactical movement,
+                strategic firearms use and security operations. Overseas deployments as follows:<br /><br />
+                </li>
+                <ul>
+                  <li>
+                    <strong>Multinational Force and Observers –   Egypt;   2006</strong><br /><br />
+                    <ul>
+                      <li>Ensured implementation of Egypt and Israel Peace Treaty’s security provisions</li><br />
+                      <li>Patrolled the Egyptian-Israel’s northern border, providing surveillance across MFO observation posts. </li><br />
+                    </ul>
+                  </li>
+
+                  <li>
+                    <strong>NATO KFOR: Camp Bondsteel –         Kosovo;   2009</strong><br /><br />
+                    <ul>
+                      <li>Patrolled Serbian-Kosovo border in NATO-led peacekeeping operation responsible for establishing Kosovo’s secure environment</li><br />
+                    </ul>
+                  </li>
+                </ul>
+              </ul>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
             </dd>
           </dl>
           <dl>
@@ -212,19 +235,19 @@ const Exploratory = () => {
             <dt>Hobbies</dt>
             <dd>Lorem ipsum</dd>
           </dl> */}
-         
+
           {/* <dl>
             <dt>References</dt>
             <dd>Available on request</dd>
           </dl> 
         */}
-        
+
         </div>
       </Container>
-    </React.Fragment>
+    </React.Fragment >
   );
 };
 
 export default Exploratory;
 
-{/*Return to the original blog article: "http://thenewcode.com/553/Build-A-Responsive-Web-Résumé"> */}
+{/*Return to the original blog article: "http://thenewcode.com/553/Build-A-Responsive-Web-Résumé"> */ }
