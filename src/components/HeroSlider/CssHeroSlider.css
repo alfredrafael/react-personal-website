@@ -6,7 +6,7 @@
 }
 
 .video-container-overlay {
-  opacity: .7;
+  opacity: .75;
 }
 
 .slider-video {
@@ -19,8 +19,6 @@
   max-height: 100vh;
   box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
 }
-
-
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
@@ -35,6 +33,7 @@
 .slider-video video {
     margin-top: 17.5%;
   }
+
 }
 
 /*Galaxy 5s*/

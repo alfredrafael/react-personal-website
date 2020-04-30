@@ -85,9 +85,10 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            To identify how different parts of a new website will interact with all the others, wireframes
-                            are a incredibly clarifying tool. My wireframing tools are <strong>Figma</strong> and <strong>Sketch</strong>.
-                            Additionally, I create customized icons like the ones you see on these modal windows.
+                            Wireframes are an incredibly clarifying way of identifying how
+                            different parts of a website will interact with all the others.
+                            My wireframing tools are <strong>Figma</strong> and <strong>Sketch</strong>.
+                            Additionally, I creaSte customized icons like the ones you see on these modal windows.
                             Do you have an app, an icon or a logo you would like to bring to life? How can I help you?
                         </Col>
 
@@ -148,10 +149,10 @@ const HowCanIHelp = () => {
                           <Col className="col-text-in-modal">
 
 
-                            My programming language is Javascript, and I specialize in the the <strong>React.js</strong> library
-                            because of its rehusability features. I am proficient on <strong>jQuery</strong> (everybody's
-                            first JS library!) and I build my APIs routes using <strong>Node.js</strong> with <strong>Express</strong>.
-                            Need a Javascript developer? How can I help you?
+                            My programming language is Javascript, and I specialize in the <strong>React.js</strong> library
+                            because of its reusability features. I am proficient on <strong>jQuery</strong> (everybody's
+                            first JS library!) and I build my APIs routes with <strong>Node.js</strong> and <strong>Express</strong>.<br />
+                            Do you need a Javascript developer? <br /> How can I help you?
 
                           </Col>
 
@@ -220,8 +221,9 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            I prioritize building <strong>user-friendly</strong> interfaces that allow users to intutively find the
-                            data they need because displaying data from an API is simply not enough. The <strong>CSS</strong> libraries I use
+                            I build <strong>user-friendly</strong> interfaces that allow users to intutively find the
+                            information they need, because displaying data from an API is simply not enough:
+                            users need to be able to make sense of it. The <strong>CSS</strong> libraries I use
                             to achieve this goal are <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for
                             dynamic properties), and <strong>Styled Components</strong>. Do you need a UI developer? How can I help you?
                           </Col>

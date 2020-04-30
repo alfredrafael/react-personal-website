@@ -21,6 +21,9 @@
    font-weight: bolder;
  }
 
+ #projects-component p {
+   color: #464646;
+ }
   /*-----------------*/
   .project-div {
     position: relative;

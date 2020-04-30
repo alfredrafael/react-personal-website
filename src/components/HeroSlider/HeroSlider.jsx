@@ -11,30 +11,21 @@ import IntroText from '../IntroText';
 
 const items = [
   {
-    src: 'https://alfredorafael.com/wp-content/uploads/2019/02/atCove.png', //'https://placekitten.com/1350/700', //'https://via.placeholder.com/1400x700.png',
-    // altText: 'Slide 1',
-    // caption: 'Slide 1'
-    id: 1,
-  },
-  {
-    src: 'https://alfredorafael.com/wp-content/uploads/2019/03/WithGroupFlipped-e1552966613463.png',//'https://placekitten.com/1375/700', //'https://via.placeholder.com/1400x700.png/0000FF/808080',
-    // altText: 'Slide 1',
-    // caption: 'Slide 1'
-    id: 2
-  },
-  {
-    video: 'https://alfredorafael.com/wp-content/uploads/2019/03/for-portfolio.mp4',
-    // altText: 'Slide 2',
-    // caption: 'Slide 2',
-    id: 3,
+    video: 'https://alfredorafael.com/wp-content/uploads/2020/04/react-personal-website-clip.mp4',
+    id: 3
   },
   // {
-  //   video: 'https://alfredorafael.com/wp-content/uploads/2020/04/bike.mp4',
-    // altText: 'Slide 2',
-  //   // caption: 'Slide 2',
-  //   id: 4,
+  //   src: 'https://images.opencollective.com/react-firebase-starter/c636859/background.png',//'https://placekitten.com/1375/700', //'https://via.placeholder.com/1400x700.png/0000FF/808080',
+  //   // altText: 'Slide 1',
+  //   // caption: 'Slide 1'
+  //   id: 2
   // },
-
+  // {
+  //   src: 'https://alfredorafael.com/wp-content/uploads/2019/02/atCove.png', //'https://placekitten.com/1350/700', //'https://via.placeholder.com/1400x700.png',
+  //   // altText: 'Slide 1',
+  //   // caption: 'Slide 1'
+  //   id: 1,
+  // },
 ];
 
 const HeroSlider = (props) => {

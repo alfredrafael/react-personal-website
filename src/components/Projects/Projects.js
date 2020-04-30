@@ -44,13 +44,13 @@ const Projects = () => {
 
             <Col>
               <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
-                <h3>React.js Movie App</h3>
+                <h3>Fetch Movie App <small></small></h3>
 
                 <p>
-                  This application fetches data from{" "}
-                  <strong>The Movie Database API</strong> (TMDB), allowing users
-                  to see TMDB's most-popular movies + search for specific movies
-                  within the TMDB database. Users can select movies and read
+                  This application fetches data from{" "} <strong>The Movie Database API</strong> (TMDB)
+                  with React.js, allowing users to see TMDB's most-popular films
+                  + search for specific movies within the TMDB database.
+                  Users can select movies and read
                   additional information about them: plot, actors, budget, etc.
                   I built this application with create-react-app,
                   styled-components for CSS styling, @reach/router for routing,
