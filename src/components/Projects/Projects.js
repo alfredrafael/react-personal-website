@@ -29,7 +29,7 @@ const Projects = () => {
                       </div>
                     </a>
                     <a
-                      href="https://alfredo-movie-app-with-react.netlify.app/"
+                      href="https://github.com/alfredrafael/react-movie-app"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -177,7 +177,7 @@ const Projects = () => {
                       </div>
                     </a>
                     <a
-                      href="https://alfredo-movie-app-with-react.netlify.app/"
+                      href="https://github.com/alfredrafael/vets-in-tech"
                       target="_blank"
                       rel="noreferrer noopener"
                     >

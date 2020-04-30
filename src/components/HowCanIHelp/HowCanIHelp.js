@@ -30,8 +30,83 @@ const HowCanIHelp = () => {
                 </strong>
               </Fade>
             </h2>
-            <Fade top>
+            <Fade>
               <Row>
+
+
+
+
+                <Col>
+                  <div class="service-div" style={{ margin: "0 auto" }}>
+                    <img
+                      class="service-div-img"
+                      src="https://alfredorafael.com/wp-content/uploads/2019/03/WebDes3.png"
+                      alt="Project Screenshot"
+                    />
+                    <div class="overlay-div" onClick={toggleDesignModal}>
+                      <h1
+                        style={{
+                          marginTop: "34%",
+                          fontWeight: "thin",
+                          color: "white",
+                          fontSize: "200%",
+                        }}
+                      >
+                        Web Design
+                    </h1>
+                    </div>
+                  </div>
+
+                  <Modali.Modal {...designModal}>
+                    <Row>
+                      <div
+                        className="modali-header"
+                        style={{
+                          margin: "-7% 0 0 0",
+                          background: "transparent",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        Web Design
+                    </div>
+                    </Row>
+
+                    <CardBody>
+                      <CardText>
+                        {" "}
+                        <h5 className="title-in-modal" style={{ marginLeft: '6%', zIndex: '99', position: 'relative' }}> My Web Design Tools</h5>
+                        <Row>
+                          <Col className="col-pic-in-modal">
+                            <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png"
+                              style={{ marginTop: '-15%' }}
+                            />
+                          &nbsp;
+
+                        </Col>
+
+                          <Col className="col-text-in-modal">
+                            To identify how different parts of a new website will interact with all the others, wireframes
+                            are a incredibly clarifying tool. My wireframing tools are <strong>Figma</strong> and <strong>Sketch</strong>.
+                            Additionally, I create customized icons like the ones you see on these modal windows.
+                            Do you have an app, an icon or a logo you would like to bring to life? How can I help you?
+                        </Col>
+
+                        </Row>
+
+
+                      </CardText>
+                      {/* <Button>Go somewhere</Button> */}
+                    </CardBody>
+                    <CardFooter>&nbsp;</CardFooter>
+                  </Modali.Modal>
+                </Col>
+
+
+
+
+
+
+
                 <Col>
                   <div class="service-div" style={{ margin: "0 auto" }}>
                     <img
@@ -73,9 +148,9 @@ const HowCanIHelp = () => {
                           <Col className="col-text-in-modal">
 
 
-                            My programming language is Javascript, and the library I specialize in
-                            is <strong>React.js</strong> because of its rehusability features. I am highly experienced on <strong>jQuery</strong> (everybody's
-                            first JS library!) and I build my APIs routes using <strong>Node.js</strong> and <strong>Express</strong>.
+                            My programming language is Javascript, and I specialize in the the <strong>React.js</strong> library
+                            because of its rehusability features. I am proficient on <strong>jQuery</strong> (everybody's
+                            first JS library!) and I build my APIs routes using <strong>Node.js</strong> with <strong>Express</strong>.
                             Need a Javascript developer? How can I help you?
 
                           </Col>
@@ -89,6 +164,12 @@ const HowCanIHelp = () => {
                     <CardFooter>&nbsp;</CardFooter>
                   </Modali.Modal>
                 </Col>
+
+
+
+
+
+
 
                 <Col>
                   <div class="service-div" style={{ margin: "0 auto" }}>
@@ -139,10 +220,9 @@ const HowCanIHelp = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Rendering data from an API is essential, but we also want to build
-                            an <strong>user-friendly</strong> interface where clients can intutively find the data they need.
-                            My <strong>CSS</strong> libraries to achieve this goal
-                            are <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for
+                            I prioritize building <strong>user-friendly</strong> interfaces that allow users to intutively find the
+                            data they need because displaying data from an API is simply not enough. The <strong>CSS</strong> libraries I use
+                            to achieve this goal are <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for
                             dynamic properties), and <strong>Styled Components</strong>. Do you need a UI developer? How can I help you?
                           </Col>
 
@@ -156,71 +236,8 @@ const HowCanIHelp = () => {
                   </Modali.Modal>
                 </Col>
 
-                <Col>
-                  <div class="service-div" style={{ margin: "0 auto" }}>
-                    <img
-                      class="service-div-img"
-                      src="https://alfredorafael.com/wp-content/uploads/2019/03/WebDes3.png"
-                      alt="Project Screenshot"
-                    />
-                    <div class="overlay-div" onClick={toggleDesignModal}>
-                      <h1
-                        style={{
-                          marginTop: "34%",
-                          fontWeight: "thin",
-                          color: "white",
-                          fontSize: "200%",
-                        }}
-                      >
-                        Web Design
-                    </h1>
-                    </div>
-                  </div>
-
-                  <Modali.Modal {...designModal}>
-                    <Row>
-                      <div
-                        className="modali-header"
-                        style={{
-                          margin: "-7% 0 0 0",
-                          background: "transparent",
-                          fontWeight: "bold",
-                        }}
-                      >
-                        Web Design
-                    </div>
-                    </Row>
-
-                    <CardBody>
-                      <CardText>
-                        {" "}
-                        <h5 className="title-in-modal" style={{ marginLeft: '9%', zIndex: '99', position: 'relative' }}> My Styling Tools</h5>
-                        <Row>
-                          <Col className="col-pic-in-modal">
-                            <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png"
-                              style={{ marginTop: '-15%' }}
-                            />
-                          &nbsp;
-
-                        </Col>
-
-                          <Col className="col-text-in-modal">
-                            In the web-design process, when identifying how different parts of a new website will
-                            interact with the others, <strong>wireframes</strong> are an incredibly clarifying tool. My wireframing
-                            tools are <strong>Figma</strong> and <strong>Sketch</strong>. I also use these to create unique, customized
-                            icons like the ones you see on these modals. Do you have an app, an icon or logo you would like to
-                            to bring to life? How can I help you?
-                        </Col>
-
-                        </Row>
 
 
-                      </CardText>
-                      {/* <Button>Go somewhere</Button> */}
-                    </CardBody>
-                    <CardFooter>&nbsp;</CardFooter>
-                  </Modali.Modal>
-                </Col>
               </Row>
             </Fade>
           </Container>
