@@ -148,7 +148,7 @@ const Exploratory = () => {
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
               {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-              <h2><strong>Freelance Developer</strong><span>Boston, MA 2017</span></h2>
+              <h2><strong>Freelance Developer</strong><span>Boston, MA 2017-2019</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>AR Web-Communications</span><br />
               <br />
               <ul>
@@ -171,7 +171,7 @@ const Exploratory = () => {
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
               {/* // END Experiences ///////////////////////////////////////////////////////////////////////////////////////////////// */}
-              <h2><strong>Chemical Operations NCOIC</strong><span>Cabo Rojo, PR 2004 – 2011</span></h2>
+              <h2><strong>Chemical Operations NCOIC</strong><span>1-296 C/Co Inf IN, 2004 – 2011</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>US Army National Guard</span><br />
               <br />
               <ul>
@@ -204,31 +204,39 @@ const Exploratory = () => {
 
             <dt>EDUCATION</dt>
             <dd>
-              <h2><strong>Certificate in Web Development</strong><span>Army Coach, London 1889 – 1888</span></h2><br />
-              <p>
-                Office and records management, database administration, event
-                organization, customer support, travel coordination
-              </p><hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
-
-              <h2><strong>Web Develoment Immersive</strong><span>Army Coach, London 1889 – 1888</span></h2><br />
-              <p>
-                Office and records management, database administration, event
-                organization, customer support, travel coordination
-              </p><hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
-
-              <h2><strong>Education and Globalization</strong><span>Army Coach, London 1889 – 1888</span></h2><br />
-              <p>
-                Office and records management, database administration, event
-                organization, customer support, travel coordination
-              </p>              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
-
-              <h2><strong>Health Education</strong><span>Army Coach, London 1889 – 1888</span></h2><br />
-              <p>
-                Office and records management, database administration, event
-                organization, customer support, travel coordination
-              </p><br />
+              <h2><strong>Undergraduate Certificate in Web Development</strong><span>2017</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Antioch University; Los Angeles, CA</span><br />
+              <span>Credentials</span>
 
 
+
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
+              <h2><strong>Web Development Immersive</strong><span>2019</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>General Assembly; Boston, MA</span><br />
+              <span>Credentials</span>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
+
+              <h2><strong>Front-End Web Development</strong><span>2018</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>General Assembly; Boston, MA</span><br />
+              <span>Credentials</span>
+
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
+
+              <h2><strong>Masters in Education and Globalization</strong><span>2013</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Oulu University; Finland, Oulu</span><br />
+              <span>Credentials</span>
+
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
+
+              <h2><strong>US Army Chemical School</strong><span>2004</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Fort Leonard Wood; Big Piney, MO</span><br />
+              <span>Credentials</span>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
+
+              <h2><strong>Bachellors in Health Education</strong><span>2009</span></h2>
+              <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Inter-American University; San Germán, PR</span><br />
+              <span>Credentials</span>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
             </dd>
           </dl>
           {/* <dl>
@@ -244,7 +252,7 @@ const Exploratory = () => {
 
         </div>
       </Container>
-    </React.Fragment >
+    </React.Fragment>
   );
 };
 
