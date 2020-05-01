@@ -18,6 +18,32 @@
   font-size: 100%;
 }
 
+
+div#resume a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #040182;
+  transition: .2s;
+}
+
+.creds {
+  color: #040182;
+}
+.creds:hover {
+  color: blue;
+}
+
+
+
+@media screen and (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 1) {
+  #resume .contact-information {
+    display: none;
+    
+  }
+}
+
+
+
+
 /* --------Previous--------- */
 #resume {
   background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg)
@@ -62,17 +88,18 @@ div#resume h2 span {
 div#resume p {
   margin: 0 0 16px 0
 }
-
+/* 
 div#resume a {
   color: #999;
   text-decoration: none;
-  border-bottom: 1px dotted #999
+  border-bottom: 1px dotted #999;
+  font-size: inherit;
 }
 
 div#resume a:hover {
   border-bottom-style: solid;
   color: #000
-}
+} */
 
 div#resume p.objective {
   font-family: Georgia, serif;

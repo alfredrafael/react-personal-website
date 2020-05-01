@@ -11,6 +11,12 @@ import $ from 'jquery';
 
 const App = () => {
 
+  window.onload = function () {
+    setTimeout(function () {
+      // alert('wepa')
+      document.getElementById('home-link').click();
+    }, 1000);
+  };
 
   // window.onload = () => {
   //   $(document).ready(function () {

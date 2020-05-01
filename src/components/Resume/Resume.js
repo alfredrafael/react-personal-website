@@ -32,21 +32,36 @@ const Exploratory = () => {
           <h1>Alfredo R. Pabón</h1>
 
           {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-          <section style={{ background: 'rgba(173, 216, 230, .5)', padding: '1% 0 .01% 1%', borderRadius: '5px' }}>
+          <section className="contact-information" style={{ background: 'rgba(173, 216, 230, .5)', padding: '1% 0 .01% 1%', borderRadius: '5px' }}>
             <Row style={{ marginBottom: '1.5%' }}>
               <Col style={{}}>
                 <Row>
-                  <i className="fas fa-envelope" style={{ fontSize: "150%", color: "#464646", marginRight: '3%' }} />{" "}
-                  <h2 className="text-in-contact-info">alfredrafael@gmail.com</h2>
+                  <a href="https://alfredorafael.com/wp-content/uploads/2020/04/Resume_Alfredo_Rafael.pdf" target="_blank" rel="noreferrer noopener">
+                    <i className="fas fa-file-pdf" style={{ fontSize: "180%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
+                  </a>
+
+                  &nbsp; &nbsp;
+
+
+                  <a href="https://www.linkedin.com/in/alfredo-rafael/" target="_blank" rel="noreferrer noopener">
+                    <h2 className="text-in-contact-info" style={{ fontSize: '120%', marginTop: '1%' }}>PDF version</h2>
+                  </a>
                 </Row>
               </Col>
 
               <Col>
                 <Row>
-                  <i class="fab fa-github" style={{ fontSize: "175%", marginLeft: ".20%", marginRight: '4%', color: '#464646', }} />{" "}
-                  <h2 className="text-in-contact-info">github.com/alfredrafael/</h2>
-                </Row>
+                  <a href="tel:+16175801400" rel="noopener noreferrer" target="_blank">
+                    <i className="fas fa-envelope" style={{ fontSize: "150%", color: "#464646", marginRight: '3%' }} />{" "}
+                  </a>
 
+                  &nbsp; &nbsp;
+
+
+                  <a href="tel:+16175801400" rel="noopener noreferrer" target="_blank">
+                    <h2 className="text-in-contact-info">alfredrafael@gmail.com</h2>
+                  </a>
+                </Row>
               </Col>
             </Row>
             {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -64,8 +79,15 @@ const Exploratory = () => {
 
               <Col>
                 <Row>
-                  <i className="fab fa-linkedin" style={{ fontSize: "180%", marginLeft: ".20%", marginRight: '4%', color: '#464646' }} />{" "}
-                  <h2 className="text-in-contact-info">linkedin.com/in/alfredo-rafael/</h2>
+                  <a href="https://www.linkedin.com/in/alfredo-rafael/" target="_blank" rel="noreferrer noopener">
+                    <i className="fab fa-linkedin" style={{ fontSize: "180%", marginLeft: ".20%", marginRight: '4%', color: '#464646' }} />{" "}
+                  </a>
+
+                  &nbsp; &nbsp;
+
+                  <a href="https://www.linkedin.com/in/alfredo-rafael/" target="_blank" rel="noreferrer noopener">
+                    <h2 className="text-in-contact-info">linkedin.com/alfredo-rafael/</h2>
+                  </a>
                 </Row>
               </Col>
             </Row>
@@ -77,18 +99,7 @@ const Exploratory = () => {
 
 
             {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-            <Row style={{ marginBottom: '1%' }}>
-              <Col style={{}}>
-                <Row>
-                  <i className="fas fa-file-pdf" style={{ fontSize: "180%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
-                  <h2 className="text-in-contact-info" style={{ fontSize: '120%', marginTop: '1%' }}>PDF version</h2>
-                </Row>
-              </Col>
 
-              <Col>
-                {/* Nothing Here yet */}
-              </Col>
-            </Row>
           </section>
           {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
@@ -137,7 +148,7 @@ const Exploratory = () => {
               </ul>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
               {/* // Experience 2 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-              <h2><strong>Software Developer</strong><span>Malden, MA Fall – 2019</span></h2>
+              <h2><strong>Software Developer</strong><span>Waltham, MA Fall – 2019</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Commonwealth Financial</span><br />
               <br />
               <ul>
@@ -206,36 +217,36 @@ const Exploratory = () => {
             <dd>
               <h2><strong>Undergraduate Certificate in Web Development</strong><span>2017</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Antioch University; Los Angeles, CA</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Antioch.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
 
 
 
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
               <h2><strong>Web Development Immersive</strong><span>2019</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>General Assembly; Boston, MA</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/WDI.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
               <h2><strong>Front-End Web Development</strong><span>2018</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>General Assembly; Boston, MA</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-30-at-3.26.05-PM.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
 
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
               <h2><strong>Masters in Education and Globalization</strong><span>2013</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Oulu University; Finland, Oulu</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Oulu-Transcript-Screenshot.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
 
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
-              <h2><strong>US Army Chemical School</strong><span>2004</span></h2>
+              <h2><strong>US Army Chemical School</strong><span>2005</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Fort Leonard Wood; Big Piney, MO</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/DiplomaArmy-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
               <h2><strong>Bachellors in Health Education</strong><span>2009</span></h2>
               <span style={{ fontStyle: 'italic', fontSize: '115%' }}>Inter-American University; San Germán, PR</span><br />
-              <span>Credentials</span>
+              <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Diploma-Inter-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
               <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
             </dd>
           </dl>

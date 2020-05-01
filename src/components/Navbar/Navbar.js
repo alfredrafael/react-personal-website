@@ -15,17 +15,6 @@ import './CssNavbar.css';
 import $ from 'jquery';
 
 
-// $(document).ready(function () {
-//   setTimeout(function () {
-
-//     $("#home-link").click();
-//   }, 10);
-// });
-// window.onload = () => {
-//   $(document).ready(function () {
-//     $("#home-link").click();
-//   })
-// };
 
 const Example = (props) => {
 
@@ -33,15 +22,20 @@ const Example = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  const clickIt = () => {
-    $(document).ready(function () {
-      $("#home-link").click();
-    })
-  }
-
-  clickIt();
-
   useEffect(() => {
+
+
+    // window.onload = function () {
+    //   setTimeout(function () {
+    //     alert('wepa')
+    //     document.getElementById('home-link').click();
+    //   }, 1000);
+    // };
+    //  $(document).ready(function () {
+    //    $(".home-link").trigger('click');
+    //  });
+
+
 
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)"); // changes to...
 
@@ -70,7 +64,7 @@ const Example = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="ml-auto" navbar>
 
-                <NavItem id="home-link" className="nav-link" onClick={clickIt}>
+                <NavItem className="nav-link" id="home-link">
                   <a href='/'>
                     Home
             </a>
