@@ -49,7 +49,7 @@ const App = () => {
   //   }, 10);
   // });
 
-  window.history.pushState({}, '', '/') //AMAZING
+  // window.history.pushState({}, '', '/') //AMAZING
 
 
 
