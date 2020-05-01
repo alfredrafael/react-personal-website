@@ -11,6 +11,8 @@ import $ from 'jquery'; // adds jquery
 //   $("#home-link").click(); 
 // });
 
+
+
 ReactDOM.render(
   <React.Fragment>
     <App />

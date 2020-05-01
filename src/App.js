@@ -11,12 +11,13 @@ import $ from 'jquery';
 
 const App = () => {
 
-  window.onload = function () {
-    setTimeout(function () {
-      // alert('wepa')
-      document.getElementById('home-link').click();
-    }, 1000);
-  };
+  // window.onload = function () {
+  //   setTimeout(function () {
+  //     // alert('wepa')
+  //     document.getElementById('home-link').click();
+  //   }, 1000);
+  // };
+
 
   // window.onload = () => {
   //   $(document).ready(function () {
@@ -48,16 +49,23 @@ const App = () => {
   //   }, 10);
   // });
 
+  window.history.pushState({}, '', '/') //AMAZING
+
+
+
   return (
     <React.Fragment>
       <Router>
         <Navbar />
 
 
+
+
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/resume" component={Resume} />
+          <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
 

@@ -14,9 +14,16 @@ import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
 import $ from 'jquery';
 
+$(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)"); // changes to...
+
+
+
+// window.history.pushState({}, '', '') //AMAZING
+// window.history.pushState({}, '', '/') //AMAZING
 
 
 const Example = (props) => {
+
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,16 +31,28 @@ const Example = (props) => {
 
   useEffect(() => {
 
+    // if (window.location.href === "http://localhost:3000") {
+    //   window.history.pushState("http://localhost:3000/resume", "resume");
+    // }
 
     // window.onload = function () {
     //   setTimeout(function () {
-    //     alert('wepa')
+    //     document.getElementById('home-link').click();
+    //     $("#home-link").trigger('click');
+    //  window.location.replace("/"); //interesting
+    //   $("#home-link").css("display", "none");
+    //   }, 1000);
+    // };
+
+
+    // window.onload = function () {
+    //   setTimeout(function () {
     //     document.getElementById('home-link').click();
     //   }, 1000);
     // };
-    //  $(document).ready(function () {
-    //    $(".home-link").trigger('click');
-    //  });
+    // $(document).ready(function () {
+    //   $("#home-link").trigger('click');
+    // });
 
 
 
