@@ -88,7 +88,7 @@ const HowCanIHelp = () => {
                             Wireframes are an incredibly clarifying way of identifying how
                             different parts of a website will interact with all the others.
                             My wireframing tools are <strong>Figma</strong> and <strong>Sketch</strong>.
-                            Additionally, I creaSte customized icons like the ones you see on these modal windows.
+                            Additionally, I create customized icons like the ones you see on these modal windows.
                             Do you have an app, an icon or a logo you would like to bring to life? How can I help you?
                         </Col>
 
