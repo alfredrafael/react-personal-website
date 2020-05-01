@@ -11,7 +11,7 @@
 
 .slider-video {
   max-height: 100vh;
-  background: black;
+  background: black !important;
   box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
 }
 
