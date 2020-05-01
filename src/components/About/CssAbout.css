@@ -28,6 +28,10 @@
       opacity: .7;
   }
 
+  p .about-bolding {
+      font-weight: bolder !important;
+   }
+
 
 
 /*---LAPTOPS AND ABOVE---*/

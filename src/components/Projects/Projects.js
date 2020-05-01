@@ -17,7 +17,7 @@ const Projects = () => {
                   src="https://alfredorafael.com/wp-content/uploads/2020/04/movie-app.png"
                   alt="project"
                 />
-                <div className="project-overlay-div" style={{ height: '200%', }}>
+                <div className="project-overlay-div">
                   <div className="inner-overlay-div">
                     <a
                       href="https://alfredo-movie-app-with-react.netlify.app/"

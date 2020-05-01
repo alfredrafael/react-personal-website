@@ -11,7 +11,7 @@ import IntroText from '../IntroText';
 
 const items = [
   {
-    video: 'https://alfredorafael.com/wp-content/uploads/2020/04/react-personal-website-clip.mp4',
+    video: 'https://alfredorafael.com/wp-content/uploads/2020/05/personal-website-clip.mp4',
     id: 3
   },
   // {

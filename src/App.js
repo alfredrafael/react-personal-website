@@ -6,8 +6,23 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Resume from './components/Resume/Resume';
+import $ from 'jquery';
+
+// window.onload = $('#home-link').click();
+
+// window.onload = function () {
+//   document.getElementById("home-link").click();
+// };
 
 const App = () => {
+
+
+  // $("document").ready(function () {
+  //   setTimeout(function () {
+  //     $("#home-link").trigger('click');
+  //   }, 10);
+  // });
+
   return (
     <React.Fragment>
       <Router>

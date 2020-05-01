@@ -7,24 +7,19 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+
 } from 'reactstrap';
-import $ from 'jquery';
 import { Link } from 'react-router-dom';
 import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
+import $ from 'jquery';
 
 
 const Example = (props) => {
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
 
   useEffect(() => {
 
@@ -55,7 +50,7 @@ const Example = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="ml-auto" navbar>
 
-                <NavItem className="nav-link">
+                <NavItem id="home-link" className="nav-link">
                   <a href='/'>
                     Home
             </a>
