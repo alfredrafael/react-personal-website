@@ -15,11 +15,31 @@ import './CssNavbar.css';
 import $ from 'jquery';
 
 
+// $(document).ready(function () {
+//   setTimeout(function () {
+
+//     $("#home-link").click();
+//   }, 10);
+// });
+// window.onload = () => {
+//   $(document).ready(function () {
+//     $("#home-link").click();
+//   })
+// };
+
 const Example = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const clickIt = () => {
+    $(document).ready(function () {
+      $("#home-link").click();
+    })
+  }
+
+  clickIt();
 
   useEffect(() => {
 
@@ -50,7 +70,7 @@ const Example = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="ml-auto" navbar>
 
-                <NavItem id="home-link" className="nav-link">
+                <NavItem id="home-link" className="nav-link" onClick={clickIt}>
                   <a href='/'>
                     Home
             </a>
@@ -62,40 +82,6 @@ const Example = (props) => {
             </a>
                 </NavItem>
 
-                {/* <NavItem className="nav-link">
-           <a href='/exploratory'>
-              Contact
-            </a>
-           </NavItem>  */}
-
-
-                {/* <Link to="/contact">
-           <NavItem className="nav-link" >
-              Contact
-            </NavItem> 
-          </Link> */}
-
-                {/* 
-           <UncontrolledDropdown nav inNavbar> 
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-              <Link to="/countries">
-                <DropdownItem>
-                  Fetching
-                </DropdownItem>
-              </Link>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-*/}
               </Nav>
               {/* <NavbarText>Simple Text</NavbarText> */}
             </Collapse>

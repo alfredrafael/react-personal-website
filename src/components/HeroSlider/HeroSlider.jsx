@@ -8,18 +8,24 @@ import {
 } from 'reactstrap';
 import './CssHeroSlider.css';
 import IntroText from '../IntroText';
+// import $ from 'jquery';
+
+// $(document).ready(function () {
+//   $("#home-link").click();
+// });
 
 const items = [
   {
     video: 'https://alfredorafael.com/wp-content/uploads/2020/05/personal-website-clip.mp4',
-    id: 3
+    id: 3,
+    src: 'not applies (picture would be here)'
   },
-  // {
-  //   src: 'https://images.opencollective.com/react-firebase-starter/c636859/background.png',//'https://placekitten.com/1375/700', //'https://via.placeholder.com/1400x700.png/0000FF/808080',
-  //   // altText: 'Slide 1',
-  //   // caption: 'Slide 1'
-  //   id: 2
-  // },
+  {
+    src: 'https://images.opencollective.com/react-firebase-starter/c636859/background.png',//'https://placekitten.com/1375/700', //'https://via.placeholder.com/1400x700.png/0000FF/808080',
+    // altText: 'Slide 1',
+    // caption: 'Slide 1'
+    id: 2
+  },
   // {
   //   src: 'https://alfredorafael.com/wp-content/uploads/2019/02/atCove.png', //'https://placekitten.com/1350/700', //'https://via.placeholder.com/1400x700.png',
   //   // altText: 'Slide 1',
@@ -57,6 +63,8 @@ const HeroSlider = (props) => {
         onExited={() => setAnimating(false)}
         key={item.id}
         video={item.video}
+        controls={false}
+        autoPlay={true}
       >
 
         {

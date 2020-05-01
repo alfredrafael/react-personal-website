@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // adds Bootstrap
 import { findDOMNode } from 'react-dom' //adds jquery
 import $ from 'jquery'; // adds jquery
 
+// $(document).ready(function(){
+//   $("#home-link").click(); 
+// });
+
 ReactDOM.render(
   <React.Fragment>
     <App />

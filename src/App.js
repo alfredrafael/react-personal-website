@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -8,13 +8,32 @@ import Footer from './components/Footer/Footer';
 import Resume from './components/Resume/Resume';
 import $ from 'jquery';
 
-// window.onload = $('#home-link').click();
-
-// window.onload = function () {
-//   document.getElementById("home-link").click();
-// };
 
 const App = () => {
+
+
+  // window.onload = () => {
+  //   $(document).ready(function () {
+  //     $("#home-link").click();
+  //   })
+  // };
+
+
+  // useEffect(() => {
+  //   window.onload = () => {
+  //     $("#home-link").click();
+  //   }
+  // })
+
+  // window.onload = function () {
+  //   document.getElementById("home-link").click();
+  // };
+
+
+  // $(document).ready(function () {
+  //   $("#home-link").click();
+  // });
+
 
 
   // $("document").ready(function () {
