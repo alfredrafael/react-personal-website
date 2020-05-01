@@ -17,7 +17,7 @@ const Projects = () => {
                   src="https://alfredorafael.com/wp-content/uploads/2020/04/movie-app.png"
                   alt="project"
                 />
-                <div className="project-overlay-div">
+                <div className="project-overlay-div" style={{ height: '200%', }}>
                   <div className="inner-overlay-div">
                     <a
                       href="https://alfredo-movie-app-with-react.netlify.app/"
@@ -44,7 +44,7 @@ const Projects = () => {
 
             <Col>
               <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
-                <h3>Fetch Movie App <small></small></h3>
+                <h3>Fetch Movie App<small></small></h3>
 
                 <p>
                   This application fetches data from{" "} <strong>The Movie Database API</strong> (TMDB)
@@ -195,6 +195,73 @@ const Projects = () => {
                 <h3>Vets-In-Tech</h3>
 
                 <p>
+                  This web application showcases students and faculty members of Vets-in-Tech: First Class,
+                  (New England Chapter) by providing users with a view of each cohort member, with his/her
+                  bio, and a picture-gallery of the learning process. I took and edited the pictures and
+                  videos myself.
+                <br />
+                  <br />
+                  <br />
+                  <br />
+                  <div style={{ display: "flex" }}>
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-css3-plain "></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
+
+                  </div>
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Fade>
+
+        {/* <Fade>
+          <Row>
+            <Col>
+              <div class="project-div" style={{ flex: "1" }}>
+                <img
+                  class="project-div-img"
+                  src="https://alfredorafael.com/wp-content/uploads/2019/05/ViTOuter.png"
+                  alt="project"
+                />
+                <div className="project-overlay-div">
+                  <div className="inner-overlay-div">
+                    <a
+                      href="https://alfredrafael.github.io/vets-in-tech/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content visit-website">
+                        Visit Website{" "}
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/alfredrafael/vets-in-tech"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content view-code">
+                        <i className="devicon-github-plain"></i>&nbsp; View Code
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
+
+            <Col>
+              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+                <h3>Vets-In-Tech</h3>
+
+                <p>
                   This web application showcases students and faculty members of{" "}
                   <strong>Vets-in-Tech: First Class</strong>, (New England
                   Chapter) by providing users with a view of each cohort member,
@@ -221,7 +288,7 @@ const Projects = () => {
               </div>
             </Col>
           </Row>
-        </Fade>
+        </Fade> */}
       </Container>
     </React.Fragment>
   );
