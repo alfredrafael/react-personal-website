@@ -71,7 +71,7 @@ const Example = (props) => {
                 </NavItem>
 
                 <NavItem className="nav-link">
-                  <a href='/resume'>
+                  <a href='https://alfredorafael.com/wp-content/uploads/2020/04/Resume_Alfredo_Rafael.pdf' target="_blank" rel="noopener noreferrer">
                     Resume
             </a>
                 </NavItem>
