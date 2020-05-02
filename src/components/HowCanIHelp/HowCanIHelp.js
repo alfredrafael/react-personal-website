@@ -74,7 +74,10 @@ const HowCanIHelp = () => {
                     <CardBody>
                       <CardText>
                         {" "}
-                        <h5 className="title-in-modal" style={{ marginLeft: '6%', zIndex: '99', position: 'relative' }}> My Web Design Tools</h5>
+
+
+                        <h5 className="title-in-modal" style={{ marginLeft: '7%', zIndex: '99', position: 'relative', }}> My Web Design Tools</h5>
+
                         <Row>
                           <Col className="col-pic-in-modal">
                             <img className='pic-in-modal' alt="UXD Process" src="https://alfredorafael.com/wp-content/uploads/2020/04/UXD-Logo.png"
@@ -138,7 +141,7 @@ const HowCanIHelp = () => {
                     <CardBody>
                       <CardText>
                         {" "}
-                        <h5 className="title-in-modal">My Programming Languages</h5>
+                        <h5 className="title-in-modal" style={{ marginLeft: '3%' }}> My Programing Languages</h5>
                         <Row>
                           <Col className="col-pic-in-modal">
 
@@ -147,7 +150,6 @@ const HowCanIHelp = () => {
                           </Col>
 
                           <Col className="col-text-in-modal">
-
 
                             My programming language is Javascript, and I specialize in the <strong>React.js</strong> library
                             because of its reusability features. I am proficient on <strong>jQuery</strong> (everybody's

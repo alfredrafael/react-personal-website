@@ -93,7 +93,9 @@
   }
 
   .title-in-modal {
-    font-weight: bold;
+    font-weight: bold !important;
+    margin-left: 1%;
+    font-size: 115% !important;
   }
 
   .col-text-in-modal span {

@@ -3,6 +3,7 @@
     z-index: 99;
     /*background: rgba(186, 177, 177, 0.25);*/
     background: rgba(4, 1, 130, .15);
+    max-width: 100% !important;
 } 
 
 .sticky {
