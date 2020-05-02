@@ -11,47 +11,7 @@ import $ from 'jquery';
 
 const App = () => {
 
-  // window.onload = function () {
-  //   setTimeout(function () {
-  //     // alert('wepa')
-  //     document.getElementById('home-link').click();
-  //   }, 1000);
-  // };
-
-
-  // window.onload = () => {
-  //   $(document).ready(function () {
-  //     $("#home-link").click();
-  //   })
-  // };
-
-
-  // useEffect(() => {
-  //   window.onload = () => {
-  //     $("#home-link").click();
-  //   }
-  // })
-
-  // window.onload = function () {
-  //   document.getElementById("home-link").click();
-  // };
-
-
-  // $(document).ready(function () {
-  //   $("#home-link").click();
-  // });
-
-
-
-  // $("document").ready(function () {
-  //   setTimeout(function () {
-  //     $("#home-link").trigger('click');
-  //   }, 10);
-  // });
-
   // window.history.pushState({}, '', '/') //AMAZING
-
-
 
   return (
     <React.Fragment>

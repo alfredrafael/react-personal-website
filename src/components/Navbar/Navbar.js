@@ -16,11 +16,7 @@ import $ from 'jquery';
 
 $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)"); // changes to...
 
-
-
-// window.history.pushState({}, '', '') //AMAZING
 // window.history.pushState({}, '', '/') //AMAZING
-
 
 const Example = (props) => {
 
@@ -30,31 +26,6 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   useEffect(() => {
-
-    // if (window.location.href === "http://localhost:3000") {
-    //   window.history.pushState("http://localhost:3000/resume", "resume");
-    // }
-
-    // window.onload = function () {
-    //   setTimeout(function () {
-    //     document.getElementById('home-link').click();
-    //     $("#home-link").trigger('click');
-    //  window.location.replace("/"); //interesting
-    //   $("#home-link").css("display", "none");
-    //   }, 1000);
-    // };
-
-
-    // window.onload = function () {
-    //   setTimeout(function () {
-    //     document.getElementById('home-link').click();
-    //   }, 1000);
-    // };
-    // $(document).ready(function () {
-    //   $("#home-link").trigger('click');
-    // });
-
-
 
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)"); // changes to...
 
