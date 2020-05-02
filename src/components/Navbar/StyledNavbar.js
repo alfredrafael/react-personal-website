@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledNavbar  = styled.div`
+export const StyledNavbar = styled.div`
 && Navbar {
     background-color: red;
   }

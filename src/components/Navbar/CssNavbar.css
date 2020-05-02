@@ -51,7 +51,7 @@
     box-shadow: none;
     z-index: 99;
     background: #040182;
-    opacity: .8;
+    opacity: .7;
 } 
 
 .navbar-brand {
@@ -83,6 +83,12 @@ button.navbar-toggler {
 .header.scrolled {
     background-color: rgba(0, 0, 0, .1) !important;
   }
+
+
+.nav-link a:hover {
+  background: transparent;
+  border: none;
+}
 
 }
 

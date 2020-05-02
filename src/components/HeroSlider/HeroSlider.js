@@ -11,7 +11,11 @@ import WebDevIcons from '../WebDevIcons';
 const HeroSlider = () => {
   return (
     <React.Fragment>
-      <div className='' style={{ height: '100%', marginBottom: '-1%' }}>
+      <div className="mobile-hero-picture" style={{ height: '100%' }}>
+        <img src="https://alfredorafael.com/wp-content/uploads/2020/05/background.png" style={{ background: 'cover', maxWidth: '100%' }} alt="React.js logo" />
+        <IntroText />
+      </div>
+      <div className='desktop-hero-video' style={{ height: '100%', marginBottom: '-1%' }}>
         <div style={{ background: 'black', }}>
           <video
             autoPlay
