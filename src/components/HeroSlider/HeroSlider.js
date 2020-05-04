@@ -4,7 +4,7 @@ import {
 } from 'reactstrap';
 import './CssHeroSlider.css';
 import IntroText from '../IntroText';
-import WebDevIcons from '../WebDevIcons';
+import Navbar from '../Navbar';
 
 
 
@@ -49,7 +49,7 @@ const HeroSlider = () => {
 
           : <div>
 
-            <div className='fade-effect' style={{}}>
+            <div className='loading-picture fade-effect' style={{}}>
               <img src="https://alfredorafael.com/wp-content/uploads/2020/05/preload_pic_video_dimensions.png" style={{ background: 'cover', maxWidth: '100%' }} alt="React.js logo" />
               <IntroText />
             </div>

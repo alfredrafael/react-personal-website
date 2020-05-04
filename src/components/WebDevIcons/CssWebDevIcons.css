@@ -89,7 +89,7 @@
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    
+/*     
     .devicon-html5-plain, 
     .html-div {
         display: none;
@@ -98,6 +98,10 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    } */
+
+    .icons-row-container {
+        display: none;
     }
 }
 
@@ -112,6 +116,13 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    }
+
+
+
+
+    .icons-row-container {
+        display: none;
     }
 }
 
@@ -129,6 +140,13 @@
         margin-left: 20%;
     }
 
+
+
+
+    .icons-row-container {
+        display: none;
+    }
+
 }
 
 /* Galaxy Note 9 */
@@ -143,6 +161,14 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    }
+
+
+
+
+
+    .icons-row-container {
+        display: none;
     }
  }
 
@@ -172,6 +198,14 @@
         font-size: 200%;
         margin-left: 20%;
     }
+
+
+
+
+
+    .icons-row-container {
+        display: none;
+    }
 }
 
 /*iPhone 6+/7+/8+ */
@@ -186,6 +220,12 @@
         font-size: 200%;
         margin-left: 20%;
     }
+
+
+
+    .icons-row-container {
+        display: none;
+    }
 }
 
 /*iPhone X*/
@@ -199,6 +239,12 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    }
+
+
+
+    .icons-row-container {
+        display: none;
     }
 }
 
@@ -228,6 +274,13 @@
         font-size: 200%;
         margin-left: 20%;
     }
+
+
+
+
+    .icons-row-container {
+        display: none;
+    }
 }
 
 /*Galaxy 5s*/
@@ -241,6 +294,14 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    }
+
+
+
+
+
+    .icons-row-container {
+        display: none;
     }
 }
 
@@ -258,6 +319,15 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
+    }
+
+
+
+
+
+
+    .icons-row-container {
+        display: none;
     }
 }
 

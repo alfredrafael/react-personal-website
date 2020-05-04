@@ -13,6 +13,7 @@
   opacity: 0.5;
   }
 
+
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 @media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -20,6 +21,10 @@
     display: block;
   }
   .desktop-hero-video {
+    display: none;
+  }
+
+  .loading-picture {
     display: none;
   }
 }

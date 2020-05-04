@@ -1,67 +1,87 @@
-/* .navbar-css {
-    box-shadow: 0 5px 5px -2px rgba(0,0,0,.2);
-    z-index: 99;
-    background: rgba(4, 1, 130, .15);
-    width: 100% !important;
-} 
+.navbar-css {
+  /* z-index: 9999;
+  position: relative; */
+  /* background: rgba(4, 1, 130, .7); */
+  margin-bottom: -7%;
+  /* transition: 1s; */
+  }
+  
+  .navbar-border-shadow {
+    box-shadow: 0 5px 5px -2px rgba(0,0,0,.2) !important;    
+  }
 
-.sticky {
-    position: fixed;
-    width: 100%;
+.navbar-logo {
+    max-width: 34%;
+  }
+
+  .nav-link a {
+    color: white;
+    text-shadow: .5px .5px #040182;
+    font-size: 150%;
+  }
+
+  .hovered-link a:hover {
+    text-decoration: none;
+    background: rgba(186, 177, 177, 0.25);
+    border-radius: 5px;
+    color: white !important;
+  }
+  
+  button.navbar-toggler {
+    background: rgba(4, 1, 130, .15) !important;
 }
 
-.header {
-  transition: background-color .2s;
+.navbar-toggler-icon {
+  background: #040182;
 }
-
-.header.scrolled {
-  background-color: rgba(0, 0, 0, .1) !important;
-}
-
-.nav-link { 
-}
-
-.nav-link a {
-  color: white !important;
-  font-weight: bold !important;
-  font-family: 'Manrope', sans-serif;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
-  font-size: 115%;
-  padding: 10% 13% 15% 13%;
-  color: azure !important;
-  text-decoration: none !important;
-}
-
-.nav-link a:hover {
-  background: rgba(186, 177, 177, 0.25);
-  border-radius: 5px;
-  border: 1px solid darkgray;
-} */
 
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
+@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  .navbar-logo {
+    max-width: 20% !important;
+    position: absolute;
+    margin-top: -4%
+  }
+  
+}
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  .navbar-css {
+    background: linear-gradient( #040182, #7573bf) !important;
+  }
+
+  .navbar-toggler {
+    position: relative;
+  }
+
+
 /* 
 .navbar-css {
     box-shadow: none;
     z-index: 99;
     background: #040182;
     opacity: .7;
-} 
+} */
 
 .navbar-brand {
-  max-width: 70%;
-  margin-top: -15%;
-} */
-/* 
+  /*
+  float: right !important;
+   max-width: 70%;
+  margin-top: -15%; */
+}
+ 
 button.navbar-toggler {  
+  /* 
+  text-align: right !important;
   color: white;
   background-color: azure;
   border-radius: 5px;
-  opacity: .6;
-} */
+  opacity: .6; */
+}
 
 /* .nav-link {
   color: white !important;
@@ -86,6 +106,7 @@ button.navbar-toggler {
   background: transparent;
   border: none;
 } */
+
 
 }
 
