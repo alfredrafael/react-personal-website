@@ -54,6 +54,10 @@
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
+  .navbar-fading-effect {
+    background: linear-gradient( #040182, #7573bf) !important;
+  }
+
   .navbar-toggler {
     position: relative;
   }
