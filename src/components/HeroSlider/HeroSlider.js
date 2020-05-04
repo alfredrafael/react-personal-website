@@ -28,8 +28,8 @@ const HeroSlider = () => {
 
         isLoaded ?
 
-          <div className='desktop-hero-video' style={{ transition: '1s' }}>
-            <div style={{ background: 'linear-gradient(black, #464646, black)' }}>
+          <div className='desktop-hero-video fade-effect' style={{ transition: '1s' }}>
+            <div style={{ background: 'linear-gradient(black, #3d3d3d, black)' }}>
               <video
                 autoPlay
                 muted
@@ -38,7 +38,7 @@ const HeroSlider = () => {
                   width: "100%",
                   left: 0,
                   top: 0,
-                  opacity: '.7'
+                  opacity: '.7',
                 }}
               >
                 <source src="https://alfredorafael.com/wp-content/uploads/2020/05/personal-website-clip.mp4" type="video/mp4" />
