@@ -28,8 +28,8 @@ const HeroSlider = () => {
 
         isLoaded ?
 
-          <div className='desktop-hero-video' style={{}}>
-            <div style={{ background: 'black', }}>
+          <div className='desktop-hero-video' style={{ transition: '1s' }}>
+            <div style={{ background: 'linear-gradient(black, #464646, black)' }}>
               <video
                 autoPlay
                 muted
