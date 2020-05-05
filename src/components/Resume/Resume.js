@@ -36,7 +36,7 @@ const Exploratory = () => {
             <Row style={{ marginBottom: '1.5%' }}>
               <Col style={{}}>
                 <Row>
-                  <a href="https://alfredorafael.com/wp-content/uploads/2020/04/Resume_Alfredo_Rafael.pdf" target="_blank" rel="noreferrer noopener">
+                  <a href="https://alfredorafael.com/wp-content/uploads/2020/05/Resume_Alfredo_Rafael.pdf" target="_blank" rel="noreferrer noopener">
                     <i className="fas fa-file-pdf" style={{ fontSize: "180%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
                   </a>
 
