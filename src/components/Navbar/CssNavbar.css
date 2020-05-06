@@ -1,9 +1,5 @@
-.navbar-css {
-  /* z-index: 9999;
-  position: relative; */
-  /* background: rgba(4, 1, 130, .7); */
+.navbar-css {  
   margin-bottom: -7%;
-  /* transition: 1s; */
   }
   
   .navbar-border-shadow {
@@ -48,43 +44,15 @@
 }
 
 /*iPhone 5*/
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
 
-  .navbar-css {
-    background: linear-gradient( #040182, #7573bf) !important;
-  }
-
-  .navbar-fading-effect {
-    background: linear-gradient( #040182, #7573bf) !important;
-  }
-
-  .navbar-toggler {
-    position: relative;
-  }
-
-.navbar-brand {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   
-}
- 
-button.navbar-toggler {  
-
-}
-
-/* .nav-link {
-  
-} */
-
-/* .nav-link a {
- 
-} */
-
-
-.nav-link a:hover {
- 
+    .navbar-css {
+      background: linear-gradient( #040182, #7573bf) !important;
+    }
 }
 
-
-}
 
 /*Galaxy 5s*/
  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
@@ -191,7 +159,6 @@ button.navbar-toggler {
   .navbar-toggler {
     position: relative;
   }
-
 
 }
 

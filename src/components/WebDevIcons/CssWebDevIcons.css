@@ -39,8 +39,8 @@
     .devicon-express-original, 
     .express-div,
 
-    .wordpress-div,
-    .devicon-wordpress-plain {
+    .icons-row-container .wordpress-div,
+    .icons-row-container .devicon-wordpress-plain {
         display: none;
     }
   
@@ -52,11 +52,11 @@
 
 @media screen and (max-width: 1072px) and (-webkit-min-device-pixel-ratio: 1) {
   
-    .devicon-git-plain,
-    .git-div, 
+    .icons-row-container .devicon-git-plain,
+    .icons-row-container .git-div, 
 
-    .devicon-github-plain,
-    .git-div,
+    .icons-row-container .devicon-github-plain,
+    .icons-row-container .git-div,
     
     .devicon-html5-plain
     .html-div {
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
    
-    .devicon-bootstrap-plain, 
+    .icons-row-container .devicon-bootstrap-plain, 
     .bootstrap-div {
         display: none;
     }

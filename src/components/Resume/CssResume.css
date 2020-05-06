@@ -1,3 +1,8 @@
+
+#resume {
+  width: 80vw;
+}
+
 .skillColumn1 div,
 .skillColumn2 div {
   margin-bottom: 5%;
@@ -8,7 +13,7 @@
 }
 
 #resume li {
-  font-size: 125%;
+  font-size: 100%;
   line-height: 40px;
   line-height: 150%;
 
@@ -24,7 +29,6 @@ div#resume a:hover {
   border-bottom: 1px solid #040182;
   transition: .2s;
 }
-
 .creds {
   color: #040182;
 }
@@ -33,14 +37,14 @@ div#resume a:hover {
 }
 
 
-
 @media screen and (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 1) {
   #resume .contact-information {
     display: none;
-    
+  }
+  div#resume img {
+    display: none;
   }
 }
-
 
 
 
@@ -58,7 +62,7 @@ div#resume {
 div#resume h1 {
   margin: 0 0 16px 0;
   padding: 0 0 16px 0;
-  font-size: 350%;
+  font-size: 250%;
   font-weight: bold;
   letter-spacing: -2px;
   border-bottom: 1px solid #999;
@@ -68,7 +72,7 @@ div#resume h1 {
 }
 
 div#resume h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 6px 0;
   position: relative
 }
@@ -88,18 +92,6 @@ div#resume h2 span {
 div#resume p {
   margin: 0 0 16px 0
 }
-/* 
-div#resume a {
-  color: #999;
-  text-decoration: none;
-  border-bottom: 1px dotted #999;
-  font-size: inherit;
-}
-
-div#resume a:hover {
-  border-bottom-style: solid;
-  color: #000
-} */
 
 div#resume p.objective {
   font-family: Georgia, serif;
@@ -112,7 +104,7 @@ div#resume p.objective {
 div#resume dt {
   /* font-style: italic; */
   font-weight: bolder;
-  font-size: 125%;
+  font-size: 100%;
   text-align: right;
   padding: 0 26px 0 0;
   width: 150px;
@@ -120,17 +112,14 @@ div#resume dt {
   border-right: 1px solid rgba(105, 186, 213, 0.7);
   font-family: Ubuntu, sans-serif !important;
 }
-
 div#resume dl {
   display: table-row
 }
-
 div#resume dl dt,
 div#resume dl dd {
   display: table-cell;
   padding-bottom: 20px
 }
-
 div#resume dl dd {
   width: 100%; /* warning */
   padding-left: 26px
@@ -149,7 +138,7 @@ div#resume img.professional-picture {
 
 
 
-/* -------------------- MEDIA QUERIES --------------- */
+/* --------------- MEDIA QUERIES --------------- */
 
 @media screen and (max-width:1100px) {
   div#resume h2 span {
@@ -160,11 +149,41 @@ div#resume img.professional-picture {
 }
 
 @media screen and (max-width:550px) {
+
   body {
-    margin: 1rem
+    margin: 0
   }
-  div#resume img {
-    transform: rotate(0deg)
+  /* img {
+    margin: 0;
+    margin-bottom: -40px
+  } */
+  div#resume {
+    width: 320px;
+    padding: 12px;
+    overflow: hidden
+  }
+  #resume p,
+  li {
+    margin-right: 20px
+  }
+  #resume h1 { /*minun */
+    font-size: 200% !important;
+    margin-right: 0;
+    line-height: 0;
+    margin-bottom: -3% !important;
+  }
+  div#resume {
+    width: 50vh !important;
+    overflow: hidden !important;
+    padding-right: -10% !important;
+  }
+  #resume .deployment-details {
+    display: none;
+  }
+  div#resume h2 span {
+    position: static !important;
+    display: block !important;
+    margin-top: 2px;
   }
 }
 
@@ -202,15 +221,76 @@ div#resume img.professional-picture {
   div#resume img {
     margin: 0
   }
+  body {
+    margin: 0
+  }
+  /* img {
+    margin: 0;
+    margin-bottom: -40px
+  } */
+  div#resume {
+    width: 320px;
+    padding: 12px;
+    overflow: hidden
+  }
+  #resume p,
+  li {
+    margin-right: 20px
+  }
+  #resume h1 { /*minun */
+    font-size: 200% !important;
+    margin-right: 0;
+    line-height: 0;
+    margin-bottom: -3% !important;
+  }
+  div#resume {
+    width: 50vh !important;
+    overflow: hidden !important;
+    padding-right: -10% !important;
+  }
+  #resume .deployment-details {
+    display: none;
+  }
 }
 
 @media screen and (max-width:320px) {
   body {
     margin: 0
   }
-  img {
+  /* img {
     margin: 0;
     margin-bottom: -40px
+  } */
+  div#resume {
+    width: 320px;
+    padding: 12px;
+    overflow: hidden
+  }
+  #resume p,
+  li {
+    margin-right: 20px
+  }
+  #resume h1 { /*minun */
+    font-size: 200% !important;
+    margin-right: 0;
+    line-height: 0;
+    margin-bottom: -3% !important;
+  }
+  div#resume {
+    width: 50vh !important;
+    overflow: hidden !important;
+    padding-right: -10% !important;
+  }
+  #resume .deployment-details {
+    display: none;
+  }
+}
+
+
+/*----- other media queries-----*/
+@media (max-width: 575.98px) { 
+  #resume i {
+    font-size: 105% !important;
   }
   div#resume {
     width: 320px;
@@ -221,4 +301,29 @@ div#resume img.professional-picture {
   li {
     margin-right: 20px
   }
+  #resume h1 { /*minun */
+    font-size: 200% !important;
+    margin-right: 0;
+    line-height: 0;
+    margin-bottom: -3% !important;
+  }
+  div#resume {
+    width: 45vh !important;
+    overflow: hidden !important;
+    padding-right: -10% !important;
+  }
+  #resume .deployment-details {
+    display: none;
+  }
 }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
