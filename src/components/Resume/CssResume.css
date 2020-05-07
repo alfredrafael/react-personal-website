@@ -1,6 +1,6 @@
 
 #resume {
-  width: 80vw;
+  width: 80vw; 
 }
 
 .skillColumn1 div,
@@ -49,9 +49,10 @@ div#resume a:hover {
 
 
 /* --------Previous--------- */
-#resume {
+#resume, #resume-container {
   background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg)
 }
+
 
 div#resume {
   min-width: 310px;
@@ -102,13 +103,11 @@ div#resume p.objective {
 /* section on left side*/
 
 div#resume dt {
-  /* font-style: italic; */
   font-weight: bolder;
   font-size: 100%;
   text-align: right;
   padding: 0 26px 0 0;
   width: 150px;
-  /* border-right: 1px solid #999; */
   border-right: 1px solid rgba(105, 186, 213, 0.7);
   font-family: Ubuntu, sans-serif !important;
 }
@@ -149,14 +148,13 @@ div#resume img.professional-picture {
 }
 
 @media screen and (max-width:550px) {
-
-  body {
-    margin: 0
+  
+  div#resume {
+    min-width: 95vw !important;
+    padding: 15% 0 !important;
   }
-  /* img {
-    margin: 0;
-    margin-bottom: -40px
-  } */
+  
+
   div#resume {
     width: 320px;
     padding: 12px;
@@ -184,6 +182,21 @@ div#resume img.professional-picture {
     position: static !important;
     display: block !important;
     margin-top: 2px;
+  }
+  div#resume h2 span {
+    position: static !important;
+    display: block !important;
+    margin-top: 2px;
+    font-size: 70% !important;
+
+  }
+
+  #resume dt {
+    font-size: 90% !important;
+  }
+
+  #resume h2 strong {
+    font-size: 90% !important;
   }
 }
 
@@ -224,10 +237,7 @@ div#resume img.professional-picture {
   body {
     margin: 0
   }
-  /* img {
-    margin: 0;
-    margin-bottom: -40px
-  } */
+  
   div#resume {
     width: 320px;
     padding: 12px;
@@ -251,16 +261,15 @@ div#resume img.professional-picture {
   #resume .deployment-details {
     display: none;
   }
+
 }
 
 @media screen and (max-width:320px) {
+  
   body {
     margin: 0
   }
-  /* img {
-    margin: 0;
-    margin-bottom: -40px
-  } */
+
   div#resume {
     width: 320px;
     padding: 12px;
@@ -284,6 +293,8 @@ div#resume img.professional-picture {
   #resume .deployment-details {
     display: none;
   }
+
+
 }
 
 
@@ -317,12 +328,6 @@ div#resume img.professional-picture {
   }
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-}
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-}
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1290px) {
   #resume {
@@ -331,15 +336,30 @@ div#resume img.professional-picture {
   }
 }
 
-/* 1792x828px at 326ppi */
+/* 1792x828px at 326ppi XR 1 */
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) { 
 
-      #resume i {
-        font-size: 105% !important;
+      div#resume h2 span {
+        position: static;
+        display: block;
+        margin-top: 2px
       }
+    }
+
+    /*XR 2*/
+    @media only screen and (min-width: 414px) and (max-width: 767px) { 
+      
+      #resume {
+        max-width: 100%;
+      }
+
+      #resume i {
+        font-size: 275% !important;
+      }
+
       div#resume {
         width: 320px;
         padding: 12px;
@@ -349,7 +369,7 @@ div#resume img.professional-picture {
       li {
         margin-right: 20px
       }
-      #resume h1 { /*minun */
+      #resume h1 { 
         font-size: 200% !important;
         margin-right: 0;
         line-height: 0;
@@ -365,10 +385,18 @@ div#resume img.professional-picture {
       }
 
       div#resume h2 span {
-        position: static;
+        position: static !important;
         display: block !important;
-        margin-top: 2px
+        margin-top: 2px;
+        font-size: 70% !important;
+
       }
 
+      #resume dt {
+        font-size: 90% !important;
+      }
 
+      #resume h2 strong {
+        font-size: 90% !important;
+      }
     }
