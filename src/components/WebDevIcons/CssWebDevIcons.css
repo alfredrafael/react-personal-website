@@ -16,7 +16,7 @@
 }
 
 .dev-icons {
-    font-size: 350%;
+    font-size: 250%;
 }
 
 .tooltip-inner {
@@ -89,7 +89,7 @@
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-/*     
+    
     .devicon-html5-plain, 
     .html-div {
         display: none;
@@ -98,11 +98,11 @@
     .dev-icons {
         font-size: 200%;
         margin-left: 20%;
-    } */
+    } 
 
-    .icons-row-container {
+    /* .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*Galaxy 5s*/
@@ -120,10 +120,10 @@
 
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*Samsung Galaxy Note 3 Media Queries (In terms of Mobile only)*/
@@ -141,11 +141,11 @@
     }
 
 
-
+/* 
 
     .icons-row-container {
         display: none;
-    }
+    } */
 
 }
 
@@ -166,10 +166,10 @@
 
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
  }
 
 /*iPhone XR*/
@@ -203,9 +203,9 @@
 
 
 
-    .icons-row-container {
+    /* .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*iPhone 6+/7+/8+ */
@@ -222,10 +222,10 @@
     }
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*iPhone X*/
@@ -243,9 +243,9 @@
 
 
 
-    .icons-row-container {
+    /* .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*iPhone X & XS*/
@@ -277,10 +277,10 @@
 
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*Galaxy 5s*/
@@ -299,10 +299,10 @@
 
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 /*/////////Other androids///////////*/
@@ -325,10 +325,10 @@
 
 
 
-
+/* 
     .icons-row-container {
         display: none;
-    }
+    } */
 }
 
 

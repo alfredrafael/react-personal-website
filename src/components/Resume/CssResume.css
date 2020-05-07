@@ -324,6 +324,51 @@ div#resume img.professional-picture {
 @media (max-width: 991.98px) { 
 }
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width: 1290px) {
+  #resume {
+    padding: 15% 25% 0 0 !important;
+    max-width: 70vw !important;
+  }
 }
 
+/* 1792x828px at 326ppi */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+
+      #resume i {
+        font-size: 105% !important;
+      }
+      div#resume {
+        width: 320px;
+        padding: 12px;
+        overflow: hidden
+      }
+      #resume p,
+      li {
+        margin-right: 20px
+      }
+      #resume h1 { /*minun */
+        font-size: 200% !important;
+        margin-right: 0;
+        line-height: 0;
+        margin-bottom: -3% !important;
+      }
+      div#resume {
+        width: 45vh !important;
+        overflow: hidden !important;
+        padding-right: -10% !important;
+      }
+      #resume .deployment-details {
+        display: none;
+      }
+
+      div#resume h2 span {
+        position: static;
+        display: block !important;
+        margin-top: 2px
+      }
+
+
+    }

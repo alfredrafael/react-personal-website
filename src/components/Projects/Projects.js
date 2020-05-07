@@ -17,7 +17,7 @@ const Projects = () => {
                   src="https://alfredorafael.com/wp-content/uploads/2020/04/movie-app.png"
                   alt="project"
                 />
-                <div className="project-overlay-div">
+                <div className="project-overlay-div movie-project">
                   <div className="inner-overlay-div">
                     <a
                       href="https://alfredo-movie-app-with-react.netlify.app/"
@@ -43,9 +43,8 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+              <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>Fetch Movie App<small></small></h3>
-
                 <p>
                   This application fetches data from{" "} <strong>The Movie Database API</strong> (TMDB)
                   with React.js, allowing users to see TMDB's most-popular films
@@ -56,7 +55,8 @@ const Projects = () => {
                   styled-components for CSS styling, @reach/router for routing,
                   prop-types for components' output checking, and{" "}
                   <strong>font-awesome</strong> icons.
-                  <div style={{ display: "flex" }}>
+                  <br /><p></p>
+                  <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
                       <i class="devicon-javascript-plain dev-icon-in-description"></i>
                     </div>
@@ -80,7 +80,7 @@ const Projects = () => {
         </Fade>
 
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
-        <br />        <br />
+        <br /><br />
 
 
         <Fade>
@@ -92,7 +92,7 @@ const Projects = () => {
                   src="https://alfredorafael.com/wp-content/uploads/2019/05/NewsAPI.png"
                   alt="project"
                 />
-                <div className="project-overlay-div">
+                <div className="project-overlay-div news-project">
                   <div className="inner-overlay-div">
                     <a
                       href="https://alfredrafael.github.io/news-center/"
@@ -118,7 +118,7 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+              <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>React.js News App</h3>
 
                 <p>
@@ -131,21 +131,21 @@ const Projects = () => {
                   styling, and React's class-based components. I am currently
                   working on creating a "react hooks" version of this very same
                   project, so... Stay tuned!
-                  <div style={{ display: "flex" }}>
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-css3-plain "></i>
-                    </div>
-
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-react-original  dev-icon-in-description"></i>
-                    </div>
-
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
-                    </div>
-
-                  </div>
                 </p>
+                <div style={{ display: "flex" }}>
+                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                    <i class="devicon-css3-plain "></i>
+                  </div>
+
+                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                    <i class="devicon-react-original  dev-icon-in-description"></i>
+                  </div>
+
+                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                    <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                  </div>
+
+                </div>
               </div>
             </Col>
           </Row>
@@ -165,7 +165,7 @@ const Projects = () => {
                   src="https://alfredorafael.com/wp-content/uploads/2019/05/ViTOuter.png"
                   alt="project"
                 />
-                <div className="project-overlay-div">
+                <div className="project-overlay-div vit-project">
                   <div className="inner-overlay-div">
                     <a
                       href="https://alfredrafael.github.io/vets-in-tech/"
@@ -191,8 +191,9 @@ const Projects = () => {
             </Col>
 
             <Col>
-              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+              <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>Vets-In-Tech</h3>
+                <br />
 
                 <p>
                   This web application showcases students and faculty members of Vets-in-Tech: First Class,
@@ -200,8 +201,6 @@ const Projects = () => {
                   bio, and a picture-gallery of the learning process. I took and edited the pictures and
                   videos myself.
                 <br />
-                  <br />
-                  <br />
                   <br />
                   <div style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>

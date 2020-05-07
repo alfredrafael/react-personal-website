@@ -51,13 +51,19 @@
     height: 115% !important;
   }
   /*----------------------------*/
-
+  
   .overlay-div .overlay-text {
-    margin-top: 25%;
+  
+  }
+  
+  .overlay-div h2 {
+    padding-top: 35% !important;
     font-weight: thin !important;
     color: white !important;
-    font-size: 200% !important;
+    font-size: 150% !important;
     text-shadow: 1.5px 1px black !important;
+    margin: auto !important;
+    text-align: center !important;
   }
 
   .modali-header {
@@ -104,7 +110,7 @@
 
 
   .col-text-in-modal {
-    font-size: 135%;
+    font-size: 115%;
   }
 
   .raise-text {

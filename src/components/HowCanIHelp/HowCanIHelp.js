@@ -44,16 +44,16 @@ const HowCanIHelp = () => {
                       alt="Project Screenshot"
                     />
                     <div class="overlay-div" onClick={toggleDesignModal}>
-                      <h1
+                      <h2
                         style={{
                           marginTop: "34%",
                           fontWeight: "thin",
                           color: "white",
-                          fontSize: "200%",
+                          fontSize: "150%",
                         }}
                       >
                         Web Design
-                    </h1>
+                    </h2>
                     </div>
                   </div>
 
@@ -118,8 +118,8 @@ const HowCanIHelp = () => {
                       src="https://alfredorafael.com/wp-content/uploads/2019/03/Group22.png"
                       alt="hello"
                     />
-                    <div class="overlay-div" onClick={toggleWebDevModal}>
-                      <h1 className="overlay-text">Web Development</h1>
+                    <div className="overlay-div" onClick={toggleWebDevModal}>
+                      <h2 className="overlay-text">Web Development</h2>
                     </div>
                   </div>
 
@@ -182,17 +182,7 @@ const HowCanIHelp = () => {
                       alt="Project Screenshot"
                     />
                     <div class="overlay-div" onClick={toggleInstructionalModal}>
-                      <h1
-                        style={{
-                          marginTop: "25%",
-                          fontWeight: "thin",
-                          color: "white",
-                          fontSize: "200%",
-                        }}
-                      >
-
-                        UI <br /> Development
-                    </h1>
+                      <h2> UI Development </h2>
                     </div>
                   </div>
 
