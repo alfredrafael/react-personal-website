@@ -58,7 +58,7 @@ const Example = (props) => {
                 </NavItem>
 
                 <NavItem className="nav-link hovered-link">
-                  <a href='https://alfredorafael.com/wp-content/uploads/2020/05/Resume_Alfredo_Rafael.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href='/resume' target="_blank" rel="noopener noreferrer">
                     Resume
             </a>
                 </NavItem>
