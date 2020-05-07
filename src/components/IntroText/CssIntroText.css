@@ -3,12 +3,12 @@
     position: absolute; 
     top: 60%;
     bottom: 20%;
-    left: 26%;
+    left: 20%;
 }
 
 .carousel-overlay-text h1 {
     z-index: 99 !important;
-    font-size: 400% !important;
+    font-size: 500% !important;
     opacity: .9;
     position: relative;
     color: white;
