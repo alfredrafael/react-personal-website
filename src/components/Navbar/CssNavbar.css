@@ -12,7 +12,7 @@
 
   .nav-link a {
     color: white;
-    text-shadow: .5px .5px #040182;
+    text-shadow: .3px .5px #040182;
     font-size: 115%;
   }
 
@@ -21,6 +21,7 @@
     background: rgba(186, 177, 177, 0.25);
     border-radius: 5px;
     color: white !important;
+    transition: .3s;
   }
   
   button.navbar-toggler {

@@ -58,7 +58,7 @@ const Example = (props) => {
                 </NavItem>
 
                 <NavItem className="nav-link hovered-link">
-                  <a href='/resume' target="_blank" rel="noopener noreferrer">
+                  <a href='/resume'>
                     Resume
             </a>
                 </NavItem>

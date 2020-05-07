@@ -125,27 +125,29 @@ const Projects = () => {
                   This application allow users to see <strong>BBC</strong> and{" "}
                   <strong>TechCrunch</strong> most-popular articles, all fetched
                   and dynamically rendered from <strong>The News API</strong>.
-                  Users can see their selected news article by clicking "Read
+                  Users can see their news article by clicking "Read
                   Full Article" or title of the news-article itself. I built
                   this application using create-react-app, material-UI for CSS
                   styling, and React's class-based components. I am currently
                   working on creating a "react hooks" version of this very same
                   project, so... Stay tuned!
+                  <br /><br />
+                  <div className="project-icons" style={{ display: "flex" }}>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-css3-plain dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
+
+                  </div>
                 </p>
-                <div style={{ display: "flex" }}>
-                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                    <i class="devicon-css3-plain "></i>
-                  </div>
-
-                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                    <i class="devicon-react-original  dev-icon-in-description"></i>
-                  </div>
-
-                  <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                    <i class="devicon-javascript-plain dev-icon-in-description"></i>
-                  </div>
-
-                </div>
               </div>
             </Col>
           </Row>
@@ -202,7 +204,7 @@ const Projects = () => {
                   videos myself.
                 <br />
                   <br />
-                  <div style={{ display: "flex" }}>
+                  <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
                       <i class="devicon-css3-plain "></i>
                     </div>
@@ -222,72 +224,7 @@ const Projects = () => {
           </Row>
         </Fade>
 
-        {/* <Fade>
-          <Row>
-            <Col>
-              <div class="project-div" style={{ flex: "1" }}>
-                <img
-                  class="project-div-img"
-                  src="https://alfredorafael.com/wp-content/uploads/2019/05/ViTOuter.png"
-                  alt="project"
-                />
-                <div className="project-overlay-div">
-                  <div className="inner-overlay-div">
-                    <a
-                      href="https://alfredrafael.github.io/vets-in-tech/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <div className="overlay-content visit-website">
-                        Visit Website{" "}
-                      </div>
-                    </a>
-                    <a
-                      href="https://github.com/alfredrafael/vets-in-tech"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <div className="overlay-content view-code">
-                        <i className="devicon-github-plain"></i>&nbsp; View Code
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Col>
 
-            <Col>
-              <div style={{ marginLeft: "-20%", marginTop: '-3%' }}>
-                <h3>Vets-In-Tech</h3>
-
-                <p>
-                  This web application showcases students and faculty members of{" "}
-                  <strong>Vets-in-Tech: First Class</strong>, (New England
-                  Chapter) by providing users with a view of each cohort member,
-                  with his/her bio, and a picture-gallery of the learning
-                  process. I took and edited the pictures and videos myself.
-                  <div style={{ display: "flex" }}>
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
-                    </div>
-
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-react-original  dev-icon-in-description"></i>
-                    </div>
-
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-css3-plain "></i>
-                    </div>
-
-                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-bootstrap-plain"></i>
-                    </div>
-                  </div>
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Fade> */}
       </Container>
     </React.Fragment>
   );
