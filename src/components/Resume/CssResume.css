@@ -47,7 +47,7 @@ div#resume a:hover {
 
 @media screen and (max-width: 1556px) and (min-width: 1290px) and (-webkit-min-device-pixel-ratio: 1) {
   #resume {
-    min-width: 100% !important;
+    min-width: 90vw !important;
   }
 } 
 
