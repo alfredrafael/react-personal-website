@@ -82,7 +82,7 @@ const Projects = () => {
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br /><br />
 
-
+        {/*
         <Fade>
           <Row>
             <Col>
@@ -156,7 +156,7 @@ const Projects = () => {
 
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br />        <br />
-
+*/}
 
         <Fade>
           <Row>

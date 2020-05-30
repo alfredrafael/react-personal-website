@@ -197,7 +197,7 @@ const Exploratory = () => {
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
                 {/* // END Experiences ///////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Chemical Operations NCOIC</strong><span>1-296 C/Co Inf IN, 2004 – 2011</span></h2>
+                <h2><strong>CBRN Specialist</strong><span>1-296 C/Co, 2004 – 2011</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>US Army National Guard</span><br />
                 <br />
                 <ul>
