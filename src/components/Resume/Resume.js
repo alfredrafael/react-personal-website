@@ -159,12 +159,12 @@ const Exploratory = () => {
                 <br />
                 <ul>
                   <li>
-                    Design and code our clients user interface, improve legacy websites and optimize for responsiveness, load times, user-experience and cross-browser compatibility                </li>
+                    Design and code our clients user interface, improve legacy websites and optimize for responsiveness, load times, user-experience and cross-browser compatibility</li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 2 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <h2><strong>Software Developer</strong><span>Waltham, MA Fall – 2019</span></h2>
-                <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Commonwealth Financial</span><br />
+                <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Beacon Hill Staffing Group</span><br />
                 <br />
                 <ul>
                   <li>
