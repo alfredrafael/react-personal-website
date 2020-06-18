@@ -232,7 +232,7 @@ const Exploratory = () => {
             <dl>
 
 
-              <dt>EDUCATION</dt>
+              <dt id="education">EDUCATION</dt>
               <dd>
                 <h2><strong>Undergraduate Certificate in Web Development</strong><span>2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Antioch University; Los Angeles, CA</span><br />
