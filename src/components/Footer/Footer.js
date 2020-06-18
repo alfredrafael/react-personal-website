@@ -14,7 +14,7 @@ const AppFooter = () => {
                     <Row>
 
                         <Col>
-                            <span> Copyright Ⓒ Alfredo R. Pabon, 2019 </span>
+                            <span> Copyright Ⓒ Alfredo R. Pabon, 2020 </span>
                         </Col>
 
                         <Col>
