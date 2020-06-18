@@ -2,6 +2,10 @@
   width: 80vw; 
 }
 
+#education {
+   scroll-margin-top: 5em;
+}
+
 .skillColumn1 div,
 .skillColumn2 div {
   margin-bottom: 5%;
