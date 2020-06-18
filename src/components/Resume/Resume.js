@@ -229,10 +229,10 @@ const Exploratory = () => {
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
               </dd>
             </dl>
-            <dl>
+            <dl id="education">
 
 
-              <dt id="education">EDUCATION</dt>
+              <dt>EDUCATION</dt>
               <dd>
                 <h2><strong>Undergraduate Certificate in Web Development</strong><span>2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Antioch University; Los Angeles, CA</span><br />
