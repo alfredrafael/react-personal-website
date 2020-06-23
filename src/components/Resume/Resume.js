@@ -191,7 +191,7 @@ const Exploratory = () => {
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Teacher</strong><span>December 2013 – June 2017</span></h2>
+                <h2><strong>Spanish Teacher</strong><span>December 2013 – June 2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Boston Public Schools</span><br />
                 <br />
                 <ul>
