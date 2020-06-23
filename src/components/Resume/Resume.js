@@ -154,27 +154,32 @@ const Exploratory = () => {
               <dd>
 
                 {/* // Experience 1 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Front-End Developer</strong><span>Malden, MA 2019 – June 2020</span></h2>
+                <h2><strong>Front-End Developer</strong><span>December 2019 – June 2020</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Softworld Consulting & Solutions</span><br />
                 <br />
                 <ul>
                   <li>
-                    Design and code our clients user interface, improve legacy websites and optimize for responsiveness, load times, user-experience and cross-browser compatibility</li>
+                    Designed and code our client's UI using jQuery to improve legacy websites
+                  </li>
+                  <br />
+                  <li>
+                    Optimize web-applications for responsiveness, user experience (UX) and cross-browser compatibility
+                  </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 2 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Software Developer</strong><span>Waltham, MA Fall – 2019</span></h2>
+                <h2><strong>Software Developer</strong><span>August-December – 2019</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Beacon Hill Staffing Group</span><br />
                 <br />
                 <ul>
                   <li>
-                    Developed and styled React.js UI applications, leveraging the power of React.js hooks and functional components for internal web application
+                    Developed and styled React.js UI applications, leveraging the power of React-hooks and functional components for internal web application
                 </li><br />
                   <li>Created and edited webpages using OpenText CMS, ServiceNow for task-tracking, and Microsoft TFS for version control</li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Freelance Developer</strong><span>Boston, MA 2017-2019</span></h2>
+                <h2><strong>Freelance Developer</strong><span>December 2017 – August 2019</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>AR Web-Communications</span><br />
                 <br />
                 <ul>
@@ -186,7 +191,7 @@ const Exploratory = () => {
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Teacher</strong><span>Boston, MA 2013 – 2017</span></h2>
+                <h2><strong>Teacher</strong><span>December 2013 – June 2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Boston Public Schools</span><br />
                 <br />
                 <ul>
@@ -234,7 +239,7 @@ const Exploratory = () => {
 
               <dt id="education">EDUCATION</dt>
               <dd>
-                <h2><strong>Undergraduate Certificate in Web Development</strong><span>2017</span></h2>
+                <h2><strong>Certificate in Web Development</strong><span>2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Antioch University; Los Angeles, CA</span><br />
                 <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Antioch.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
 

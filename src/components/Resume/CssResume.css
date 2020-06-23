@@ -116,7 +116,7 @@ div#resume dt {
   font-weight: bolder;
   font-size: 100%;
   text-align: right;
-  padding: 0 26px 0 0;
+  padding: 0 14px 0 0;
   width: 150px;
   border-right: 1px solid rgba(105, 186, 213, 0.7);
   font-family: Ubuntu, sans-serif !important;
@@ -131,7 +131,7 @@ div#resume dl dd {
 }
 div#resume dl dd {
   width: 100%; /* warning */
-  padding-left: 26px
+  padding-left: 10px;
 }
 
 div#resume img.professional-picture {
