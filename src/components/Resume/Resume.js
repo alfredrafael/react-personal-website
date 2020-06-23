@@ -154,7 +154,7 @@ const Exploratory = () => {
               <dd>
 
                 {/* // Experience 1 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Front-End Developer</strong><span>Malden, MA 2019 – present</span></h2>
+                <h2><strong>Front-End Developer</strong><span>Malden, MA 2019 – June 2020</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Softworld Consulting & Solutions</span><br />
                 <br />
                 <ul>
