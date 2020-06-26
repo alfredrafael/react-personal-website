@@ -8,14 +8,16 @@
 
 .carousel-overlay-text h1 {
     z-index: 99 !important;
-    font-size: 500% !important;
+    font-size: 450% !important; /*500*/
     opacity: .9;
     position: relative;
     color: white;
-    font-family: 'Manrope', sans-serif;
+    /*font-family: 'Manrope', sans-serif;*/
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
-    font-weight: thin;
+    font-weight: 350;
+    font-family: 'Roboto Mono', monospace;
 }
+
 
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
