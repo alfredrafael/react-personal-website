@@ -38,14 +38,14 @@ const Exploratory = () => {
 
                 <div style={{ minWidth: '52%' }}>
                   <div style={{ display: 'flex' }}>
-                    <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Resume_Alfredo_Pabon.pdf" target="_blank" rel="noreferrer noopener">
+                    <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
                       <i className="fas fa-file-pdf" style={{ fontSize: "160%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
                     </a>
 
                   &nbsp; &nbsp;
 
 
-                  <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Resume_Alfredo_Pabon.pdf" target="_blank" rel="noreferrer noopener">
+                  <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
                       <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>PDF version</h2>
                     </a>
                   </div>
@@ -159,11 +159,7 @@ const Exploratory = () => {
                 <br />
                 <ul>
                   <li>
-                    Designed and code our client's UI using jQuery to improve legacy websites
-                  </li>
-                  <br />
-                  <li>
-                    Optimize web-applications for responsiveness, user experience (UX) and cross-browser compatibility
+                  Used jQuery for DOM manipulation, while optimizing the company’s internal web-application for responsiveness, UX, usability and cross-browser compatibility
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
@@ -173,9 +169,15 @@ const Exploratory = () => {
                 <br />
                 <ul>
                   <li>
-                    Developed and styled React.js UI applications, leveraging the power of React-hooks and functional components for internal web application
+                  Built functional components with modern React.js (hooks + redux) in SaaS project gathering data from company’s private API
                 </li><br />
-                  <li>Created and edited webpages using OpenText CMS, ServiceNow for task-tracking, and Microsoft TFS for version control</li>
+                  <li>
+                     Used React-Bootstrap and Styled-Components to develop engaging, responsive UI
+                  </li>
+                  <br/>
+                  <li>
+                     Experienced using OpenText CMS, Microsoft TFS and GIT for version control
+                  </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -184,10 +186,8 @@ const Exploratory = () => {
                 <br />
                 <ul>
                   <li>
-                    Built and redisigned WordPress platforms meeting my clients' UXD specififications
-                  <br /><br />
+                  Developed wireframes and redesigned WordPress websites while meeting both: my clients’ aesthetic preferences and the projects technical needs
                   </li>
-                  <li>Created wireframes to clarify clients need and guide web-development processes</li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
