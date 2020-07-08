@@ -14,6 +14,7 @@ import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
 import $ from 'jquery';
 
+
 $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)");
 
 // window.history.pushState({}, '', '/') //AMAZING
@@ -22,8 +23,21 @@ const Example = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const [isSpanish, setSpanish] = useState(false);
+
 
   useEffect(() => {
+
+    const currentUrl = document.referrer;
+
+    if(currentUrl === 'http://localhost:3000/espanol') {
+      $('.spanishLogo').css('display', 'none');
+      setSpanish(true)
+    } else if(currentUrl === 'http://localhost:3000/') {
+      $('.englishLogo').css('display', 'none');
+      setSpanish(false)
+    }
+
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)");
 
     window.onscroll = () => {
@@ -37,84 +51,6 @@ const Example = (props) => {
     }
   });
 
-  const currentUrl =  document.referrer;
-
-
-    
-
-
-        function ToggleFlag() {
-
-                useEffect(() => {
-                  document.querySelector('.flag').addEventListener('click', function () {
-                    if (this.classList.contains('showFlag')) {
-                    this.classList.remove('showFlag');
-                    this.classList.add('removeFlag');
-                    } else {
-                      this.classList.contains('removeFlag')
-                      this.classList.remove('removeFlag')
-                      this.classList.add('showFlag');
-                      
-                    }
-                  });  
-                }, []);
-
-                const languageLogo = (currentUrl ==='http://localhost:3000/') ?
-                 <NavItem className="nav-link hovered-link spanishLogo showFlag flag">
-                  <a href='/espanol'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
-                    }
-                  }/>  
-                  </a>
-                  </NavItem>
-               
-         : <NavItem className="nav-link hovered-link englishLogo flag showFlag">
-                  <a href='/'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
-                    }
-                  }/>  
-                  </a>
-                </NavItem>
-
-                return(
-                  <React.Fragment>
-                  
-                  {languageLogo}
-
-                  </React.Fragment>
-                )
-            }
-              
-
-
-
-             
-
-  
-
- 
-
-
-
-
 
 
   if (Navbar)
@@ -124,7 +60,7 @@ const Example = (props) => {
         <Navbar dark expand="md" className="navbar-fading-effect navbar-border-shadow navbar-css" sticky={'top'}>
           <Container>
             <NavbarBrand href="/">
-              <img class="navbar-logo" alt="Alfredo Rafael Logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'} style={{ maxWidth: '34%' }} />
+              <img className="navbar-logo" alt="Alfredo Rafael Logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'} style={{ maxWidth: '34%' }} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
@@ -145,10 +81,49 @@ const Example = (props) => {
                     Resume
                   </a>
                 </NavItem>
+
+
+                <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo myDoubleClickFn">
+                  <a href='/espanol'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                  </NavItem>
+
+
+                  <NavItem className="nav-link hovered-link englishLogo" id="englishLogo myDoubleClickFn2">
+                  <a href='/'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                </NavItem>
+
+
+
+
                 
                   
 
-                <ToggleFlag />
                  
   
 
@@ -166,3 +141,27 @@ const Example = (props) => {
 
 
 export default Example;
+
+
+
+
+    // document.querySelector('.flag').addEventListener('click', function () {
+    //   if (this.classList.contains('spanishLogo')) {
+    //    this.style.display = 'none';
+    //    spanishLogo.style.display = 'block';
+
+    //   } else {
+    //     this.classList.contains('englishLogo')
+    //     englishLogo.style.display = 'block';
+    //   }
+    // });
+
+    // const spanishLogo = document.querySelector('.spanishLogo');
+    // const englishLogo = document.querySelector('.englishLogo');
+
+
+      // if(currentUrl === 'http://localhost:3000/espanol'){
+      // setSpanish(true);
+      // } else {
+      // setSpanish(false);
+      // }

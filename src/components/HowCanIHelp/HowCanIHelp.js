@@ -37,13 +37,13 @@ const HowCanIHelp = () => {
 
 
                 <Col>
-                  <div class="service-div" style={{ margin: "0 auto" }}>
+                  <div className="service-div" style={{ margin: "0 auto" }}>
                     <img
-                      class="service-div-img"
+                      className="service-div-img"
                       src="https://alfredorafael.com/wp-content/uploads/2019/03/WebDes3.png"
                       alt="Project Screenshot"
                     />
-                    <div class="overlay-div" onClick={toggleDesignModal}>
+                    <div className="overlay-div" onClick={toggleDesignModal}>
                       <h2
                         style={{
                           marginTop: "34%",
@@ -112,9 +112,9 @@ const HowCanIHelp = () => {
 
 
                 <Col>
-                  <div class="service-div" style={{ margin: "0 auto" }}>
+                  <div className="service-div" style={{ margin: "0 auto" }}>
                     <img
-                      class="service-div-img"
+                      className="service-div-img"
                       src="https://alfredorafael.com/wp-content/uploads/2019/03/Group22.png"
                       alt="hello"
                     />
@@ -175,13 +175,13 @@ const HowCanIHelp = () => {
 
 
                 <Col>
-                  <div class="service-div" style={{ margin: "0 auto" }}>
+                  <div className="service-div" style={{ margin: "0 auto" }}>
                     <img
-                      class="service-div-img"
+                      className="service-div-img"
                       src="https://alfredorafael.com/wp-content/uploads/2019/03/Group24.png"
                       alt="Project Screenshot"
                     />
-                    <div class="overlay-div" onClick={toggleInstructionalModal}>
+                    <div className="overlay-div" onClick={toggleInstructionalModal}>
                       <h2> UI Development </h2>
                     </div>
                   </div>

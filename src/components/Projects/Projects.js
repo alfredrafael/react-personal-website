@@ -11,9 +11,9 @@ const Projects = () => {
         <Fade>
           <Row>
             <Col>
-              <div class="project-div" style={{ flex: "1" }}>
+              <div className="project-div" style={{ flex: "1" }}>
                 <img
-                  class="project-div-img"
+                  className="project-div-img"
                   src="https://alfredorafael.com/wp-content/uploads/2020/04/movie-app.png"
                   alt="project"
                 />
@@ -58,19 +58,19 @@ const Projects = () => {
                   <br /><p></p>
                   <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                      <i className="devicon-react-original  dev-icon-in-description"></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-css3-plain "></i>
+                      <i className="devicon-css3-plain "></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-bootstrap-plain"></i>
+                      <i className="devicon-bootstrap-plain"></i>
                     </div>
                   </div>
                 </p>
@@ -86,9 +86,9 @@ const Projects = () => {
         <Fade>
           <Row>
             <Col>
-              <div class="project-div" style={{ flex: "1" }}>
+              <div className="project-div" style={{ flex: "1" }}>
                 <img
-                  class="project-div-img"
+                  className="project-div-img"
                   src="https://alfredorafael.com/wp-content/uploads/2019/05/NewsAPI.png"
                   alt="project"
                 />
@@ -135,15 +135,15 @@ const Projects = () => {
                   <div className="project-icons" style={{ display: "flex" }}>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-css3-plain dev-icon-in-description"></i>
+                      <i className="devicon-css3-plain dev-icon-in-description"></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                      <i className="devicon-react-original  dev-icon-in-description"></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
                     </div>
 
                   </div>
@@ -161,9 +161,9 @@ const Projects = () => {
         <Fade>
           <Row>
             <Col>
-              <div class="project-div" style={{ flex: "1" }}>
+              <div className="project-div" style={{ flex: "1" }}>
                 <img
-                  class="project-div-img"
+                  className="project-div-img"
                   src="https://alfredorafael.com/wp-content/uploads/2019/05/ViTOuter.png"
                   alt="project"
                 />
@@ -206,15 +206,15 @@ const Projects = () => {
                   <br />
                   <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-css3-plain "></i>
+                      <i className="devicon-css3-plain "></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-react-original  dev-icon-in-description"></i>
+                      <i className="devicon-react-original  dev-icon-in-description"></i>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i class="devicon-javascript-plain dev-icon-in-description"></i>
+                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
                     </div>
 
                   </div>
