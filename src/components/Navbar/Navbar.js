@@ -37,6 +37,8 @@ const Example = (props) => {
     }
   });
 
+  const currentUrl =  document.referrer;
+  console.log('Alfredo, this is the current URL : ' + currentUrl);
 
   if (Navbar)
 
@@ -49,19 +51,68 @@ const Example = (props) => {
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
-              <Nav className="ml-auto" navbar>
+              <Nav className="ml-auto" navbar style={{float: 'left'}}>
+
+
 
                 <NavItem className="nav-link hovered-link" id="home-link">
-                  <a href='/'>
+                 <a href='/'>
                     Home
-                </a>
-                </NavItem>
+                 </a>
+                </NavItem>             
+
+
 
                 <NavItem className="nav-link hovered-link">
                   <a href='/resume'>
                     Resume
-            </a>
+                  </a>
                 </NavItem>
+
+
+                
+                  
+                  
+         
+
+                  <NavItem className="nav-link hovered-link spanishLogo">
+                  <a href='/espanol'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                  </NavItem>
+                
+{/* 
+         <NavItem className="nav-link hovered-link englishLogo">
+                  <a href='/'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                  </NavItem>
+*/}
+  
+
+               
 
               </Nav>
               {/* <NavbarText>Simple Text</NavbarText> */}

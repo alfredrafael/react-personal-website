@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Resume from './components/Resume/Resume';
+import Casa from './components/Casa/Casa';
+
 import $ from 'jquery';
 
 
@@ -25,7 +27,9 @@ const App = () => {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/resume" component={Resume} />
+          <Route path="/espanol" component={Casa} exact/>
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
+
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
 
