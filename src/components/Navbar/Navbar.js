@@ -38,7 +38,84 @@ const Example = (props) => {
   });
 
   const currentUrl =  document.referrer;
-  console.log('Alfredo, this is the current URL : ' + currentUrl);
+
+
+    
+
+
+        function ToggleFlag() {
+
+                useEffect(() => {
+                  document.querySelector('.flag').addEventListener('click', function () {
+                    if (this.classList.contains('showFlag')) {
+                    this.classList.remove('showFlag');
+                    this.classList.add('removeFlag');
+                    } else {
+                      this.classList.contains('removeFlag')
+                      this.classList.remove('removeFlag')
+                      this.classList.add('showFlag');
+                      
+                    }
+                  });  
+                }, []);
+
+                const languageLogo = (currentUrl ==='http://localhost:3000/') ?
+                 <NavItem className="nav-link hovered-link spanishLogo showFlag flag">
+                  <a href='/espanol'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                  </NavItem>
+               
+         : <NavItem className="nav-link hovered-link englishLogo flag showFlag">
+                  <a href='/'>
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
+                  style={
+                    {
+                      maxWidth: '2.5%', 
+                      float: 'right',
+                      position: 'absolute',
+                      borderBottomRightRadius: '2px',
+                      borderBottomLeftRadius: '2px',
+                      borderTopLeftRadius: '4px',
+                      borderTopRightRadius: '4px'
+                    }
+                  }/>  
+                  </a>
+                </NavItem>
+
+                return(
+                  <React.Fragment>
+                  
+                  {languageLogo}
+
+                  </React.Fragment>
+                )
+            }
+              
+
+
+
+             
+
+  
+
+ 
+
+
+
+
+
 
   if (Navbar)
 
@@ -68,48 +145,11 @@ const Example = (props) => {
                     Resume
                   </a>
                 </NavItem>
-
-
                 
                   
-                  
-         
 
-                  <NavItem className="nav-link hovered-link spanishLogo">
-                  <a href='/espanol'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
-                    }
-                  }/>  
-                  </a>
-                  </NavItem>
-                
-{/* 
-         <NavItem className="nav-link hovered-link englishLogo">
-                  <a href='/'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
-                    }
-                  }/>  
-                  </a>
-                  </NavItem>
-*/}
+                <ToggleFlag />
+                 
   
 
                

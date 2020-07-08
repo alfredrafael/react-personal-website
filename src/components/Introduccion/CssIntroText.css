@@ -6,6 +6,15 @@
     left: 12%;
 }
 
+.hideFlag {
+    display: none;
+}
+
+.showFlag{
+    display: block;
+}
+
+
 .carousel-overlay-text h1 {
     z-index: 99 !important;
     font-size: 450% !important; /*500*/
