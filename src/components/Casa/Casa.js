@@ -5,6 +5,7 @@ import About from '../About';
 import HowCanIHelp from '../HowCanIHelp';
 import Projects from '../Projects';
 import Contact from '../Contact';
+import Navegacion from '../Navegacion';
 import './CssHome.css';
 
 
@@ -13,7 +14,7 @@ const Casa = () => {
 
   return (
     <React.Fragment>
-
+    <Navegacion/>
       <HeroSliderEspanol />
       <WebDevIcons />
       <About />

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Navbar from '../Navbar';
 import "./CssResume.css";
 import $ from "jquery";
 
@@ -21,6 +22,8 @@ const Exploratory = () => {
 
   return (
     <React.Fragment>
+    <Navbar />
+
       <div id="resume-container">
         <Container>
           <div id="resume" style={{ paddingTop: "12%" }}>

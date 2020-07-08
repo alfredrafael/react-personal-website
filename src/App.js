@@ -18,7 +18,6 @@ const App = () => {
   return (
     <React.Fragment>
       <Router>
-        <Navbar />
 
 
 

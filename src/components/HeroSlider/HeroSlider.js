@@ -20,6 +20,7 @@ const HeroSlider = () => {
 
   return (
     <React.Fragment>
+    <Navbar />
       <div className="mobile-hero-picture" style={{ height: '100%' }}>
         <img src="https://alfredorafael.com/wp-content/uploads/2020/05/background.png" style={{ background: 'cover', maxWidth: '100%' }} alt="React.js logo" />
         <IntroText />
