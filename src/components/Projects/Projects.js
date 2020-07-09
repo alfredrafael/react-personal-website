@@ -99,7 +99,7 @@ const Projects = () => {
                       rel="noreferrer noopener"
                     >
                       <div className="overlay-content visit-website">
-                        Ir a Website{" "}
+                        Visit Website{" "}
                       </div>
                     </a>
                     <a
@@ -108,7 +108,7 @@ const Projects = () => {
                       rel="noreferrer noopener"
                     >
                       <div className="overlay-content view-code">
-                        <i className="devicon-github-plain"></i>&nbsp; Ver en Github
+                        <i className="devicon-github-plain"></i>&nbsp; View code
                       </div>
                     </a>
                   </div>

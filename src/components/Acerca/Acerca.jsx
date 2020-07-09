@@ -26,8 +26,8 @@ const Acerca = () => {
                         <p>
                             Hola! Soy un <span>programador full-stack</span>, veterano y educador. Desarrollo applicaciones en <span>React.js</span>, 
                             jQuery, <span>Node.js</span> y <span>WordPress</span> para tu negocio u organización. Mi experiencia desarrollando 
-                            interfaces de usuario (<span>desde bosquejo hasta "deployment"</span>), comunicación y aptitud para el trabajo en equipo 
-                            son parte integral de mis habilidades. Unirme a un equipo con otros ingenieros en software es mi actual meta profesional. 
+                            interfaces de usuario (<span>desde "wireframe" hasta "deployment"</span>), destrezas de comunicación y estilo de trabajo en equipo 
+                            son parte integral de mis habilidades. Busco unirme a otros ingenieros en software para conectar de manera profesional. 
                             Bienvenido/a a mi página!
                        </p>
                     </Fade>

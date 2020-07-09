@@ -160,7 +160,7 @@ const ResumeEspanol = () => {
                 <br />
                 <ul>
                   <li>
-                  Optimicé la aplicación interna de la compañía con jQuery, añadiendo responsividad, mejoras al UI/UX y compatibilidad a lo largo de varias plataformas de navegación (browesers)
+                  Optimicé la aplicación interna de la compañía con jQuery, añadiendo responsividad, mejoras al UI/UX y compatibilidad a lo largo de varias plataformas de navegación (browsers)
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
