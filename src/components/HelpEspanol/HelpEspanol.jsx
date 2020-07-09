@@ -68,7 +68,7 @@ const HelpEspanol = () => {
                           fontWeight: "bold",
                         }}
                       >
-                        Interface
+                      Diseño Web
                     </div>
                     </Row>
 
@@ -77,7 +77,7 @@ const HelpEspanol = () => {
                         {" "}
 
 
-                        <h5 className="title-in-modal" style={{ marginLeft: '7%', zIndex: '99', position: 'relative', }}> My Web Design Tools</h5>
+                        <h5 className="title-in-modal" style={{ marginLeft: '3%', zIndex: '99', position: 'relative', }}> Mis herramientas de diseño</h5>
 
                         <Row>
                           <Col className="col-pic-in-modal">
@@ -89,11 +89,11 @@ const HelpEspanol = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            Wireframes are an incredibly clarifying way of identifying how
-                            different parts of a website will interact with all the others.
-                            My wireframing tools are <strong>Figma</strong> and <strong>Sketch</strong>.
-                            Additionally, I create customized icons like the ones you see on these modal windows.
-                            Do you have an app, an icon or a logo you would like to bring to life? How can I help you?
+                            Hace años aprendí a desarrollar <a href="https://es.wikipedia.org/wiki/Wireframe_(dise%C3%B1o_web)">wireframes</a> porque son una excelente forma de 
+                            clarificar e identificar cómo diferentes partes de un projecto-web interactuará con otras partes del mísmo.                             
+                            Mis herramientas para desarrollar wireframes son <strong>Figma</strong> y <strong>Sketch</strong>.
+                            También creo íconos como los que ve en estos "modals". ¿Tienes, una aplicación o ícono/logo 
+                            que te gusaría traer a la realidad? <br/>¿Cómo le puedo ayudar?
                         </Col>
 
                         </Row>
@@ -142,7 +142,7 @@ const HelpEspanol = () => {
                     <CardBody>
                       <CardText>
                         {" "}
-                        <h5 className="title-in-modal" style={{ marginLeft: '3%' }}> My Programing Languages</h5>
+                        <h5 className="title-in-modal" style={{ marginLeft: '.5%' }}> Mis Lenguages de Programación</h5>
                         <Row>
                           <Col className="col-pic-in-modal">
 
@@ -152,15 +152,14 @@ const HelpEspanol = () => {
 
                           <Col className="col-text-in-modal">
 
-                            My programming language is Javascript, and I specialize in the <strong>React.js</strong> library
-                            because of its reusability features. I am proficient on <strong>jQuery</strong> (everybody's
-                            first JS library!) and I build my APIs routes with <strong>Node.js</strong> and <strong>Express</strong>.<br />
-                            Do you need a Javascript developer? <br /> How can I help you?
+                            Mi lenguage de programación es Javascript, y me especializo en su biblioteca de <strong>React.js</strong> por sus 
+                            capacidades de reusabilidad. Soy proficiente en <strong>jQuery</strong> (la biblioteca más antigua de Javascript!) y 
+                            programo mis rutas de APIs con <strong>Node.js</strong> y <strong>Express.js</strong>.<br /> ¿Necesitas
+                            un programador en Javascript? <br />¿Cómo puedo ayudarle?
 
                           </Col>
 
                         </Row>
-
 
                       </CardText>
                       {/* <Button>Go somewhere</Button> */}
@@ -214,11 +213,11 @@ const HelpEspanol = () => {
                         </Col>
 
                           <Col className="col-text-in-modal">
-                            I build <strong>user-friendly</strong> interfaces that allow users to intutively find the
-                            information they need, because displaying data from an API is simply not enough:
-                            users need to be able to make sense of it. The <strong>CSS</strong> libraries I use
-                            to achieve this goal are <strong>Bootstrap</strong>, <strong>Reactstrap</strong>, <strong>Material UI</strong> (for
-                            dynamic properties), and <strong>Styled Components</strong>. Do you need a UI developer? How can I help you?
+                            Programo <strong>interfaces de usuario (UI)</strong> que le permiten a mis clientes encontrar la información que necesitan 
+                            , porque poner información en una pantalla no es suficiente: el usuario/a necesita ser capaz de navegar y encontrar
+                            la información que él o ella necesita. La bibliotecas de <strong>CSS</strong> que uso son para lograr esto son <strong>Bootstrap</strong>, 
+                            <strong>Reactstrap</strong>, <strong>Material UI</strong>, y <strong>Styled Components</strong>. ¿Necesitas un desarrollador de UI? 
+                            ¿Cómo le puedo ayudar?
                           </Col>
 
                         </Row>

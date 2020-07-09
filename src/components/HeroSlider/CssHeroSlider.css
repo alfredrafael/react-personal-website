@@ -16,6 +16,14 @@
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
+
+@media screen and (max-width: 1000px) and (min-width: 760px) and (-webkit-min-device-pixel-ratio: 1) {
+  .desktop-hero-video {
+    margin-top: -10%;
+  }
+  
+} 
+
 @media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
   .mobile-hero-picture {
     display: block;

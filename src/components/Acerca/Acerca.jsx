@@ -24,11 +24,11 @@ const Acerca = () => {
 
                     <Fade>
                         <p>
-                            Hola! Soy un <span>ingeniero full-stack</span>, educador y veterano con .
-                            I create <span>React.js</span>, jQuery, <span>Node.js</span> and <span>WordPress</span> applications for your business or organization.
-                            My experience coding responsive and engaging user interfaces (<span>from wireframe to deployment</span>) and teamwork
-                            attitude are my greatest assets. I look forward to joining a collaborative environment with other fellow developers.
-                            Welcome to my website!
+                            Hola! Soy un <span>programador full-stack</span>, veterano y educador. Desarrollo applicaciones en <span>React.js</span>, 
+                            jQuery, <span>Node.js</span> y <span>WordPress</span> para tu negocio u organización. Mi experiencia desarrollando 
+                            interfaces de usuario (<span>desde bosquejo hasta "deployment"</span>), comunicación y aptitud para el trabajo en equipo 
+                            son parte integral de mis habilidades. Unirme a un equipo con otros ingenieros en software es mi actual meta profesional. 
+                            Bienvenido/a a mi página!
                        </p>
                     </Fade>
 

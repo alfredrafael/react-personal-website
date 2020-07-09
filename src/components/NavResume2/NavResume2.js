@@ -9,8 +9,6 @@ import {
   NavItem,
 
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
 import $ from 'jquery';
 
@@ -68,7 +66,7 @@ const Example = (props) => {
 
                 <NavItem className="nav-link hovered-link" id="home-link">
                  <a href='/'>
-                    Home!
+                    Home
                  </a>
                 </NavItem>             
 
