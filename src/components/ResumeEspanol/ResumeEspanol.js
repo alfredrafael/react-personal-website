@@ -41,13 +41,13 @@ const ResumeEspanol = () => {
 
                 <div style={{ minWidth: '52%' }}>
                   <div style={{ display: 'flex' }}>
-                    <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
+                    <a href="https://alfredorafael.com/wp-content/uploads/2020/07/Alfredo_Espanol_Resume.pdf" target="_blank" rel="noreferrer noopener">
                       <i className="fas fa-file-pdf" style={{ fontSize: "160%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
                     </a>
 
                   &nbsp; &nbsp;
 
-                  <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
+                  <a href="https://alfredorafael.com/wp-content/uploads/2020/07/Alfredo_Espanol_Resume.pdf" target="_blank" rel="noreferrer noopener">
                       <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>Resume en PDF</h2>
                     </a>
                   </div>
@@ -160,7 +160,7 @@ const ResumeEspanol = () => {
                 <br />
                 <ul>
                   <li>
-                  Optimizé la aplicación interna de la compañía con jQuery, añadiendo responsividad, mejoras al UI/UX y compatibilidad a lo largo de varias plataformas de navegacion (browsers). 
+                  Optimicé la aplicación interna de la compañía con jQuery, añadiendo responsividad, mejoras al UI/UX y compatibilidad a lo largo de varias plataformas de navegación (browesers)
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
@@ -170,10 +170,11 @@ const ResumeEspanol = () => {
                 <br />
                 <ul>
                   <li>
-                  Construción de componentes funcionales con React.js moderno (hooks + redux) en projecto SaaS con data proviniente de APIs privados de la compañía
+                  Construcción de componentes funcionales con React.js moderno (hooks + redux) en proyecto SaaS con data proveniente de APIs privados de la compañía
                 </li><br />
                   <li>
-                  Desarrollé interfaces de usuario (UI) eficientes con React-Bootstrap y Styled-Components, adaptativas a lo largo de varias plataformas del internet
+                  Desarrollé eficientes interfaces de usuario (UI) con React-Bootstrap y Styled-Components, adaptativas a lo largo de varias plataformas de navegación (browsers)
+                  
                   </li>
                   <br/>
                   <li>
@@ -187,8 +188,7 @@ const ResumeEspanol = () => {
                 <br />
                 <ul>
                   <li>
-                  Desarrollé wireframes y páginas-web en WordPress manteniendo tanto las preferenicas estéticas de mis clientes como las necesides técnicas de cada projecto
-                  </li>
+                  Desarrollé wireframes y páginas-web en WordPress manteniendo tanto las preferencias estéticas de mis clientes como las necesidades técnicas de cada proyecto                  </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -197,8 +197,7 @@ const ResumeEspanol = () => {
                 <br />
                 <ul>
                   <li>
-                    Enseñé español como segundo idioma a estudiantes tanto en escuela elemental como superior, 
-                    adaptando cada material a las necesides específicas de cada grupo y estudiante<br /><br />
+                  Enseñé español como segundo idioma a estudiantes tanto en escuela elemental como superior, adaptando cada material a las necesidades específicas de cada grupo y estudiante<br /><br />
                   </li>
                   <li>Desarrollé e impartí un currículo enfocado en humanidades para estudiantes bilingües en varias escuelas a lo largo del distrito de Boston</li>
                 </ul>
