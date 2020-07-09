@@ -52,7 +52,7 @@ const Example = (props) => {
       <React.Fragment>
         <Navbar dark expand="md" className="navbar-fading-effect navbar-border-shadow navbar-css" sticky={'top'}>
           <Container>
-            <NavbarBrand href="/">
+            <NavbarBrand href="/espanol">
               <img className="navbar-logo" alt="Alfredo Rafael Logo" src={'https://alfredorafael.com/wp-content/uploads/2019/02/newWhite.png'} style={{ maxWidth: '34%' }} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
@@ -62,7 +62,7 @@ const Example = (props) => {
 
 
                 <NavItem className="nav-link hovered-link" id="home-link">
-                 <a href='/'>
+                 <a href='/espanol'>
                     Hogar
                  </a>
                 </NavItem>             
@@ -70,8 +70,8 @@ const Example = (props) => {
 
 
                 <NavItem className="nav-link hovered-link">
-                  <a href='/resume'>
-                    Resume
+                  <a href='/resume-espanol'>
+                    Resumé
                   </a>
                 </NavItem>
 
@@ -96,16 +96,16 @@ style={
 
                   <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
                   <a href='/'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
                   style={
                     {
                       maxWidth: '2.5%', 
                       float: 'right',
                       position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
+                      borderBottomRightRadius: '1px',
+                      borderBottomLeftRadius: '1px',
+                      borderTopLeftRadius: '1px',
+                      borderTopRightRadius: '1px'
                     }
                   }/>  
                   </a>

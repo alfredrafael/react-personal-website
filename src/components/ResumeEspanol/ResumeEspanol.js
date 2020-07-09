@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Navbar from '../Navbar';
+import Navegacion from '../Navegacion';
 import "./CssResume.css";
 import $ from "jquery";
 
-const Exploratory = () => {
+const ResumeEspanol = () => {
   useEffect(() => {
     $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)");
 
@@ -22,7 +22,7 @@ const Exploratory = () => {
 
   return (
     <React.Fragment>
-    <Navbar />
+    <Navegacion />
 
       <div id="resume-container">
         <Container>
@@ -48,7 +48,7 @@ const Exploratory = () => {
                   &nbsp; &nbsp;
 
                   <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
-                      <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>PDF version</h2>
+                      <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>Resume en PDF</h2>
                     </a>
                   </div>
                 </div>
@@ -84,8 +84,8 @@ const Exploratory = () => {
 
 
     <a href="tel:+16175801400" rel="noopener noreferrer" target="_blank">
-    <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}> &nbsp;(617) 580-1400 &nbsp;</h2>
-    </a>
+                      <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}> &nbsp;(617) 580-1400 &nbsp;</h2>
+                    </a>
                   </div>
                 </div>
 
@@ -121,9 +121,9 @@ const Exploratory = () => {
             <br />
 
             <dl id="skillset">
-              <dt>SKILLS SET</dt>
+              <dt>HABILIDADES</dt>
               <dd>
-                <h2><strong>Software Development</strong></h2><br />
+                <h2><strong>Programación</strong></h2><br />
 
 
                 <div className="2skillColumns" style={{ display: 'flex' }}>
@@ -151,73 +151,76 @@ const Exploratory = () => {
             </dl>
 
             <dl>
-              <dt>EXPERIENCE</dt>
+              <dt>EXPERIENCIA</dt>
               <dd>
 
                 {/* // Experience 1 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Front-End Developer</strong><span>December 2019 – June 2020</span></h2>
+                <h2><strong>Programador Front-End</strong><span>Dic. 2019 – Junio 2020</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Softworld Consulting & Solutions</span><br />
                 <br />
                 <ul>
                   <li>
-                  Used jQuery for DOM manipulation, while optimizing the company’s internal web-application for responsiveness, UX, usability and cross-browser compatibility
+                  Manipulación del DOM usando jQuery, y optimizé la aplicación interna de la compañía para añadir responsividad, UX y compatibilidad a lo largo de varios navegadores
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 2 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Software Developer</strong><span>August-December – 2019</span></h2>
+                <h2><strong>Desarrollador de Web</strong><span>Ago-Diciembre – 2019</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Beacon Hill Staffing Group</span><br />
                 <br />
                 <ul>
                   <li>
-                  Built functional components with modern React.js (hooks + redux) in SaaS project gathering data from company’s private API
+                  Construción de componentes funcionales con React.js moderno (hooks + redux) en projecto SaaS con data proviniente de APIs privados de la compañía
                 </li><br />
                   <li>
-                     Used React-Bootstrap and Styled-Components to develop engaging, responsive UI
+                  Desarrollé interfaces de usuario (UI) eficientes con React-Bootstrap y Styled-Components, adaptativas a lo largo de varias plataformas del internet
                   </li>
                   <br/>
                   <li>
-                     Experienced using OpenText CMS, Microsoft TFS and GIT for version control
+                     Experiencia con OpenText CMS, Microsoft TFS and GIT para control de varias versiones
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Freelance Developer</strong><span>December 2017 – August 2019</span></h2>
+                <h2><strong>Programador Independiente</strong><span>Dic. 2017 – Agosto 2019</span></h2>
                 <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>AR Web-Communications</span><br />
                 <br />
                 <ul>
                   <li>
-                  Developed wireframes and redesigned WordPress websites while meeting both: my clients’ aesthetic preferences and the projects technical needs
+                  Desarrollé wireframes y páginas-web en WordPress manteniendo tanto las preferenicas estéticas de mis clientes como las necesides técnicas de cada projecto
                   </li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
                 {/* // Experience 3 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>Spanish Teacher</strong><span>December 2013 – June 2017</span></h2>
+                <h2><strong>Maestro de Español</strong><span>Dic 2013 – Junio 2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Boston Public Schools</span><br />
                 <br />
                 <ul>
                   <li>
-                    Instructed Spanish as a foreign language to students ranging from high school to elementary school<br /><br />
+                    Enseñé español como segundo idioma a estudiantes tanto en escuela elemental como superior, 
+                    adaptando cada material a las necesides específicas de cada grupo y estudiante<br /><br />
                   </li>
-                  <li>Developed and implemented a humanities curriculum for bilingual students across several inner-city schools</li>
+                  <li>Desarrollé e impartí un currículo enfocado en humanidades para estudiantes bilingües en varias escuelas a lo largo del distrito de Boston</li>
                 </ul>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
                 {/* // END Experiences ///////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <h2><strong>CBRN Specialist</strong><span>1-296 C/Co, 2004 – 2011</span></h2>
+                <h2><strong>Sargento en CBRN</strong><span>1-296 C/Co, 2004 – 2011</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>US Army National Guard</span><br />
                 <br />
                 <ul>
                   <li>
-                    Provided training on chemical-defense readiness as Sergeant E-5, NCOIC. Experienced in tactical movement,
-                strategic firearms use and security operations. Overseas deployments as follows:<br /><br />
+                    Proveí entrenamiento para defensa en ataques bio-químicos como Sargento E-5 a cargo del CBRN. 
+                    Mi posición incluye experiencia en movimiento táctico, manejo de armas de fuego y operaciones de seguridad. 
+                    A continuación, información sobre mis operaciones de ultramar:<br /><br />
                   </li>
                   <ul>
                     <li>
-                      <strong>Multinational Force and Observers –   Egypt;   2006</strong><br /><br />
+                      <strong>Multinational Force & Observers –   Egipto;   2006</strong><br /><br />
                       <div className="deployment-details">
                         <ul>
-                          <li>Ensured implementation of Egypt and Israel Peace Treaty’s security provisions</li><br />
-                          <li>Patrolled the Egyptian-Israel’s northern border, providing surveillance across MFO observation posts. </li><br />
+                          <li>Presencia para asegurar el Tratado de Paz entre Egipto e Israel</li><br />
+                          <li>Patrullaje de la frontera Egipcio-Israelí, proveyendo observacion a lo largo 
+                          de varios puestos de observacion de la MFO</li><br />
                         </ul>
                       </div>
                     </li>
@@ -226,7 +229,8 @@ const Exploratory = () => {
                       <strong>NATO KFOR: Camp Bondsteel –         Kosovo;   2009</strong><br /><br />
                       <div className="deployment-details">
                         <ul>
-                          <li>Patrolled Serbian-Kosovo border in NATO-led peacekeeping operation responsible for establishing Kosovo’s secure environment</li><br />
+                          <li>Patrullaje de la frontera Serbio-Kosovar en misión dirigida por la OTAN
+                              para mantener paz en Kosovo y asegurar la seguridad de sus ciudadanos</li><br />
                         </ul>
                       </div>
                     </li>
@@ -238,45 +242,43 @@ const Exploratory = () => {
             <dl>
 
 
-              <dt id="education">EDUCATION</dt>
+              <dt id="education">EDUCACIÓN</dt>
               <dd>
-                <h2><strong>Certificate in Web Development</strong><span>2017</span></h2>
+                <h2><strong>Certificado en Programación de Redes</strong><span>2017</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Antioch University; Los Angeles, CA</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Antioch.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Antioch.png" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
 
 
 
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
-                <h2><strong>Web Development Immersive</strong><span>2019</span></h2>
+                <h2><strong>Programa Immersivo en Programación</strong><span>2019</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>General Assembly; Boston, MA</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/WDI.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/WDI.png" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
-                <h2><strong>Front-End Web Development</strong><span>2018</span></h2>
+                <h2><strong>Programación en Front-End</strong><span>2018</span></h2>
                 <span style={{ fontStyle: 'italic', fontSize: '100%' }}>General Assembly; Boston, MA</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-30-at-3.26.05-PM.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-30-at-3.26.05-PM.png" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
 
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
-                <h2><strong>Masters in Education and Globalization</strong><span>2013</span></h2>
-                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Oulu University; Finland, Oulu</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Oulu-Transcript-Screenshot.png" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
+                <h2><strong>Maestría en Educación y Globalización</strong><span>2013</span></h2>
+                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Universidad de Oulu; Finlandia, Oulu</span><br />
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Oulu-Transcript-Screenshot.png" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
 
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
-                <h2><strong>Bachelors in Health Education</strong><span>2009</span></h2>
-                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Inter-American University; San Germán, PR</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Diploma-Inter-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
-               
-                <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
-              
-              
-                <h2><strong>US Army Chemical School</strong><span>2005</span></h2>
-                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Fort Leonard Wood; Big Piney, MO</span><br />
-                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/DiplomaArmy-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credentials</a></span>
+                <h2><strong>Bachillerato en Educación & Salud Escolar</strong><span>2009</span></h2>
+                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Universidad Interamericana; San Germán, PR</span><br />
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/Diploma-Inter-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
                 
                 <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
 
+                <h2><strong>US Army Chemical School</strong><span>2005</span></h2>
+                <span style={{ fontStyle: 'italic', fontSize: '100%' }}>Fort Leonard Wood; Big Piney, MO</span><br />
+                <span><a href="https://alfredorafael.com/wp-content/uploads/2020/05/DiplomaArmy-scaled.jpeg" target="_blank" rel="noreferrer noopener" className="creds">Credenciales</a></span>
+                
+                <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.5)', marginTop: '5%' }} />
               </dd>
             </dl>
             {/* <dl>
@@ -298,6 +300,6 @@ const Exploratory = () => {
   );
 };
 
-export default Exploratory;
+export default ResumeEspanol;
 
 {/*Return to the original blog article: "http://thenewcode.com/553/Build-A-Responsive-Web-Résumé"> */ }

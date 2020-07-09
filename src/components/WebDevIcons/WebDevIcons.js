@@ -106,9 +106,9 @@ const WebDevIcons = (props) => {
 
                     <div className="sql-div" id="postgres-icon">
                         <i className="devicon-postgresql-plain dev-icons"></i>
-                        <UncontrolledTooltip style={{ backgroundColor: '#040182' }} placement="bottom" target="postgres-icon" className=''>
+{/*                         <UncontrolledTooltip style={{ backgroundColor: '#040182' }} placement="bottom" target="postgres-icon" className=''> 
                             PostgreSQL
-            </UncontrolledTooltip>
+            </UncontrolledTooltip> */}
                     </div>
 
 

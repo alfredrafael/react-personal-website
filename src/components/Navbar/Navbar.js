@@ -78,7 +78,7 @@ const Example = (props) => {
 
                 <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
                   <a href='/espanol'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/espanol.png'} 
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EspanolLogo.png'} 
                   style={
                     {
                       maxWidth: '2.5%', 
@@ -86,8 +86,6 @@ const Example = (props) => {
                       position: 'absolute',
                       borderBottomRightRadius: '2px',
                       borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
                     }
                   }/>  
                   </a>
