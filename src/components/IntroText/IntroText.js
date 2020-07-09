@@ -16,11 +16,11 @@ return(
       onInit={(typewriter) => {
         typewriter.typeString('Full-Stack Developer')
           .callFunction(() => {
-            console.log('String typed out!');
+          //  console.log('String typed out!');
           })
-          .pauseFor(1000)
+          .pauseFor(700)
           .callFunction(() => {
-            console.log('All strings were deleted');
+       //     console.log('All strings were deleted');
           })
           .start();
       }}

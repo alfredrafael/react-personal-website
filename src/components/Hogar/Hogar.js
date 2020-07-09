@@ -2,9 +2,9 @@ import React from 'react';
 import HeroSliderEspanol from '../HeroSliderEspanol';
 import WebDevIcons from '../WebDevIcons';
 import Acerca from '../Acerca';
-import HowCanIHelp from '../HowCanIHelp';
-import Projects from '../Projects';
-import Contact from '../Contact';
+import HelpEspanol from '../HelpEspanol';
+import Projectos from '../Projectos';
+import Contacto from '../Contacto';
 import Navegacion from '../Navegacion';
 import './CssHome.css';
 
@@ -18,9 +18,9 @@ const Hogar = () => {
       <HeroSliderEspanol />
       <WebDevIcons />
       <Acerca />
-      <HowCanIHelp />
-      <Projects />
-      <Contact />
+      <HelpEspanol />
+      <Projectos />
+      <Contacto />
 
     </React.Fragment>
   )

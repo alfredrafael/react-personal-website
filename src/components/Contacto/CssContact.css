@@ -1,0 +1,126 @@
+#contact-component {
+    background: #040182;
+    opacity: .9;
+}
+#contact-component h2 {
+    color: white;
+    text-shadow: 1px 1px #7573bf;
+    padding: 7% 0 4% 0;
+    text-align: left;
+
+}
+#contact-component .col {
+    text-align: right;
+}
+#contact-component img{
+    max-width: 25%;
+    padding: 3% 0;
+}
+#contact-component .contact-phone-icon {
+    margin-right: .7%;
+}
+
+
+
+@media screen and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    
+    #contact-component img{
+        max-width: 40%;
+        padding: 2% 0;
+    }
+
+}
+
+
+@media screen and (max-width: 995px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    
+    #contact-component img{
+        max-width: 40%;
+        padding: 2% 0;
+    }
+
+}
+
+
+@media screen and (max-width: 770px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+    #contact-component img{
+        max-width: 50%;
+        padding: 2% 0;
+    }
+
+
+    #contact-component .contact-phone-icon {
+        margin-right: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
+   
+    #contact-component .row {
+        display: block;
+        text-align: center !important; 
+        margin: 0 auto !important
+    }
+
+    #contact-component {
+        background: linear-gradient( #040182, #7573bf);
+        opacity: .9;
+    }
+    #contact-component h2 {
+        color: white;
+        text-shadow: 1px 1px #7573bf;
+        padding: 7% 0 4% 0;
+        text-align: left;
+    
+    }
+    #contact-component .col {
+        text-align: right;
+    }
+    #contact-component .contact-linkedin-icon img {
+        max-width: 25%;
+        padding: 3% 0;
+        margin: -25% 0 10% 0;
+    }
+    #contact-component .contact-email-icon img {
+        max-width: 25%;
+        padding: 3% 0;
+        margin: -10% 0 25% 0;
+    }
+
+    #contact-component .contact-phone-icon img {
+        max-width: 25%;
+        padding: 3% 0;
+        margin: -25% 0 0 0;
+        
+    }
+}
+
+
+/*iPhone XR*/
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+        #contact-component .contact-linkedin-icon img {
+            margin: -19% 0 10% 0;
+        }
+    }
+
+
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    #contact-component .contact-linkedin-icon img {
+        margin: -18% 0 10% 0;
+    }
+}
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    #contact-component .contact-linkedin-icon img {
+        margin: -18% 0 10% 0;
+    }
+}
+

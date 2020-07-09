@@ -71,7 +71,7 @@ const Example = (props) => {
                 </NavItem>             
 
 
-                <NavItem className="nav-link hovered-link">
+                <NavItem className="nav-link hovered-link espanol" id="resumeLink">
                   <a href='/resume-espanol'>
                     Resumé
                   </a>

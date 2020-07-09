@@ -3,7 +3,7 @@
     position: absolute; 
     top: 60%;
     bottom: 20%;
-    left: 12%;
+    left: 14%;
 }
 
 .hideFlag {
@@ -25,6 +25,11 @@
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
     font-weight: 350;
     font-family: 'Roboto Mono', monospace;
+}
+
+.Typewriter {
+    font-weight: '300';
+   
 }
 
 
@@ -127,8 +132,9 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/
+    #espanol .Typewriter {
+        margin-left: -10% !important;
+        display: none !important;
     }
 }
 

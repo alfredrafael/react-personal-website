@@ -100,7 +100,7 @@ const Exploratory = () => {
 
 
             <a href="https://www.linkedin.com/in/alfredo-rafael/" rel="noopener noreferrer" target="_blank">
-            <h2 style={{ fontSize: '110%', marginTop: '1%' }} className="text-in-contact-info">LinkedIn/in/alfredo-rafael</h2>
+            <h2 style={{ fontSize: '110%', marginTop: '1%' }} className="text-in-contact-info">linkedin/alfredo-rafael</h2>
                     </a>
                   </div>
                 </div>

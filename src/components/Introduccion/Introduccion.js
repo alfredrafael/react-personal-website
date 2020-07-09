@@ -7,20 +7,21 @@ const Introduccion = () => {
 return(
     <React.Fragment>
 
-     <div className="carousel-overlay-text espanol">
-		  <div className="bg-transparent container">
+     <div className="carousel-overlay-text espanol" id="enEspanol">
+      <div className="bg-transparent container">
       <h1 className="display-4">
-      {/*  Full-stack Developer  */}
+      {/*  Full-stack Developer  */} 
+
 
       <Typewriter
       onInit={(typewriter) => {
         typewriter.typeString('Programador Full-Stack')
           .callFunction(() => {
-            console.log('String typed out!');
+          //  console.log('String typed out!');
           })
-          .pauseFor(1000)
+          .pauseFor(700)
           .callFunction(() => {
-            console.log('All strings were deleted');
+          //  console.log('All strings were deleted');
           })
           .start();
       }}

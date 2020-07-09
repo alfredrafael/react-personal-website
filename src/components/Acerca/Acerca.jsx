@@ -15,7 +15,7 @@ const Acerca = () => {
             <div className="about-info-area">
                 <Container>
                     <Fade>
-                        <h2><strong>Sobre<span>Alfredo Rafael</span></strong></h2>
+                        <h2><strong>Sobre <span>Alfredo Rafael</span></strong></h2>
                     </Fade>
                     <Fade>
                         <img className="curve" src="https://alfredorafael.com/wp-content/uploads/2019/03/circlePicture.png"

@@ -3,7 +3,7 @@
     position: absolute; 
     top: 60%;
     bottom: 20%;
-    left: 20%;
+    left: 16%;
 }
 
 .carousel-overlay-text h1 {
@@ -16,6 +16,16 @@
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
     font-weight: 350;
     font-family: 'Roboto Mono', monospace;
+}
+
+.Typewriter {
+    font-weight: '300';
+    /* background: rgba(4, 1, 130, .7); */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 
@@ -118,14 +128,13 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/
+    h1 .Typewriter{
+        margin-top: -7% !important
     }
 }
 
 /*Galaxy 5s*/
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    .carousel-overlay-text h1 {
+@media screen and (device-aspect-ratio: 40/71) and (-webkit-min-device-pixel-ratio: 2){    .carousel-overlay-text h1 {
         font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
@@ -142,8 +151,8 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    h1 .Typewriter{
+        margin-top: -7% !important;
     }
 }
 
@@ -167,14 +176,16 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    
+    h1 .Typewriter{
+        margin-top: -10%;
+        font-size: smaller;
     }
 }
 
 /* Galaxy Note 9 */
 
-@media only screen and (min-width: 360px) and (max-width: 740px) {
+@media only screen and (min-width: 414px) and (max-width: 846px){
     .carousel-overlay-text h1 {
         font-size: 140% !important;
         font-family: "Montserrat", sans-serif;
@@ -192,9 +203,10 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    .Typewriter {
+        margin-left: 20px;
     }
+
 
  }
 
@@ -216,9 +228,12 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+   
+    h1 .Typewriter{
+        margin-top: -10%;
+        font-size: smaller;
     }
+
 }
 
 /*iPhone 6/7/8*/
@@ -239,9 +254,12 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+
+    h1 .Typewriter{
+        margin-top: -3%;
+        font-size: smaller;
     }
+   
 }
 
 /*iPhone 6+/7+/8+ */
@@ -262,8 +280,9 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    h1 .Typewriter{
+        margin-top: -3%;
+        font-size: smaller;
     }
 }
 
@@ -284,9 +303,12 @@
         text-align: center;
     }
 
-    .slider-video video {
-        /**/;
+    h1 .Typewriter{
+        margin-top: -12%;
+        font-size: smaller;
     }
+
+    
 }
 
 /*iPhone X & XS*/
@@ -307,8 +329,9 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    h1 .Typewriter{
+        margin-top: -5%;
+        font-size: smaller;
     }
 }
 
@@ -330,8 +353,8 @@
         height: 5vh;
     }
 
-    .slider-video video {
-        /**/;
+    .Typewriter{
+        margin-top: -10%;
     }
 }
 
