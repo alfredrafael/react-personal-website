@@ -46,15 +46,12 @@ const Projectos = () => {
               <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>Fetch Movie App<small></small></h3>
                 <p>
-                  This application fetches data from{" "} <strong>The Movie Database API</strong> (TMDB)
-                  with React.js, allowing users to see TMDB's most-popular films
-                  + search for specific movies within the TMDB database.
-                  Users can select movies and read
-                  additional information about them: plot, actors, budget, etc.
-                  I built this application with create-react-app,
-                  styled-components for CSS styling, @reach/router for routing,
-                  prop-types for components' output checking, and{" "}
-                  <strong>font-awesome</strong> icons.
+                  Programé esta applicación con datos a traves de{" "} <strong>The Movie Database API</strong> (TMDB)
+                  y React.js. El usuario puede ver las películas más populares en TMDB, 
+                  así como buscar películas en específico dentro del banco de datos de TMDB.
+                  El usuario puede seleccionar películas y leer información adicional sobre ellas: artístas, presupuesto,
+                  y descripción del filme. Construí esta aplicación por diversión con create-react-app, styled-components, @reach/router,
+                  e íconos de{" "} <strong>font-awesome</strong>.
                   <br /><p></p>
                   <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
@@ -198,10 +195,9 @@ const Projectos = () => {
                 <br />
 
                 <p>
-                  This web application showcases students and faculty members of Vets-in-Tech: First Class,
-                  (New England Chapter) by providing users with a view of each cohort member, with his/her
-                  bio, and a picture-gallery of the learning process. I took and edited the pictures and
-                  videos myself.
+                  Esta aplicación muestra a los estudiantes y facultad de Vets-in-Tech: First Class,
+                  (Capítulo de New England) proveyendo al usuario con una galeria de todos los estudiantes en el curso, foto, 
+                   y descripción de cada uno, así como fotos durante el proceso de aprendizaje.
                 <br />
                   <br />
                   <div className="project-icons" style={{ display: "flex" }}>
