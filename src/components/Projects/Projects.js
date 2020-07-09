@@ -82,6 +82,78 @@ const Projects = () => {
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br /><br />
 
+        <Fade>
+          <Row>
+            <Col>
+              <div className="project-div" style={{ flex: "1" }}>
+                <img
+                  className="project-div-img"
+                  src="https://alfredorafael.com/wp-content/uploads/2020/07/BodaThumb.png"
+                  alt="project"
+                />
+                <div className="project-overlay-div news-project">
+                  <div className="inner-overlay-div">
+                    <a
+                      href="https://www.junethe23rd.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content visit-website">
+                        Ir a Website{" "}
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/alfredrafael/boda"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content view-code">
+                        <i className="devicon-github-plain"></i>&nbsp; Ver en Github
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+                <h3>Wedding Album</h3>
+
+                <p>
+                  This simple application was a present to celebrate the 30-year
+                  wedding anniversay of this lovely couple. What was originally supposed to be  
+                  "transfering our wedding pictures to a website we can share with family" 
+                  expanded into the creation of other albums they were happy to see online. 
+                  The tecnologies used in this project are React.js, Reactstrap, Material UI 
+                  and jQuery-React. 
+                  
+                  <br /><br />
+                  <div className="project-icons" style={{ display: "flex" }}>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i className="devicon-css3-plain dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i className="devicon-react-original  dev-icon-in-description"></i>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
+                    </div>
+
+                  </div>
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Fade>
+
+
+        <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
+        <br />        <br />
+
         {/*
         <Fade>
           <Row>

@@ -79,34 +79,34 @@ const Projectos = () => {
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br /><br />
 
-        {/*
+      
         <Fade>
           <Row>
             <Col>
               <div className="project-div" style={{ flex: "1" }}>
                 <img
                   className="project-div-img"
-                  src="https://alfredorafael.com/wp-content/uploads/2019/05/NewsAPI.png"
+                  src="https://alfredorafael.com/wp-content/uploads/2020/07/BodaThumb.png"
                   alt="project"
                 />
                 <div className="project-overlay-div news-project">
                   <div className="inner-overlay-div">
                     <a
-                      href="https://alfredrafael.github.io/news-center/"
+                      href="https://www.junethe23rd.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
                       <div className="overlay-content visit-website">
-                        Visit Website{" "}
+                        Ir a Website{" "}
                       </div>
                     </a>
                     <a
-                      href="https://github.com/alfredrafael/news-center"
+                      href="https://github.com/alfredrafael/boda"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
                       <div className="overlay-content view-code">
-                        <i className="devicon-github-plain"></i>&nbsp; View Code
+                        <i className="devicon-github-plain"></i>&nbsp; Ver en Github
                       </div>
                     </a>
                   </div>
@@ -116,18 +116,15 @@ const Projectos = () => {
 
             <Col>
               <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
-                <h3>React.js News App</h3>
+                <h3>Wedding Album</h3>
 
                 <p>
-                  This application allow users to see <strong>BBC</strong> and{" "}
-                  <strong>TechCrunch</strong> most-popular articles, all fetched
-                  and dynamically rendered from <strong>The News API</strong>.
-                  Users can see their news article by clicking "Read
-                  Full Article" or title of the news-article itself. I built
-                  this application using create-react-app, material-UI for CSS
-                  styling, and React's class-based components. I am currently
-                  working on creating a "react hooks" version of this very same
-                  project, so... Stay tuned!
+                  Esta simple aplicación fue un presente como celebración de 
+                  los 30 años de matrimonio de esta hermosa pareja. 
+                  Lo que comenzó como "solo fotos de nuestra boda" terminó incluyendo
+                  fotos de varios de sus viajes por el mundo. Las tecnologias utilizadas
+                  en esta página son React.js, ReactStrap, Material UI, y jQuery-React.
+              
                   <br /><br />
                   <div className="project-icons" style={{ display: "flex" }}>
 
@@ -153,7 +150,7 @@ const Projectos = () => {
 
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br />        <br />
-*/}
+
 
         <Fade>
           <Row>
