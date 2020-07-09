@@ -15,6 +15,21 @@ import './CssNavbar.css';
 import $ from 'jquery';
 
 
+const currentUrl = window.location.href;
+
+const urlSlug = currentUrl.substr(currentUrl.lastIndexOf('/') + 1);
+
+const dynamicUrl = (urlSlug === '/espanol')? '/' : '/espanol';
+
+
+// const dynamicUrl = (urlSlug === '/resume')? '/resume-espanol'
+//             : (urlSlug === '/resume-espanol')? '/resume'
+//             : (urlSlug === '/')? '/espanol'
+//             : (urlSlug === '/espanol')? '/'
+//             : '/espanol';
+
+
+
 $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)");
 
 // window.history.pushState({}, '', '/') //AMAZING
@@ -27,8 +42,6 @@ const Example = (props) => {
 
 
   useEffect(() => {
-
-    const currentUrl = document.referrer;
 
 
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)");
@@ -77,7 +90,7 @@ const Example = (props) => {
 
 
                 <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
-                  <a href='/espanol'>
+                  <a href={dynamicUrl}>
                   <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EspanolLogo.png'} 
                   style={
                     {
@@ -90,34 +103,6 @@ const Example = (props) => {
                   }/>  
                   </a>
                   </NavItem>
-
-{/*  
-                  <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
-                  <a href='/'>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/english.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      borderTopLeftRadius: '4px',
-                      borderTopRightRadius: '4px'
-                    }
-                  }/>  
-                  </a>
-                </NavItem>
-*/}
-
-
-
-                
-                  
-
-                 
-  
-
                
 
               </Nav>

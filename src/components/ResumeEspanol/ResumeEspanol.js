@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Navegacion from '../Navegacion';
+import NavResume from '../NavResume';
 import "./CssResume.css";
 import $ from "jquery";
 
@@ -22,7 +22,7 @@ const ResumeEspanol = () => {
 
   return (
     <React.Fragment>
-    <Navegacion />
+    <NavResume />
 
       <div id="resume-container">
         <Container>

@@ -9,6 +9,8 @@ import {
   NavItem,
 
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
 import $ from 'jquery';
 
@@ -17,7 +19,7 @@ $(".navbar-fading-effect").css("background", "rgba(4, 1, 130, .8)");
 
 // window.history.pushState({}, '', '/') //AMAZING
 
-const Example = (props) => {
+const NavResume = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -25,18 +27,18 @@ const Example = (props) => {
 
 
 
-  const currentUrl = window.location.href;
-  const urlSlug = currentUrl.substr(currentUrl.lastIndexOf('/') + 1);
-  const dynamicUrl = (urlSlug === '/')? '/espanol' : '/';
+  var currentUrl = window.location.href;
+  var urlSlug = currentUrl.substr(currentUrl.lastIndexOf('/') + 1);
+  
+  
+  const dynamicUrl = (urlSlug === '/resume-espanol')? '/resume' : '/resume-espanol';
 
-  
-  
-  
-  
+
   useEffect(() => {
-    
+
+
     $(".navbar-fading-effect").css("border-bottom", "1px solid rgba(4, 1, 130, .10)");
-    
+
     window.onscroll = () => {
       var scrollStatus = $(window).scrollTop();
       if (scrollStatus > 115) {
@@ -47,8 +49,8 @@ const Example = (props) => {
       }
     }
   });
-  
-   
+
+
 
   if (Navbar)
 
@@ -64,15 +66,17 @@ const Example = (props) => {
               <Nav className="ml-auto" navbar style={{float: 'left'}}>
 
 
-                <NavItem className="nav-link hovered-link" id="home-link" active="true">
+
+                <NavItem className="nav-link hovered-link" id="home-link">
                  <a href='/espanol'>
                     Hogar
                  </a>
                 </NavItem>             
 
 
+
                 <NavItem className="nav-link hovered-link">
-                  <a href='/resume-espanol'>
+                  <a href={dynamicUrl}>
                     Resumé
                   </a>
                 </NavItem>
@@ -97,7 +101,7 @@ style={
 */}
 
                   <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
-                  <a href={dynamicUrl}>
+                  <a href='/resume'>
                   <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
                   style={
                     {
@@ -135,7 +139,7 @@ style={
 }
 
 
-export default Example;
+export default NavResume;
 
 
 

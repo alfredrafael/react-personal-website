@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Navbar from '../Navbar';
+import NavResume2 from '../NavResume2';
 import "./CssResume.css";
 import $ from "jquery";
 
@@ -22,7 +22,7 @@ const Exploratory = () => {
 
   return (
     <React.Fragment>
-    <Navbar />
+    <NavResume2 />
 
       <div id="resume-container">
         <Container>

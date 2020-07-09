@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSliderEspanol from '../HeroSliderEspanol';
 import WebDevIcons from '../WebDevIcons';
-import About from '../About';
+import Acerca from '../Acerca';
 import HowCanIHelp from '../HowCanIHelp';
 import Projects from '../Projects';
 import Contact from '../Contact';
@@ -9,7 +9,7 @@ import Navegacion from '../Navegacion';
 import './CssHome.css';
 
 
-const Casa = () => {
+const Hogar = () => {
 
 
   return (
@@ -17,7 +17,7 @@ const Casa = () => {
     <Navegacion/>
       <HeroSliderEspanol />
       <WebDevIcons />
-      <About />
+      <Acerca />
       <HowCanIHelp />
       <Projects />
       <Contact />
@@ -27,4 +27,4 @@ const Casa = () => {
 };
 
 
-export default Casa;
+export default Hogar;
