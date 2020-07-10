@@ -41,14 +41,14 @@ const ResumeEspanol = () => {
 
                 <div style={{ minWidth: '52%' }}>
                   <div style={{ display: 'flex' }}>
-                    <a href="https://alfredorafael.com/wp-content/uploads/2020/07/Alfredo_Espanol_Resume.pdf" target="_blank" rel="noreferrer noopener">
+                    <a href="https://alfredorafael.com/wp-content/uploads/2020/07/PDF_Resume_Alfredo.pdf" target="_blank" rel="noreferrer noopener">
                       <i className="fas fa-file-pdf" style={{ fontSize: "160%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
                     </a>
 
                   &nbsp; &nbsp;
 
-                  <a href="https://alfredorafael.com/wp-content/uploads/2020/07/Alfredo_Espanol_Resume.pdf" target="_blank" rel="noreferrer noopener">
-                      <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>Resume en PDF</h2>
+                  <a href="https://alfredorafael.com/wp-content/uploads/2020/07/PDF_Resume_Alfredo.pdf" target="_blank" rel="noreferrer noopener">
+                      <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>Versión en PDF</h2>
                     </a>
                   </div>
                 </div>

@@ -2,6 +2,12 @@
     margin-top: 2em;
  }
 
+ #projects-component span {
+  color: #040182;
+  text-shadow: 0.5px 1px azure;
+  opacity: .7;
+ }
+
 #projects-component .col p {
   font-size: 120% !important;
   margin-bottom: 5% !important;

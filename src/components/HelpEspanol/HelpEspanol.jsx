@@ -214,7 +214,7 @@ const HelpEspanol = () => {
 
                           <Col className="col-text-in-modal">
                             Programo <strong>interfaces de usuario (UI)</strong> que le permiten a mis clientes encontrar la información que necesitan 
-                            , porque poner información en una pantalla no es suficiente: el usuario/a necesita ser capaz de navegar y encontrar
+                            , porque poner información en una pantalla no es suficiente: el usuario/a necesita ser capaz de navegar con facilidad y encontrar
                             la información que él o ella necesita. La bibliotecas de <strong>CSS</strong> que uso son para lograr esto son <strong>Bootstrap</strong>, 
                             <strong>Reactstrap</strong>, <strong>Material UI</strong>, y <strong>Styled Components</strong>. ¿Necesitas un desarrollador de UI? 
                             ¿Cómo le puedo ayudar?

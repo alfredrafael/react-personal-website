@@ -46,31 +46,30 @@ const Projectos = () => {
               <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
                 <h3>Fetch Movie App<small></small></h3>
                 <p>
-                  Programé esta applicación con datos a traves de{" "} <strong>The Movie Database API</strong> (TMDB)
-                  y React.js. El usuario puede ver las películas más populares en TMDB, 
+                  Programé esta applicación con datos a traves de{" "} <span>The Movie Database API</span> (TMDB)
+                  y <span>React.js</span>. El usuario puede ver las películas más populares en TMDB, 
                   así como buscar películas en específico dentro del banco de datos de TMDB.
                   El usuario puede seleccionar películas y leer información adicional sobre ellas: artístas, presupuesto,
-                  y descripción del filme. Construí esta aplicación por diversión con create-react-app, styled-components, @reach/router,
-                  e íconos de{" "} <strong>font-awesome</strong>.
-                  <br /><p></p>
+                  y descripción del filme. Construí esta aplicación por diversión con create-react-app, <span>Styled-Components</span>, @reach/router,
+                  e íconos de{" "} <span>font-awesome</span>.
+                  <br /></p>
                   <div className="project-icons" style={{ display: "flex" }}>
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
+                      <p><i className="devicon-javascript-plain dev-icon-in-description"></i></p>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-react-original  dev-icon-in-description"></i>
+                    <p>  <i className="devicon-react-original  dev-icon-in-description"></i></p>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-css3-plain "></i>
+                    <p>  <i className="devicon-css3-plain "></i></p>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-bootstrap-plain"></i>
+                     <p> <i className="devicon-bootstrap-plain"></i></p>
                     </div>
                   </div>
-                </p>
               </div>
             </Col>
           </Row>
@@ -116,32 +115,31 @@ const Projectos = () => {
 
             <Col>
               <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
-                <h3>Wedding Album</h3>
+                <h3>Wedding Anniversary</h3>
 
                 <p>
                   Esta simple aplicación fue un presente como celebración de 
                   los 30 años de matrimonio de esta hermosa pareja. 
                   Lo que comenzó como "solo fotos de nuestra boda" terminó incluyendo
                   fotos de varios de sus viajes por el mundo. Las tecnologias utilizadas
-                  en esta página son React.js, ReactStrap, Material UI, y jQuery-React.
+                  en esta página son React.js, <span>ReactStrap</span>, <span>Material UI</span>, y <span>jQuery</span>.</p>
               
                   <br /><br />
                   <div className="project-icons" style={{ display: "flex" }}>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-css3-plain dev-icon-in-description"></i>
+                  <p>    <i className="devicon-css3-plain dev-icon-in-description"></i> </p>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-react-original  dev-icon-in-description"></i>
+                    <p>  <i className="devicon-react-original  dev-icon-in-description"></i></p>
                     </div>
 
                     <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
-                      <i className="devicon-javascript-plain dev-icon-in-description"></i>
+                   <p>   <i className="devicon-javascript-plain dev-icon-in-description"></i></p>
                     </div>
 
                   </div>
-                </p>
               </div>
             </Col>
           </Row>
@@ -150,6 +148,90 @@ const Projectos = () => {
 
         <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
         <br />        <br />
+
+
+
+
+        <Fade>
+          <Row>
+            <Col>
+              <div className="project-div" style={{ flex: "1" }}>
+                <img
+                  className="project-div-img"
+                  src="https://alfredorafael.com/wp-content/uploads/2020/07/LintecAuto.png"
+                  alt="project"
+                />
+                <div className="project-overlay-div news-project">
+                  <div className="inner-overlay-div">
+                    <a
+                      href="https://lintecauto.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content visit-website">
+                        Ir a Website{" "}
+                      </div>
+                    </a>
+
+                    <a
+                      href="https://wordpress.org/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div className="overlay-content view-code">
+                      &nbsp;Powered by <i className="devicon-wordpress-plain"></i>  
+                      </div>
+
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="project-text" style={{ marginLeft: "-20%", marginTop: '-3%' }}>
+                <h3>LintecAuto</h3>
+
+                <p><span>Wordpress</span> es una poderosa herramienta para páginas 
+                a nivel empresarial. Le permite a los clientes editar el contenido 
+                sin necesitad de escribir "code". Customizé esta interface de usuario con <span>vanilla CSS</span>, 
+                añadí <span>MapPress</span> a su "información de contacto" y usé  <span>Sketch</span> para
+                crear su logo en versión PNG. Aunque esta aplicación es más un projecto de trabajo que un "projecto
+                creativo", me sentí feliz de verlo todavía en línea!</p>
+
+                  <br /><br />
+                  <div className="project-icons" style={{ display: "flex" }}>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+<p>                      <i className="devicon-css3-plain dev-icon-in-description"></i> </p>
+                    </div>
+
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                    <p>       <i className="devicon-wordpress-plain dev-icon-in-description"></i> </p>
+                    </div>
+
+                    <div style={{ fontSize: "150%", margin: "1% 5% -3% 0" }}>
+                    <p>  <i className="devicon-html5-plain  dev-icon-in-description"></i></p>
+                    </div>
+
+                  </div>
+              </div>
+            </Col>
+          </Row>
+        </Fade>
+
+
+        <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.9)', width: '70%' }} />
+        <br />        <br />
+
+
+
+
+
+
+
 
 
         <Fade>
@@ -193,7 +275,7 @@ const Projectos = () => {
 
                 <p>
                   Esta aplicación muestra a los estudiantes y facultad de Vets-in-Tech: First Class,
-                  (Capítulo de New England) proveyendo al usuario con una galeria de todos los estudiantes en el curso, foto, 
+                  (Capítulo de New England) proveyendo al usuario con una galería de todos los estudiantes en el curso, foto, 
                    y descripción de cada uno, así como fotos durante el proceso de aprendizaje.
                 <br />
                   <br />

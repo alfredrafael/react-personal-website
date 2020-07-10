@@ -28,7 +28,7 @@ const Acerca = () => {
                             jQuery, <span>Node.js</span> y <span>WordPress</span> para tu negocio u organización. Mi experiencia desarrollando 
                             interfaces de usuario (<span>desde "wireframe" hasta "deployment"</span>), destrezas de comunicación y estilo de trabajo en equipo 
                             son parte integral de mis habilidades. Busco unirme a otros ingenieros en software para conectar de manera profesional. 
-                            Bienvenido/a a mi página!
+                            ¡Bienvenido/a a mi página!
                        </p>
                     </Fade>
 
