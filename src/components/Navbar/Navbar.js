@@ -110,7 +110,7 @@ const Example = (props) => {
 
                  <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
                   <a href={dynamicUrl}>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/MexSpainLogo.png'} 
+                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/LogoMex-Spain.png'} 
                   style={
                     {
                       maxWidth: '4.8%', 
