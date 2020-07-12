@@ -79,20 +79,24 @@ const Example = (props) => {
                 </NavItem>
 
 
+              
+
                 <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
-                  <a href={dynamicUrl}>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EspanolLogo.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                    }
-                  }/>  
-                  </a>
-                  </NavItem>
+                <a href={dynamicUrl}>
+                <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/MexSpainLogo.png'} 
+                style={
+                  {
+                    maxWidth: '4.8%', 
+                    float: 'right',
+                    position: 'absolute',
+                    borderBottomRightRadius: '2px',
+                    borderBottomLeftRadius: '2px',
+                    marginTop: '-1.5%',
+                    marginLeft: '-1%'
+                  }
+                }/>  
+                </a>
+                </NavItem>
                
 
               </Nav>
