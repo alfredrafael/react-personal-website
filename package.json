@@ -12,6 +12,7 @@
     "jquery": "^3.5.0",
     "jquery-react": "^1.0.0",
     "modali": "^1.2.0",
+    "netlify-cli": "^2.58.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
