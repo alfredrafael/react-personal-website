@@ -24,7 +24,7 @@ const About = () => {
 
                     <Fade>
                         <p>
-                            Hi! I’m a US Army veteran, former langauge teacher and a <span>full stack developer</span>.
+                            Hi! I’m a US Army veteran, former language teacher and a <span>full stack developer</span>.
                             I create <span>React.js</span>, jQuery, <span>Node.js</span> and <span>WordPress</span> applications for your business or organization.
                             My experience coding responsive and engaging user interfaces (<span>from wireframe to deployment</span>) and teamwork
                             attitude are my greatest assets. I look forward to joining a collaborative environment with other fellow developers.
