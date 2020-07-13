@@ -96,7 +96,7 @@ style={
       </NavItem>  
 */}
 
-                  <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
+                <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
                   <a href={dynamicUrl}>
                   <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
                   style={

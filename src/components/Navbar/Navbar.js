@@ -110,20 +110,40 @@ const Example = (props) => {
 
                  <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
                   <a href={dynamicUrl}>
-                  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/LogoMex-Spain.png'} 
+                  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/MexFlag.png'} 
                   style={
                     {
-                      maxWidth: '4.8%', 
+                      maxWidth: '2.5%', 
                       float: 'right',
                       position: 'absolute',
-                      borderBottomRightRadius: '2px',
-                      borderBottomLeftRadius: '2px',
-                      marginTop: '-1.5%',
-                      marginLeft: '-1%'
+                      borderBottomRightRadius: '1px',
+                      borderBottomLeftRadius: '1px',
+                      borderTopLeftRadius: '1px',
+                      borderTopRightRadius: '1px'
                     }
                   }/>  
                   </a>
                   </NavItem>
+
+
+{/* 
+  <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
+  <a href={dynamicUrl}>
+  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/MexFlag.png'} 
+  style={
+    {
+      maxWidth: '4.8%', 
+      float: 'right',
+      position: 'absolute',
+      borderBottomRightRadius: '2px',
+      borderBottomLeftRadius: '2px',
+      marginTop: '-1.5%',
+      marginLeft: '-1%'
+    }
+  }/>  
+  </a>
+  </NavItem>
+*/}
                
 
               </Nav>
