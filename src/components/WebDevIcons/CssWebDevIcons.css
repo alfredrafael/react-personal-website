@@ -26,9 +26,15 @@
     font-size: larger;
 }
 
+
+
 /* top underneath is opposite to the directions on the file...*/
-.bs-tooltip-auto[x-placement^="top"] span.arrow::before, .bs-tooltip-top .arrow::before { border-top-color: #040182; }
+/* https://stackoverflow.com/questions/15383440/styling-the-arrow-on-bootstrap-tooltips */
+.bs-tooltip-auto[x-placement^="bottom"] span.arrow::before, .bs-tooltip-top .arrow::before { border-bottom-color: #040182 }
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
+
+
+
 
 /*---LAPTOPS AND ABOVE---*/
 

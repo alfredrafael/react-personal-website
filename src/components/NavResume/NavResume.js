@@ -7,8 +7,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-
+  UncontrolledTooltip,
 } from 'reactstrap';
+
 import { Link } from 'react-router-dom';
 import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
@@ -100,10 +101,12 @@ style={
       </NavItem>  
 */}
 
-
+                <UncontrolledTooltip style={{ backgroundColor: '#040182',}} placement="bottom" target="englishFlagHover" className=''>English</UncontrolledTooltip>
                 <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
                   <a href='/resume'>
-                  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
+                  <img 
+                  src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
+                  id='englishFlagHover'
                   style={
                     {
                       maxWidth: '2.5%', 
@@ -112,7 +115,9 @@ style={
                       borderBottomRightRadius: '1px',
                       borderBottomLeftRadius: '1px',
                       borderTopLeftRadius: '1px',
-                      borderTopRightRadius: '1px'
+                      borderTopRightRadius: '1px',
+                      paddingBottom: '2%'
+
                     }
                   }/>  
                   </a>

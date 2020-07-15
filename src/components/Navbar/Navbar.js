@@ -7,10 +7,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-
+  UncontrolledTooltip
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { NavBarLogo } from './StyledNavbar';
 import './CssNavbar.css';
 import $ from 'jquery';
 
@@ -128,10 +127,13 @@ const Example = (props) => {
 */}
 
 
- 
+<UncontrolledTooltip style={{ backgroundColor: '#040182' }} placement="bottom" target="spanishFlagHover" className=''>Español</UncontrolledTooltip>
+
   <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
   <a href={dynamicUrl}>
-  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/LogoMex-Spain.png'} 
+  <img 
+  src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/LogoMex-Spain.png'}
+  id="spanishFlagHover" 
   style={
     {
       maxWidth: '4.8%', 
