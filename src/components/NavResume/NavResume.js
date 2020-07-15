@@ -100,9 +100,10 @@ style={
       </NavItem>  
 */}
 
-                  <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
+
+                <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
                   <a href='/resume'>
-                  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/US_Flag_English.png'} 
+                  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/EnglishLogo.png'} 
                   style={
                     {
                       maxWidth: '2.5%', 
