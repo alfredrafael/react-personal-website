@@ -106,7 +106,7 @@ const Example = (props) => {
   
 */}
 
-
+{/* 
 
                  <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
                   <a href={dynamicUrl}>
@@ -125,11 +125,13 @@ const Example = (props) => {
                   </a>
                   </NavItem>
 
+*/}
 
-{/* 
+
+ 
   <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
   <a href={dynamicUrl}>
-  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/MexFlag.png'} 
+  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/LogoMex-Spain.png'} 
   style={
     {
       maxWidth: '4.8%', 
@@ -143,7 +145,7 @@ const Example = (props) => {
   }/>  
   </a>
   </NavItem>
-*/}
+
                
 
               </Nav>
