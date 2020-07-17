@@ -55,7 +55,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(4, 1, 130, 0.6);
+    background: linear-gradient(rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), transparent);
     color: #fff;
     visibility: hidden;
     opacity: 0;
