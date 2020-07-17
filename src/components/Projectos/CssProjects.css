@@ -56,7 +56,7 @@
     left: 0;
     right: 0;
     color: #fff;
-    background: linear-gradient(rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), transparent);
+    background: linear-gradient(rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), rgba(4, 1, 130, 0.6), transparent);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s, 
