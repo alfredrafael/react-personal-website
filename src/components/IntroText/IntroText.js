@@ -18,7 +18,7 @@ return(
           .callFunction(() => {
           //  console.log('String typed out!');
           })
-          .pauseFor(700)
+          .pauseFor(600)
           .callFunction(() => {
        //     console.log('All strings were deleted');
           })
