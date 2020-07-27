@@ -1,0 +1,7 @@
+.espanol.carousel-overlay-text {
+    z-index: 98 !important;
+    position: absolute; 
+    top: 60%;
+    bottom: 20%;
+    left: 16% !important;
+}

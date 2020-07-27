@@ -14,7 +14,7 @@ return(
 
       <Typewriter
       onInit={(typewriter) => {
-        typewriter.typeString('Full-Stack Developer')
+        typewriter.typeString('Front-End Developer')
           .callFunction(() => {
           //  console.log('String typed out!');
           })

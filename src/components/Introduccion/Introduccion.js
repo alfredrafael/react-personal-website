@@ -7,15 +7,15 @@ const Introduccion = () => {
 return(
     <React.Fragment>
 
-     <div className="carousel-overlay-text espanol" id="enEspanol">
-      <div className="bg-transparent container">
+     <div className="carousel-overlay-text espanol">
+      <div className="bg-transparent container" id="enEspanol">
       <h1 className="display-4">
       {/*  Full-stack Developer  */} 
 
 
-      <Typewriter
+      <Typewriter className="enEspanol"
       onInit={(typewriter) => {
-        typewriter.typeString('Programador Full-Stack')
+        typewriter.typeString('Programador Front-End')
           .callFunction(() => {
           //  console.log('String typed out!');
           })
