@@ -10,17 +10,44 @@ import Navbar from '../Navbar';
 
 const HeroSlider = () => {
 
-  const [isLoaded, setIsLoaded] = useState(false);
+  // const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoaded(true);
-    }, 6000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoaded(true);
+  //   }, 6000);
+  // }, []);
 
   return (
     <React.Fragment>
     <Navbar />
+    <IntroText />
+
+
+    <div style={{background: 'black'}} className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
+
+        <video
+          style="opacity: .4; width: 100%; margin-bottom: -.5%"
+          playsinline 
+          loop 
+          autoPlay 
+          muted 
+          autobuffer 
+          poster="https://alfredorafael.com/wp-content/uploads/2020/05/background.png"
+        >
+
+        <source 
+          src="https://www.alfredorafael.com/wp-content/uploads/2020/09/minified-personal-website-clip.mp4" type="video/mp4" />
+        
+        <source 
+          src="https://www.alfredorafael.com/wp-content/uploads/2020/09/minified-personal-website-clip.mp4" type="video/ogg" />
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+
+        </video>     
+` }}>
+
+</div>
+{/* 
       <div className="mobile-hero-picture" style={{ height: '100%' }}>
         <img src="https://alfredorafael.com/wp-content/uploads/2020/05/background.png" style={{ background: 'cover', maxWidth: '100%' }} alt="React.js logo" />
         <IntroText />
@@ -56,6 +83,7 @@ const HeroSlider = () => {
             </div>
           </div>
       }
+    */}
     </React.Fragment>
   )
 }
