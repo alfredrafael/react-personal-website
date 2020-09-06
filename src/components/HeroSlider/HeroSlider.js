@@ -33,7 +33,7 @@ const HeroSlider = () => {
           autoPlay 
           muted 
           autobuffer 
-          poster="https://alfredorafael.com/wp-content/uploads/2020/05/background.png"
+          poster="https://alfredorafael.com/wp-content/uploads/2020/05/preload_pic_video_dimensions.png"
         >
 
         <source 
