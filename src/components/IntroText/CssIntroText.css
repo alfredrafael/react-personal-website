@@ -1,11 +1,24 @@
-.carousel-overlay-text {
-    z-index: 98 !important;
+.something {
     position: absolute; 
     top: 60%;
     bottom: 20%;
     left: 19% !important;
 }
 
+.carousel-overlay-text {
+    z-index: 98 !important;
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 70%; 
+    left: 52%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    text-align: center; 
+    margin: 0; 
+ 
+}
 
 .Typewriter__wrapper{
     z-index: 99 !important;
