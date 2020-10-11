@@ -5,6 +5,7 @@ import {
 import './CssHeroSlider.css';
 import IntroText from '../IntroText';
 import Navbar from '../Navbar';
+import IntroMobile from '../IntroMobile';
 
 
 
@@ -21,11 +22,10 @@ const HeroSlider = () => {
   return (
     <React.Fragment>
     <Navbar />
-    <span>
+    <span className="dynamicIntro">
       <IntroText />
     </span>
-
-
+   
     <div style={{background: 'black'}} className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
 
         <video
