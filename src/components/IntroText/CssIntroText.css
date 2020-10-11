@@ -10,24 +10,40 @@
     transform: translate(-50%,-50%);
     text-align: center; 
     margin: 0; 
- 
+}
+
+.carousel-overlay-text {
+    z-index: 98 !important;
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 70%; 
+    left: 52%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    text-align: center; 
+    margin: 0; 
 }
 
 .Typewriter__wrapper{
-    z-index: 99 !important;
-    font-size: 140% !important; /*500*/
-    opacity: .9 !important;
-    position: relative !important;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5) !important;
-    font-weight: 350 !important;
-    font-family: 'Roboto Mono', monospace !important;
+/*    
     color: white !important;
-    width: 100% !important;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5) !important;
+    position: relative !important;
+*/
+
 }
 
 .Typewriter {
     color: white;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .5) !important;
+    z-index: 99 !important;
+    font-size: 140% !important;
+    opacity: .9 !important;
+    font-weight: 350 !important;
+    font-family: 'Roboto Mono', monospace !important;
+    width: 100% !important;
 }
 
 
