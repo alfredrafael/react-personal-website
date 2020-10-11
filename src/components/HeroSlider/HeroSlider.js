@@ -27,7 +27,7 @@ const HeroSlider = () => {
     <div style={{background: 'black'}} className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
 
         <video
-          style="opacity: .4; width: 100%; margin-bottom: -.5%"
+          style="opacity: .7; width: 100%; margin-bottom: -.5%"
           playsinline 
           loop 
           autoPlay 
