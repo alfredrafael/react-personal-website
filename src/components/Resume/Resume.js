@@ -153,6 +153,28 @@ const Exploratory = () => {
             <dl>
               <dt>EXPERIENCE</dt>
               <dd>
+              {/* // Experience 0 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
+              <h2><strong>Software Developer II</strong><span>October 2020 – present</span></h2>
+              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Signature Consultants</span><br />
+              <br />
+              <ul>
+                <li>
+                Create responsive iterations of our clients' websites & update content through Documentum CMS 
+                </li>
+              </ul>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
+
+              {/* // Experience 0.5 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+              <h2><strong>Assistant Web Developer</strong><span>September 2020 – present</span></h2>
+              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Hollister Staffing Inc</span><br />
+              <br />
+              <ul>
+                <li>
+                Design and update web-content to improve company UX/UI using Worpdress CMS   
+                </li>
+              </ul>
+              <hr style={{ height: '1px', border: 'none', backgroundColor: 'rgba(105, 186, 213, 0.3)', marginTop: '5%', width: '70%' }} />
 
                 {/* // Experience 1 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
                 <h2><strong>Front-End Developer</strong><span>December 2019 – June 2020</span></h2>
