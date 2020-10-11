@@ -87,44 +87,6 @@ const Example = (props) => {
                   </a>
                 </NavItem>
 
-{/*  
-  <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
-  <a href={dynamicUrl}>
-  <img src={'https://alfredorafael.com/wp-content/uploads/2020/07/EspanolLogo.png'} 
-  style={
-    {
-      maxWidth: '2.5%', 
-      float: 'right',
-      position: 'absolute',
-      borderBottomRightRadius: '2px',
-      borderBottomLeftRadius: '2px',
-    }
-  }/>  
-  </a>
-  </NavItem>
-  
-*/}
-
-{/* 
-
-                 <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
-                  <a href={dynamicUrl}>
-                  <img src={'https://www.alfredorafael.com/wp-content/uploads/2020/07/MexFlag.png'} 
-                  style={
-                    {
-                      maxWidth: '2.5%', 
-                      float: 'right',
-                      position: 'absolute',
-                      borderBottomRightRadius: '1px',
-                      borderBottomLeftRadius: '1px',
-                      borderTopLeftRadius: '1px',
-                      borderTopRightRadius: '1px'
-                    }
-                  }/>  
-                  </a>
-                  </NavItem>
-
-*/}
 
 
 <UncontrolledTooltip style={{ backgroundColor: '#040182' }} placement="bottom" target="spanishFlagHover" className=''>Español</UncontrolledTooltip>

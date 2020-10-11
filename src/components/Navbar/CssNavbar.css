@@ -2,7 +2,7 @@
   margin-bottom: -7%;
   }
   
-  .navbar-border-shadow {
+.navbar-border-shadow {
     box-shadow: 0 5px 5px -2px rgba(0,0,0,.2) !important;    
   }
 
@@ -19,14 +19,14 @@
 }
 
 
-  .nav-link a {
+.nav-link a {
     color: white;
     text-shadow: .3px .5px #040182;
     font-size: 115%;
     font-weight: bold;
   }
 
-  .hovered-link a:hover {
+.hovered-link a:hover {
     text-decoration: none;
     background: rgba(186, 177, 177, 0.25);
     border-radius: 5px;
@@ -34,7 +34,7 @@
     transition: .3s;
   }
   
-  button.navbar-toggler {
+button.navbar-toggler {
     background: rgba(4, 1, 130, .15) !important;
 }
 
@@ -64,23 +64,23 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
-  
+   
     .navbar-css {
       background: linear-gradient( #040182, #7573bf) !important;
-    }
+    } 
 }
 
 
 /*Galaxy 5s*/
  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -92,14 +92,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
 
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -110,14 +110,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 /*iPhone XR*/
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
 
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -129,14 +129,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -146,14 +146,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 /*iPhone 6+/7+/8+ */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -164,14 +164,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 /*iPhone X*/
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -181,14 +181,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 /*iPhone XS*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -197,14 +197,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
 /* iphone XS Max */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -215,13 +215,13 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
-  .navbar-css {
+   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;
@@ -233,14 +233,14 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 /*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
-
+ 
   .navbar-css {
     background: linear-gradient( #040182, #7573bf) !important;
   }
 
   .navbar-fading-effect {
     background: linear-gradient( #040182, #7573bf) !important;
-  }
+  } 
 
   .navbar-toggler {
     position: relative;

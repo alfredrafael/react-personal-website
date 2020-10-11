@@ -21,7 +21,9 @@ const HeroSlider = () => {
   return (
     <React.Fragment>
     <Navbar />
-    <IntroText />
+    <span>
+      <IntroText />
+    </span>
 
 
     <div style={{background: 'black'}} className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
