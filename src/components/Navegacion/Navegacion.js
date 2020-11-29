@@ -77,6 +77,18 @@ const Example = (props) => {
                   </a>
                 </NavItem>
 
+
+
+
+
+
+
+                <NavItem className="nav-link hovered-link espanol">
+                  <a href={dynamicUrl}>
+                    English
+                  </a>
+                </NavItem>
+
 {/*  
   <NavItem className="nav-link hovered-link spanishLogo flag" id="spanishLogo ">
   <a href='/espanol'>
@@ -95,6 +107,9 @@ style={
       </a>
       </NavItem>  
 */}
+
+
+{/* 
 
                 <UncontrolledTooltip style={{ backgroundColor: '#040182' }} placement="bottom" target="englishFlagHover" className=''>English</UncontrolledTooltip>
                 <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
@@ -119,7 +134,7 @@ style={
 
 
 
-
+                */}
                 
                   
 
