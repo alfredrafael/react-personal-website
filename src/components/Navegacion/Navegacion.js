@@ -83,7 +83,7 @@ const Example = (props) => {
 
 
 
-                <NavItem className="nav-link hovered-link espanol">
+                <NavItem className="nav-link hovered-link">
                   <a href={dynamicUrl}>
                     English
                   </a>

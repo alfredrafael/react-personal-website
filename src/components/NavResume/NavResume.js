@@ -100,7 +100,7 @@ style={
       </a>
       </NavItem>  
 */}
-
+{/* 
                 <UncontrolledTooltip style={{ backgroundColor: '#040182',}} placement="bottom" target="englishFlagHover" className=''>English</UncontrolledTooltip>
                 <NavItem className="nav-link hovered-link englishLogo" id="englishLogo">
                   <a href='/resume'>
@@ -122,13 +122,16 @@ style={
                   }/>  
                   </a>
                 </NavItem>
+*/}
 
 
 
 
-                
-                  
-
+<NavItem className="nav-link hovered-link">
+<a href='/resume'>
+  English
+</a>
+</NavItem>
                  
   
 
