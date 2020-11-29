@@ -155,7 +155,7 @@ const Exploratory = () => {
               <dd>
               {/* // Experience 0 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
               <h2><strong>Software Developer II</strong><span>October 2020 – present</span></h2>
-              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Signature Consultants</span><br />
+              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Merrill Lynch</span><br />
               <br />
               <ul>
                 <li>
@@ -167,7 +167,7 @@ const Exploratory = () => {
               {/* // Experience 0.5 //////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
               <h2><strong>Assistant Web Developer</strong><span>September 2020 – present</span></h2>
-              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Hollister Staffing Inc</span><br />
+              <span className='company-name' style={{ fontStyle: 'italic', fontSize: '100%' }}>Massachusetts Institute of Technology</span><br />
               <br />
               <ul>
                 <li>
