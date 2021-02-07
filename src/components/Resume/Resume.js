@@ -41,7 +41,7 @@ const Exploratory = () => {
 
                 <div style={{ minWidth: '52%' }}>
                   <div style={{ display: 'flex' }}>
-                    <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
+                    <a href="https://www.alfredorafael.com/wp-content/uploads/2021/02/Alfredo_R_Pabon_Resume.pdf" target="_blank" rel="noreferrer noopener">
                       <i className="fas fa-file-pdf" style={{ fontSize: "160%", marginLeft: ".20%", marginRight: '3.5%', color: '#464646' }} />{" "}
                     </a>
 
