@@ -47,7 +47,7 @@ const Exploratory = () => {
 
                   &nbsp; &nbsp;
 
-                  <a href="https://alfredorafael.com/wp-content/uploads/2020/06/Alfredo_Resume_PDF.pdf" target="_blank" rel="noreferrer noopener">
+                  <a href="https://www.alfredorafael.com/wp-content/uploads/2021/02/Alfredo_R_Pabon_Resume.pdf" target="_blank" rel="noreferrer noopener">
                       <h2 className="text-in-contact-info" style={{ fontSize: '110%', marginTop: '1%' }}>PDF version</h2>
                     </a>
                   </div>
